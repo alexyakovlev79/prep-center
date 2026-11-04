@@ -29,6 +29,9 @@ for route in routes:
  s=re.sub(r'<section class="contact section-dark(?: shared-contact)?" id="contact">.*?</section>\s*',lambda m:footer,s,count=1,flags=re.S)
  s=re.sub(r'<link rel="stylesheet" href="/assets/shared-components.css(?:\?[^\"]*)?">','',s)
  s=s.replace('</head>','<link rel="stylesheet" href="/assets/shared-components.css?v=20261104"></head>')
+ s=re.sub(r'<!-- shared:head -->.*?<!-- /shared:head -->','',s,flags=re.S)
+ shared_head=(ROOT/'components/head.html').read_text().strip()
+ s=s.replace('</head>','<!-- shared:head -->'+shared_head+'<!-- /shared:head --></head>')
  s=re.sub(r'<script defer src="/assets/shared-components.js(?:\?[^\"]*)?"></script>','',s)
  s=s.replace('</body>','<script defer src="/assets/shared-components.js?v=20261104"></script></body>')
  # Restore review destinations whose original targets were disabled in emergency recovery.
