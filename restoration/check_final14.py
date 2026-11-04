@@ -11,7 +11,7 @@ for route in sorted(routes):
     if len(d.xpath('//h1'))!=1:errors.append((route,'H1',len(d.xpath('//h1'))))
     if len(d.xpath('//body/header'))!=1 or len(d.xpath('//*[@id="contact"]'))!=1:errors.append((route,'shared-components'))
     if d.xpath('//link[@rel="canonical"]/@href')!=['https://prep-center.ru'+route]:errors.append((route,'canonical'))
-    if d.xpath('//meta[@name="robots"]/@content')!=['noindex,follow']:errors.append((route,'robots'))
+    if d.xpath('//meta[@name="robots"]/@content')!=['index,follow']:errors.append((route,'robots'))
     text=' '.join(d.xpath('//main')[0].itertext())
     for marker in ['[[AGENT:','[ИЗОБРАЖЕНИЕ']:
         if marker in text:errors.append((route,'raw marker',marker))

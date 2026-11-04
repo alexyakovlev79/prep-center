@@ -25,6 +25,7 @@ routes=[x['path'] for x in inv if x.get('group') in {'Услуги и катег
 changed=[]
 for route in routes:
  p=ROOT/route.strip('/')/'index.html';old=p.read_text();s=old
+ s=re.sub(r'(<meta\s+name="robots"\s+content=")[^"]*(")',r'\g<1>index,follow\2',s,flags=re.I)
  s=re.sub(r'<header\b.*?</header>\s*',lambda m:header,s,count=1,flags=re.S)
  s=re.sub(r'<section class="contact section-dark(?: shared-contact)?" id="contact">.*?</section>\s*',lambda m:footer,s,count=1,flags=re.S)
  s=re.sub(r'<link rel="stylesheet" href="/assets/shared-components.css(?:\?[^\"]*)?">','',s)
