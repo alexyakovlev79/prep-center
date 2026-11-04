@@ -1,0 +1,102 @@
+[
+  {
+    "path": "/fbs-wildberries/",
+    "source_file": "batch10/Prep-Center_month3_PackageC_FBS_2026-09-18/01_page_fbs_wildberries.md",
+    "source_date": "2026-09-18",
+    "late_index_checked": "2026-11-04",
+    "complete_october_snapshot": false,
+    "late_delivery_updated": false,
+    "images": 3,
+    "faq": 7
+  },
+  {
+    "path": "/fbs-ozon/",
+    "source_file": "batch10/Prep-Center_month3_PackageC_FBS_2026-09-18/02_page_fbs_ozon.md",
+    "source_date": "2026-09-18",
+    "late_index_checked": "2026-11-04",
+    "complete_october_snapshot": false,
+    "late_delivery_updated": false,
+    "images": 3,
+    "faq": 8
+  },
+  {
+    "path": "/fbs-yandex-market/",
+    "source_file": "batch10/Prep-Center_month3_PackageC_FBS_2026-09-18/03_page_fbs_yandex_market.md",
+    "source_date": "2026-09-18",
+    "late_index_checked": "2026-11-04",
+    "complete_october_snapshot": false,
+    "late_delivery_updated": false,
+    "images": 3,
+    "faq": 7
+  },
+  {
+    "path": "/fbl-letual/",
+    "source_file": "04_page_fbl_letual.md",
+    "source_date": "2026-09-18",
+    "late_index_checked": "2026-11-04",
+    "complete_october_snapshot": false,
+    "late_delivery_updated": true,
+    "images": 3,
+    "faq": 8
+  },
+  {
+    "path": "/trebovaniya-fbw-wildberries/",
+    "source_file": "batch10/Prep-Center_month3_PackageB_2026-09-18/01_info_wildberries_fbw_requirements.md",
+    "source_date": "2026-09-18",
+    "late_index_checked": "2026-11-04",
+    "complete_october_snapshot": false,
+    "late_delivery_updated": false,
+    "images": 3,
+    "faq": 6
+  },
+  {
+    "path": "/trebovaniya-fbo-ozon/",
+    "source_file": "batch10/Prep-Center_month3_PackageB_2026-09-18/02_info_ozon_fbo_requirements.md",
+    "source_date": "2026-09-18",
+    "late_index_checked": "2026-11-04",
+    "complete_october_snapshot": false,
+    "late_delivery_updated": false,
+    "images": 3,
+    "faq": 6
+  },
+  {
+    "path": "/trebovaniya-fby-yandex-market/",
+    "source_file": "batch10/Prep-Center_month3_PackageB_2026-09-18/03_info_yandex_market_fby_requirements.md",
+    "source_date": "2026-09-18",
+    "late_index_checked": "2026-11-04",
+    "complete_october_snapshot": false,
+    "late_delivery_updated": false,
+    "images": 3,
+    "faq": 6
+  },
+  {
+    "path": "/trebovaniya-fbs-wildberries/",
+    "source_file": "batch10/Prep-Center_month3_PackageD_FBS_support_2026-09-18/01_info_fbs_wildberries.md",
+    "source_date": "2026-09-18",
+    "late_index_checked": "2026-11-04",
+    "complete_october_snapshot": false,
+    "late_delivery_updated": false,
+    "images": 3,
+    "faq": 6
+  },
+  {
+    "path": "/trebovaniya-fbs-ozon/",
+    "source_file": "batch10/Prep-Center_month3_PackageD_FBS_support_2026-09-18/02_info_fbs_ozon.md",
+    "source_date": "2026-09-18",
+    "late_index_checked": "2026-11-04",
+    "complete_october_snapshot": false,
+    "late_delivery_updated": false,
+    "images": 3,
+    "faq": 6
+  },
+  {
+    "path": "/trebovaniya-fbs-yandex-market/",
+    "source_file": "batch10/Prep-Center_month3_PackageD_FBS_support_2026-09-18/03_info_fbs_yandex_market.md",
+    "source_date": "2026-09-18",
+    "late_index_checked": "2026-11-04",
+    "complete_october_snapshot": false,
+    "late_delivery_updated": false,
+    "images": 3,
+    "faq": 6
+  }
+]
