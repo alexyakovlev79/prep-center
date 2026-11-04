@@ -1,0 +1,75 @@
+,Prep-Center — полный снимок сайта 2026-08-22,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11,Unnamed: 12,Unnamed: 13,Unnamed: 14,Unnamed: 15,Unnamed: 16
+0,Read-only диагностика: структура Bitrix ∪ sitemap.xml. Порядок строк совпадает с нумерацией папок.,,,,,,,,,,,,,,,,
+1,,,,,,,,,,,,,,,,,
+2,№,Папка,Исходный URL,Источник обнаружения,HTTP status,Конечный HTTP status,Конечный URL после редиректов,<title>,H1,canonical,meta robots,В sitemap,В структуре Bitrix,JSON-LD блоков,Microdata,RDFa,Примечание
+3,1,001__glavnaya-http,http://prep-center.ru/,sitemap,200,200,http://prep-center.ru/,"ПРЕП-ЦЕНТР - фулфилмент для маркетплейсов в Москве | шампуни и гели, косметика, бытовая, автомобильная и строительная химия",Фулфилмент с фиксированной ценой 15 рублей за единицу,,"index, follow",да,нет,2,нет,нет,
+4,2,002__glavnaya,https://prep-center.ru/,Bitrix,200,200,https://prep-center.ru/,"ПРЕП-ЦЕНТР - фулфилмент для маркетплейсов в Москве | шампуни и гели, косметика, бытовая, автомобильная и строительная химия",Фулфилмент с фиксированной ценой 15 рублей за единицу,,"index, follow",нет,да,2,нет,нет,
+5,3,003__404,https://prep-center.ru/404.php,Bitrix,404,404,https://prep-center.ru/404.php,Карта сайта,,,"index, follow",нет,да,1,нет,нет,HTTP 404
+6,4,004__auth,https://prep-center.ru/auth.php,Bitrix,200,200,https://prep-center.ru/auth.php,Авторизация,,,"index, follow",нет,да,1,нет,нет,
+7,5,005__about,https://prep-center.ru/about/,Bitrix,200,200,https://prep-center.ru/about/,"О Преп-Центре — склад, фулфилмент и подготовка товаров для маркетплейсов",О Преп-Центре,,"index, follow",нет,да,2,нет,нет,
+8,6,006__about-history,https://prep-center.ru/about/history.php,Bitrix,200,200,https://prep-center.ru/about/history.php,История компании,,,"index, follow",нет,да,1,нет,нет,
+9,7,007__about-management,https://prep-center.ru/about/management/,Bitrix,200,200,https://prep-center.ru/about/management/,Руководство,,,"index, follow",нет,да,1,нет,нет,
+10,8,008__about-mission,https://prep-center.ru/about/mission.php,Bitrix,200,200,https://prep-center.ru/about/mission.php,Миссия,,,"index, follow",нет,да,1,нет,нет,
+11,9,009__about-vacancies,https://prep-center.ru/about/vacancies.php,Bitrix,200,200,https://prep-center.ru/about/vacancies.php,Вакансии,,,"index, follow",нет,да,1,нет,нет,
+12,10,010__blog,https://prep-center.ru/blog/,Bitrix,200,200,https://prep-center.ru/blog/,Статьи об упаковке и фулфилменте,Статьи,,"index, follow",нет,да,1,нет,нет,
+13,11,011__upakovka-bytovoy-khimii,https://prep-center.ru/upakovka-bytovoy-khimii/,Bitrix,200,200,https://prep-center.ru/upakovka-bytovoy-khimii/,Упаковка бытовой химии,Упаковка бытовой химии,,"index, follow",нет,да,1,нет,нет,
+14,12,012__cases,https://prep-center.ru/cases/,Bitrix,200,200,https://prep-center.ru/cases/,Кейсы Преп-Центра: фулфилмент для маркетплейсов,Кейсы Преп-Центра,https://prep-center.ru/cases/,"index, follow",нет,да,2,нет,нет,
+15,13,013__cases-avtohimiya-2393-nabora-za-2-dnya,https://prep-center.ru/cases/avtohimiya-2393-nabora-za-2-dnya/,Bitrix,200,200,https://prep-center.ru/cases/avtohimiya-2393-nabora-za-2-dnya/,Фулфилмент автохимии: 2 393 подарочных набора за 2 дня | Преп-Центр,Кейс: 2 393 подарочных набора автохимии для Wildberries и Ozon за 2 дня,https://prep-center.ru/cases/avtohimiya-2393-nabora-za-2-dnya/,"index, follow",нет,да,2,нет,нет,
+16,14,014__cases-kantselyarskie-nabory-6000-za-5-dney,https://prep-center.ru/cases/kantselyarskie-nabory-6000-za-5-dney/,Bitrix,200,200,https://prep-center.ru/cases/kantselyarskie-nabory-6000-za-5-dney/,6 000 канцелярских наборов из 24 комплектующих за 5 дней | Кейс Преп-Центра,6 000 подарочных канцелярских наборов из 24 комплектующих за 5 дней,https://prep-center.ru/cases/kantselyarskie-nabory-6000-za-5-dney/,"index, follow",нет,да,2,нет,нет,
+17,15,015__cases-kosmetika-8400-za-2-dnya,https://prep-center.ru/cases/kosmetika-8400-za-2-dnya/,Bitrix,200,200,https://prep-center.ru/cases/kosmetika-8400-za-2-dnya/,Фулфилмент косметики для WB и Ozon: кейс 8 400 единиц | Преп-Центр,Кейс: 8 400 единиц косметики для Wildberries и Ozon за 2 дня,https://prep-center.ru/cases/kosmetika-8400-za-2-dnya/,"index, follow",нет,да,2,нет,нет,
+18,16,016__cases-opolaskivateli-3186-za-2-dnya,https://prep-center.ru/cases/opolaskivateli-3186-za-2-dnya/,Bitrix,200,200,https://prep-center.ru/cases/opolaskivateli-3186-za-2-dnya/,Упаковка 3 186 ополаскивателей для полости рта за 2 дня | Кейс Преп-Центра,Упаковка 3 186 ополаскивателей для полости рта в ВПП за 2 дня,https://prep-center.ru/cases/opolaskivateli-3186-za-2-dnya/,"index, follow",нет,да,2,нет,нет,
+19,17,017__cases-stroitelnaya-himiya-5180-za-3-dnya,https://prep-center.ru/cases/stroitelnaya-himiya-5180-za-3-dnya/,Bitrix,200,200,https://prep-center.ru/cases/stroitelnaya-himiya-5180-za-3-dnya/,Фулфилмент строительной химии: 5 180 единиц за 3 дня | Преп-Центр,Кейс: 5 180 единиц строительной химии в термоусадке и ВПП за 3 дня,https://prep-center.ru/cases/stroitelnaya-himiya-5180-za-3-dnya/,"index, follow",нет,да,2,нет,нет,
+20,18,018__chestnyy-znak,https://prep-center.ru/chestnyy-znak/,Bitrix,200,200,https://prep-center.ru/chestnyy-znak/,Маркировка Честный знак для Ozon и Wildberries | Преп-Центр,Честный знак при подготовке товаров к маркетплейсам,https://prep-center.ru/chestnyy-znak/,"index, follow",нет,да,4,нет,нет,
+21,19,019__contacts,https://prep-center.ru/contacts/,Bitrix,200,200,https://prep-center.ru/contacts/,Контактная информация,,,"index, follow",нет,да,1,нет,нет,
+22,20,020__contacts-feedback,https://prep-center.ru/contacts/feedback.php,Bitrix,200,200,https://prep-center.ru/contacts/feedback.php,Задать вопрос,,,"index, follow",нет,да,1,нет,нет,
+23,21,021__contacts-requisites,https://prep-center.ru/contacts/requisites.php,Bitrix,200,200,https://prep-center.ru/contacts/requisites.php,Наши реквизиты,,,"index, follow",нет,да,1,нет,нет,
+24,22,022__etiketki-marketpleysov,https://prep-center.ru/etiketki-marketpleysov/,Bitrix + sitemap,200,200,https://prep-center.ru/etiketki-marketpleysov/,"Печать и наклейка этикеток Ozon, Wildberries и Яндекс Маркета | Преп-Центр","Печать и наклейка этикеток для Ozon, Wildberries и Яндекс Маркета",https://prep-center.ru/etiketki-marketpleysov/,"index, follow",да,да,4,нет,нет,
+25,23,023__fulfillment-avtohimiya,https://prep-center.ru/fulfillment-avtohimiya/,Bitrix,200,200,https://prep-center.ru/fulfillment-avtohimiya/,Фулфилмент для автохимии и автокосметики WB и Ozon | Преп-Центр,Фулфилмент для автохимии и автокосметики,https://prep-center.ru/fulfillment-avtohimiya/,"index, follow",нет,да,2,нет,нет,
+26,24,024__fulfillment-bytovaya-himiya,https://prep-center.ru/fulfillment-bytovaya-himiya/,Bitrix,200,200,https://prep-center.ru/fulfillment-bytovaya-himiya/,Фулфилмент для бытовой химии для Ozon и Wildberries | Преп-Центр,"Фулфилмент для бытовой химии для Ozon, Wildberries и Яндекс Маркета",https://prep-center.ru/fulfillment-bytovaya-himiya/,"index, follow",нет,да,2,нет,нет,
+27,25,025__fulfillment-fbo,https://prep-center.ru/fulfillment-fbo/,Bitrix + sitemap,200,200,https://prep-center.ru/fulfillment-fbo/,"FBO-фулфилмент для Ozon, Wildberries и Яндекс Маркета в Москве | Преп-Центр","FBO-фулфилмент для Озон, Wildberries и Яндекс.Маркета",https://prep-center.ru/fulfillment-fbo/,"index, follow",да,да,2,нет,нет,
+28,26,026__fulfillment-fbs,https://prep-center.ru/fulfillment-fbs/,Bitrix,200,200,https://prep-center.ru/fulfillment-fbs/,"FBS-фулфилмент для Wildberries, Ozon и Яндекс Маркета в Москве | Преп-Центр","FBS-фулфилмент для Wildberries, Ozon и Яндекс Маркета",https://prep-center.ru/fulfillment-fbs/,"index, follow",нет,да,2,нет,нет,
+29,27,027__fulfillment-kosmetika,https://prep-center.ru/fulfillment-kosmetika/,Bitrix,200,200,https://prep-center.ru/fulfillment-kosmetika/,Фулфилмент для косметики Wildberries и Ozon в Москве | Преп-Центр,Фулфилмент для косметики для Wildberries и Ozon,https://prep-center.ru/fulfillment-kosmetika/,"index, follow",нет,да,2,нет,нет,
+30,28,028__fulfillment-shampuni-geli,https://prep-center.ru/fulfillment-shampuni-geli/,Bitrix,200,200,https://prep-center.ru/fulfillment-shampuni-geli/,Фулфилмент для шампуней и гелей для Ozon и Wildberries | Преп-Центр,"Фулфилмент для шампуней и гелей для Ozon, Wildberries и Яндекс Маркета",https://prep-center.ru/fulfillment-shampuni-geli/,"index, follow",нет,да,2,нет,нет,
+31,29,029__fulfillment-stroitelnaya-himiya,https://prep-center.ru/fulfillment-stroitelnaya-himiya/,Bitrix,200,200,https://prep-center.ru/fulfillment-stroitelnaya-himiya/,Фулфилмент для строительной химии WB и Ozon | Преп-Центр,Фулфилмент для строительной химии,https://prep-center.ru/fulfillment-stroitelnaya-himiya/,"index, follow",нет,да,2,нет,нет,
+32,30,030__fulfillment-zhidkih-tovarov,https://prep-center.ru/fulfillment-zhidkih-tovarov/,Bitrix,200,200,https://prep-center.ru/fulfillment-zhidkih-tovarov/,Фулфилмент для жидких товаров на Ozon и Wildberries | Преп-Центр,"Фулфилмент для жидких товаров на Ozon, Wildberries и Яндекс Маркете",https://prep-center.ru/fulfillment-zhidkih-tovarov/,"index, follow",нет,да,4,нет,нет,
+33,31,031__komplektatsiya-naborov,https://prep-center.ru/komplektatsiya-naborov/,Bitrix,200,200,https://prep-center.ru/komplektatsiya-naborov/,Комплектация и сборка наборов для маркетплейсов | Преп-Центр,Комплектация и сборка наборов для маркетплейсов,https://prep-center.ru/komplektatsiya-naborov/,"index, follow",нет,да,2,нет,нет,
+34,32,032__news,https://prep-center.ru/news/,Bitrix,200,200,https://prep-center.ru/news/,Новости компании,,,"index, follow",нет,да,1,нет,нет,
+35,33,033__privacy-policy,https://prep-center.ru/privacy-policy/,Bitrix,200,200,https://prep-center.ru/privacy-policy/,Политика конфиденциальности,Политика в отношении обработки персональных данных,,"index, follow",нет,да,1,нет,нет,
+36,34,034__search,https://prep-center.ru/search/,Bitrix,200,200,https://prep-center.ru/search/,Поиск,,,"index, follow",нет,да,1,нет,нет,
+37,35,035__search-map,https://prep-center.ru/search/map.php,Bitrix,200,200,https://prep-center.ru/search/map.php,Карта сайта,,,"index, follow",нет,да,1,нет,нет,
+38,36,036__services,https://prep-center.ru/services/,Bitrix,200,200,https://prep-center.ru/services/,Услуги,Малому и среднему бизнесу,,"index, follow",нет,да,1,нет,нет,
+39,37,037__services-corp,https://prep-center.ru/services/corp/,Bitrix,200,200,https://prep-center.ru/services/corp/,Корпоративным клиентам,,,"index, follow",нет,да,1,нет,нет,
+40,38,038__services-corp-ibank,https://prep-center.ru/services/corp/ibank.php,Bitrix,200,200,https://prep-center.ru/services/corp/ibank.php,Интернет-банкинг,,,"index, follow",нет,да,1,нет,нет,
+41,39,039__services-corp-incass,https://prep-center.ru/services/corp/incass.php,Bitrix,200,200,https://prep-center.ru/services/corp/incass.php,Инкассация,,,"index, follow",нет,да,1,нет,нет,
+42,40,040__services-corp-rko,https://prep-center.ru/services/corp/rko.php,Bitrix,200,200,https://prep-center.ru/services/corp/rko.php,Расчетно-кассовое обслуживание,,,"index, follow",нет,да,1,нет,нет,
+43,41,041__services-financialorg,https://prep-center.ru/services/financialorg/,Bitrix,200,200,https://prep-center.ru/services/financialorg/,Финансовым организациям,,,"index, follow",нет,да,1,нет,нет,
+44,42,042__services-financialorg-depservices,https://prep-center.ru/services/financialorg/depservices.php,Bitrix,200,200,https://prep-center.ru/services/financialorg/depservices.php,Депозитарные услуги,,,"index, follow",нет,да,1,нет,нет,
+45,43,043__services-financialorg-docoper,https://prep-center.ru/services/financialorg/docoper.php,Bitrix,200,200,https://prep-center.ru/services/financialorg/docoper.php,Документарные операции,,,"index, follow",нет,да,1,нет,нет,
+46,44,044__services-financialorg-mbank,https://prep-center.ru/services/financialorg/mbank.php,Bitrix,200,200,https://prep-center.ru/services/financialorg/mbank.php,Услуги на межбанковском рынке,,,"index, follow",нет,да,1,нет,нет,
+47,45,045__services-fiz,https://prep-center.ru/services/fiz/,Bitrix,200,200,https://prep-center.ru/services/fiz/,Частным лицам,,,"index, follow",нет,да,1,нет,нет,
+48,46,046__services-fiz-cards,https://prep-center.ru/services/fiz/cards.php,Bitrix,200,200,https://prep-center.ru/services/fiz/cards.php,Банковские карты,,,"index, follow",нет,да,1,нет,нет,
+49,47,047__services-fiz-credit,https://prep-center.ru/services/fiz/credit.php,Bitrix,200,200,https://prep-center.ru/services/fiz/credit.php,Потребительский кредит,,,"index, follow",нет,да,1,нет,нет,
+50,48,048__services-smallbusiness,https://prep-center.ru/services/smallbusiness/,Bitrix,200,200,https://prep-center.ru/services/smallbusiness/,Малому и среднему бизнесу,,,"index, follow",нет,да,1,нет,нет,
+51,49,049__services-smallbusiness-cards,https://prep-center.ru/services/smallbusiness/cards.php,Bitrix,200,200,https://prep-center.ru/services/smallbusiness/cards.php,Пластиковые карты,,,"index, follow",нет,да,1,нет,нет,
+52,50,050__services-smallbusiness-credit,https://prep-center.ru/services/smallbusiness/credit.php,Bitrix,200,200,https://prep-center.ru/services/smallbusiness/credit.php,Кредитование,,,"index, follow",нет,да,1,нет,нет,
+53,51,051__services-smallbusiness-deposits,https://prep-center.ru/services/smallbusiness/deposits.php,Bitrix,200,200,https://prep-center.ru/services/smallbusiness/deposits.php,Депозиты,,,"index, follow",нет,да,1,нет,нет,
+54,52,052__services-smallbusiness-leazing,https://prep-center.ru/services/smallbusiness/leazing.php,Bitrix,200,200,https://prep-center.ru/services/smallbusiness/leazing.php,Лизинг,,,"index, follow",нет,да,1,нет,нет,
+55,53,053__srochnaya-obrabotka-partiy,https://prep-center.ru/srochnaya-obrabotka-partiy/,Bitrix,200,200,https://prep-center.ru/srochnaya-obrabotka-partiy/,Срочная обработка крупных партий товаров для маркетплейсов | Преп-Центр,Срочная обработка крупных партий 10 000–20 000+ единиц для маркетплейсов,https://prep-center.ru/srochnaya-obrabotka-partiy/,"index, follow",нет,да,4,нет,нет,
+56,54,054__termousadka-vpp,https://prep-center.ru/termousadka-vpp/,Bitrix,200,200,https://prep-center.ru/termousadka-vpp/,Термоусадка и упаковка в ВПП для маркетплейсов | Преп-Центр,Термоусадка и упаковка в воздушно-пузырьковую пленку для маркетплейсов,https://prep-center.ru/termousadka-vpp/,"index, follow",нет,да,4,нет,нет,
+57,55,055__thanks,https://prep-center.ru/thanks/,Bitrix,200,200,https://prep-center.ru/thanks/,Спасибо,"Спасибо, Мы получили Вашу заявку",,"index, follow",нет,да,1,нет,нет,
+,Контроль полноты выгрузки,Unnamed: 1,Unnamed: 2,Unnamed: 3
+0,,,,
+1,Показатель,Значение,Контроль / формула,Статус
+2,Уникальных URL всего,55,55,OK
+3,Bitrix + sitemap,2,2,OK
+4,Только Bitrix,52,52,OK
+5,Только sitemap,1,1,OK
+6,Редиректов,0,0,OK
+7,404 / ошибок,1,1,OK
+8,Страниц со schema.org / JSON-LD,55,55,OK
+9,Страниц без schema.org / JSON-LD,0,0,OK
+10,Bitrix ∪ sitemap,55,55,OK
+11,,,,
+12,Папок страниц,55,Совпадает с количеством строк,OK
+13,page.html / schema.txt / desktop.png / mobile.png,55 / 55 / 55 / 55,По одному комплекту на URL,OK
+

@@ -1,0 +1,817 @@
+[
+  {
+    "path": "/cases/agregatsiya-kiz-naborov-wms/",
+    "title": "Агрегация КИЗ набора через WMS: технологический кейс | Преп-Центр",
+    "sources": [
+      "Поисковый индекс, проверка 04.11.2026"
+    ],
+    "latest_capture": "Обход: last week; точная дата снимка не раскрыта",
+    "status": "Ожидает восстановления",
+    "group": "Кейсы"
+  },
+  {
+    "path": "/cases/avtohimiya-2393-nabora-za-2-dnya/",
+    "title": "Кейс: 2 393 подарочных набора автохимии для Wildberries и Ozon за 2 дня",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Ожидает восстановления",
+    "source_folder": "013__cases-avtohimiya-2393-nabora-za-2-dnya",
+    "group": "Кейсы"
+  },
+  {
+    "path": "/cases/avtomatizirovannaya-upakovka-kosmetiki/",
+    "title": "Автоматизированная упаковка косметики: кейс",
+    "sources": [
+      "Поисковый индекс, проверка 04.11.2026"
+    ],
+    "latest_capture": "",
+    "status": "Ожидает восстановления",
+    "group": "Кейсы"
+  },
+  {
+    "path": "/cases/kantselyarskie-nabory-6000-za-5-dney/",
+    "title": "6 000 подарочных канцелярских наборов из 24 комплектующих за 5 дней",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Ожидает восстановления",
+    "source_folder": "014__cases-kantselyarskie-nabory-6000-za-5-dney",
+    "group": "Кейсы"
+  },
+  {
+    "path": "/cases/kosmetika-8400-za-2-dnya/",
+    "title": "Кейс: 8 400 единиц косметики для Wildberries и Ozon за 2 дня",
+    "sources": [
+      "Drive 22.08.2026",
+      "Поисковый индекс, проверка 04.11.2026"
+    ],
+    "latest_capture": "Обход: last month; точная дата снимка не раскрыта",
+    "status": "Ожидает восстановления",
+    "source_folder": "015__cases-kosmetika-8400-za-2-dnya",
+    "group": "Кейсы"
+  },
+  {
+    "path": "/cases/opolaskivateli-3186-za-2-dnya/",
+    "title": "Упаковка 3 186 ополаскивателей для полости рта в ВПП за 2 дня",
+    "sources": [
+      "Drive 22.08.2026",
+      "Поисковый индекс, проверка 04.11.2026"
+    ],
+    "latest_capture": "Обход: last week; точная дата снимка не раскрыта",
+    "status": "Ожидает восстановления",
+    "source_folder": "016__cases-opolaskivateli-3186-za-2-dnya",
+    "group": "Кейсы"
+  },
+  {
+    "path": "/cases/stroitelnaya-himiya-5180-za-3-dnya/",
+    "title": "Кейс: 5 180 единиц строительной химии в термоусадке и ВПП за 3 дня",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Ожидает восстановления",
+    "source_folder": "017__cases-stroitelnaya-himiya-5180-za-3-dnya",
+    "group": "Кейсы"
+  },
+  {
+    "path": "/",
+    "title": "Фулфилмент с фиксированной ценой 15 рублей за единицу",
+    "sources": [
+      "Drive 22.08.2026",
+      "Поисковый индекс, проверка 04.11.2026"
+    ],
+    "latest_capture": "Обход: 4 days ago; точная дата снимка не раскрыта",
+    "status": "Восстановленная временная главная опубликована",
+    "source_folder": "002__glavnaya",
+    "group": "Основные страницы"
+  },
+  {
+    "path": "/about/",
+    "title": "О Преп-Центре",
+    "sources": [
+      "Drive 22.08.2026",
+      "Поисковый индекс, проверка 04.11.2026"
+    ],
+    "latest_capture": "Обход: last week; точная дата снимка не раскрыта",
+    "status": "Ожидает восстановления",
+    "source_folder": "005__about",
+    "group": "Основные страницы"
+  },
+  {
+    "path": "/cases/",
+    "title": "Кейсы Преп-Центра",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Ожидает восстановления",
+    "source_folder": "012__cases",
+    "group": "Основные страницы"
+  },
+  {
+    "path": "/contacts/",
+    "title": "Контактная информация",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Ожидает восстановления",
+    "source_folder": "019__contacts",
+    "group": "Основные страницы"
+  },
+  {
+    "path": "/online/",
+    "title": "Преп-Центр в интернете: официальные профили, рейтинги и публикации",
+    "sources": [
+      "Поисковый индекс, проверка 04.11.2026"
+    ],
+    "latest_capture": "Обход: last week; точная дата снимка не раскрыта",
+    "status": "Ожидает восстановления",
+    "group": "Основные страницы"
+  },
+  {
+    "path": "/privacy-policy/",
+    "title": "Политика в отношении обработки персональных данных",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Ожидает восстановления",
+    "source_folder": "033__privacy-policy",
+    "group": "Основные страницы"
+  },
+  {
+    "path": "/tarify/",
+    "title": "Тарифы на фулфилмент для маркетплейсов | Преп-Центр",
+    "sources": [
+      "Поисковый индекс, проверка 04.11.2026"
+    ],
+    "latest_capture": "Обход: last month; точная дата снимка не раскрыта",
+    "status": "Ожидает восстановления",
+    "group": "Основные страницы"
+  },
+  {
+    "path": "/services/",
+    "title": "Малому и среднему бизнесу",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Исключено из восстановления",
+    "source_folder": "036__services",
+    "group": "Остатки банковского шаблона"
+  },
+  {
+    "path": "/services/corp/",
+    "title": "Корпоративным клиентам",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Исключено из восстановления",
+    "source_folder": "037__services-corp",
+    "group": "Остатки банковского шаблона"
+  },
+  {
+    "path": "/services/corp/ibank.php",
+    "title": "Интернет-банкинг",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Исключено из восстановления",
+    "source_folder": "038__services-corp-ibank",
+    "group": "Остатки банковского шаблона"
+  },
+  {
+    "path": "/services/corp/incass.php",
+    "title": "Инкассация",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Исключено из восстановления",
+    "source_folder": "039__services-corp-incass",
+    "group": "Остатки банковского шаблона"
+  },
+  {
+    "path": "/services/corp/rko.php",
+    "title": "Расчетно-кассовое обслуживание",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Исключено из восстановления",
+    "source_folder": "040__services-corp-rko",
+    "group": "Остатки банковского шаблона"
+  },
+  {
+    "path": "/services/financialorg/",
+    "title": "Финансовым организациям",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Исключено из восстановления",
+    "source_folder": "041__services-financialorg",
+    "group": "Остатки банковского шаблона"
+  },
+  {
+    "path": "/services/financialorg/depservices.php",
+    "title": "Депозитарные услуги",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Исключено из восстановления",
+    "source_folder": "042__services-financialorg-depservices",
+    "group": "Остатки банковского шаблона"
+  },
+  {
+    "path": "/services/financialorg/docoper.php",
+    "title": "Документарные операции",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Исключено из восстановления",
+    "source_folder": "043__services-financialorg-docoper",
+    "group": "Остатки банковского шаблона"
+  },
+  {
+    "path": "/services/financialorg/mbank.php",
+    "title": "Услуги на межбанковском рынке",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Исключено из восстановления",
+    "source_folder": "044__services-financialorg-mbank",
+    "group": "Остатки банковского шаблона"
+  },
+  {
+    "path": "/services/fiz/",
+    "title": "Частным лицам",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Исключено из восстановления",
+    "source_folder": "045__services-fiz",
+    "group": "Остатки банковского шаблона"
+  },
+  {
+    "path": "/services/fiz/cards.php",
+    "title": "Банковские карты",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Исключено из восстановления",
+    "source_folder": "046__services-fiz-cards",
+    "group": "Остатки банковского шаблона"
+  },
+  {
+    "path": "/services/fiz/credit.php",
+    "title": "Потребительский кредит",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Исключено из восстановления",
+    "source_folder": "047__services-fiz-credit",
+    "group": "Остатки банковского шаблона"
+  },
+  {
+    "path": "/services/smallbusiness/",
+    "title": "Малому и среднему бизнесу",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Исключено из восстановления",
+    "source_folder": "048__services-smallbusiness",
+    "group": "Остатки банковского шаблона"
+  },
+  {
+    "path": "/services/smallbusiness/cards.php",
+    "title": "Пластиковые карты",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Исключено из восстановления",
+    "source_folder": "049__services-smallbusiness-cards",
+    "group": "Остатки банковского шаблона"
+  },
+  {
+    "path": "/services/smallbusiness/credit.php",
+    "title": "Кредитование",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Исключено из восстановления",
+    "source_folder": "050__services-smallbusiness-credit",
+    "group": "Остатки банковского шаблона"
+  },
+  {
+    "path": "/services/smallbusiness/deposits.php",
+    "title": "Депозиты",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Исключено из восстановления",
+    "source_folder": "051__services-smallbusiness-deposits",
+    "group": "Остатки банковского шаблона"
+  },
+  {
+    "path": "/services/smallbusiness/leazing.php",
+    "title": "Лизинг",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Исключено из восстановления",
+    "source_folder": "052__services-smallbusiness-leazing",
+    "group": "Остатки банковского шаблона"
+  },
+  {
+    "path": "/404.php",
+    "title": "Карта сайта",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Отдельное решение при восстановлении функций",
+    "source_folder": "003__404",
+    "group": "Служебные URL"
+  },
+  {
+    "path": "/auth.php",
+    "title": "Авторизация",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Отдельное решение при восстановлении функций",
+    "source_folder": "004__auth",
+    "group": "Служебные URL"
+  },
+  {
+    "path": "/search/",
+    "title": "Поиск",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Отдельное решение при восстановлении функций",
+    "source_folder": "034__search",
+    "group": "Служебные URL"
+  },
+  {
+    "path": "/search/map.php",
+    "title": "Карта сайта",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Отдельное решение при восстановлении функций",
+    "source_folder": "035__search-map",
+    "group": "Служебные URL"
+  },
+  {
+    "path": "/thanks/",
+    "title": "Спасибо, Мы получили Вашу заявку",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Отдельное решение при восстановлении функций",
+    "source_folder": "055__thanks",
+    "group": "Служебные URL"
+  },
+  {
+    "path": "/about/history.php",
+    "title": "История компании",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Не подтверждено актуальное содержание",
+    "source_folder": "006__about-history",
+    "group": "Старые разделы: требуется проверка содержания"
+  },
+  {
+    "path": "/about/management/",
+    "title": "Руководство",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Не подтверждено актуальное содержание",
+    "source_folder": "007__about-management",
+    "group": "Старые разделы: требуется проверка содержания"
+  },
+  {
+    "path": "/about/mission.php",
+    "title": "Миссия",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Не подтверждено актуальное содержание",
+    "source_folder": "008__about-mission",
+    "group": "Старые разделы: требуется проверка содержания"
+  },
+  {
+    "path": "/about/vacancies.php",
+    "title": "Вакансии",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Не подтверждено актуальное содержание",
+    "source_folder": "009__about-vacancies",
+    "group": "Старые разделы: требуется проверка содержания"
+  },
+  {
+    "path": "/contacts/feedback.php",
+    "title": "Задать вопрос",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Не подтверждено актуальное содержание",
+    "source_folder": "020__contacts-feedback",
+    "group": "Старые разделы: требуется проверка содержания"
+  },
+  {
+    "path": "/contacts/requisites.php",
+    "title": "Наши реквизиты",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Не подтверждено актуальное содержание",
+    "source_folder": "021__contacts-requisites",
+    "group": "Старые разделы: требуется проверка содержания"
+  },
+  {
+    "path": "/news/",
+    "title": "Новости компании",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Не подтверждено актуальное содержание",
+    "source_folder": "032__news",
+    "group": "Старые разделы: требуется проверка содержания"
+  },
+  {
+    "path": "/blog/",
+    "title": "Статьи",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Ожидает восстановления",
+    "source_folder": "010__blog",
+    "group": "Статьи и требования маркетплейсов"
+  },
+  {
+    "path": "/trebovaniya-fbl-letual/",
+    "title": "Требования ЛЭТУАЛЬ FBL",
+    "sources": [
+      "Поисковый индекс, проверка 04.11.2026"
+    ],
+    "latest_capture": "",
+    "status": "Ожидает восстановления",
+    "group": "Статьи и требования маркетплейсов"
+  },
+  {
+    "path": "/trebovaniya-fbo-ozon/",
+    "title": "Требования Ozon FBO к упаковке и поставке в 2026 году | Преп-Центр",
+    "sources": [
+      "Поисковый индекс, проверка 04.11.2026"
+    ],
+    "latest_capture": "Обход: 2 days ago; точная дата снимка не раскрыта",
+    "status": "Ожидает восстановления",
+    "group": "Статьи и требования маркетплейсов"
+  },
+  {
+    "path": "/trebovaniya-fbs-ozon/",
+    "title": "Ozon FBS: упаковка, этикетки и отгрузка заказов в 2026 году | Преп-Центр",
+    "sources": [
+      "Поисковый индекс, проверка 04.11.2026"
+    ],
+    "latest_capture": "Обход: 3 days ago; точная дата снимка не раскрыта",
+    "status": "Ожидает восстановления",
+    "group": "Статьи и требования маркетплейсов"
+  },
+  {
+    "path": "/trebovaniya-fbs-wildberries/",
+    "title": "Требования Wildberries FBS",
+    "sources": [
+      "Поисковый индекс / осеннее меню, проверка 04.11.2026"
+    ],
+    "latest_capture": "Осенняя версия; точная дата снимка не подтверждена",
+    "status": "Ожидает восстановления",
+    "group": "Статьи и требования маркетплейсов"
+  },
+  {
+    "path": "/trebovaniya-fbs-yandex-market/",
+    "title": "Требования Яндекс Маркета FBS",
+    "sources": [
+      "Поисковый индекс / осеннее меню, проверка 04.11.2026"
+    ],
+    "latest_capture": "Осенняя версия; точная дата снимка не подтверждена",
+    "status": "Ожидает восстановления",
+    "group": "Статьи и требования маркетплейсов"
+  },
+  {
+    "path": "/trebovaniya-fbw-wildberries/",
+    "title": "Требования Wildberries FBW",
+    "sources": [
+      "Поисковый индекс / осеннее меню, проверка 04.11.2026"
+    ],
+    "latest_capture": "Осенняя версия; точная дата снимка не подтверждена",
+    "status": "Ожидает восстановления",
+    "group": "Статьи и требования маркетплейсов"
+  },
+  {
+    "path": "/trebovaniya-fby-yandex-market/",
+    "title": "Требования FBY Яндекс Маркета: упаковка и поставка в 2026 году | Преп-Центр",
+    "sources": [
+      "Поисковый индекс, проверка 04.11.2026"
+    ],
+    "latest_capture": "Обход: last week; точная дата снимка не раскрыта",
+    "status": "Ожидает восстановления",
+    "group": "Статьи и требования маркетплейсов"
+  },
+  {
+    "path": "/upakovka-bytovoy-khimii/",
+    "title": "Упаковка бытовой химии",
+    "sources": [
+      "Drive 22.08.2026",
+      "Поисковый индекс, проверка 04.11.2026"
+    ],
+    "latest_capture": "Обход: 2 months ago; точная дата снимка не раскрыта",
+    "status": "Ожидает восстановления",
+    "source_folder": "011__upakovka-bytovoy-khimii",
+    "indexed_text_available": true,
+    "group": "Статьи и требования маркетплейсов"
+  },
+  {
+    "path": "/wms-mpfit-dlya-fulfillmenta/",
+    "title": "WMS МПФИТ в Преп-Центре: как мы управляем фулфилментом",
+    "sources": [
+      "Поисковый индекс, проверка 04.11.2026"
+    ],
+    "latest_capture": "Обход: 2 weeks ago; точная дата снимка не раскрыта",
+    "status": "Ожидает восстановления",
+    "group": "Статьи и требования маркетплейсов"
+  },
+  {
+    "path": "/agregatsiya-kiz-naborov/",
+    "title": "Агрегация КИЗ наборов для маркетплейсов через WMS | Преп-Центр",
+    "sources": [
+      "Поисковый индекс, проверка 04.11.2026"
+    ],
+    "latest_capture": "Обход: last week; точная дата снимка не раскрыта",
+    "status": "Ожидает восстановления",
+    "indexed_text_available": true,
+    "group": "Услуги и категории"
+  },
+  {
+    "path": "/chestnyy-znak/",
+    "title": "Честный знак при подготовке товаров к маркетплейсам",
+    "sources": [
+      "Drive 22.08.2026",
+      "Поисковый индекс, проверка 04.11.2026"
+    ],
+    "latest_capture": "Обход: last week; точная дата снимка не раскрыта",
+    "status": "Ожидает восстановления",
+    "source_folder": "018__chestnyy-znak",
+    "indexed_text_available": true,
+    "group": "Услуги и категории"
+  },
+  {
+    "path": "/etiketki-marketpleysov/",
+    "title": "Печать и наклейка этикеток для Ozon, Wildberries и Яндекс Маркета",
+    "sources": [
+      "Drive 22.08.2026",
+      "Поисковый индекс, проверка 04.11.2026"
+    ],
+    "latest_capture": "Обход: last month; точная дата снимка не раскрыта",
+    "status": "Ожидает восстановления",
+    "source_folder": "022__etiketki-marketpleysov",
+    "group": "Услуги и категории"
+  },
+  {
+    "path": "/fbl-letual/",
+    "title": "FBL ЛЭТУАЛЬ: подготовка косметики и парфюмерии к поставке | Преп-Центр",
+    "sources": [
+      "Поисковый индекс, проверка 04.11.2026"
+    ],
+    "latest_capture": "Обход: last month; точная дата снимка не раскрыта",
+    "status": "Ожидает восстановления",
+    "indexed_text_available": true,
+    "group": "Услуги и категории"
+  },
+  {
+    "path": "/fbo-ozon/",
+    "title": "FBO Ozon: подготовка и отгрузка поставок на склад | Преп-Центр",
+    "sources": [
+      "Поисковый индекс, проверка 04.11.2026"
+    ],
+    "latest_capture": "Обход: last month; точная дата снимка не раскрыта",
+    "status": "Ожидает восстановления",
+    "group": "Услуги и категории"
+  },
+  {
+    "path": "/fbo-wildberries/",
+    "title": "Отгрузки FBO на Wildberries (FBW): подготовка поставок | Преп-Центр",
+    "sources": [
+      "Поисковый индекс, проверка 04.11.2026"
+    ],
+    "latest_capture": "Обход: last month; точная дата снимка не раскрыта",
+    "status": "Ожидает восстановления",
+    "group": "Услуги и категории"
+  },
+  {
+    "path": "/fbs-ozon/",
+    "title": "FBS для Ozon",
+    "sources": [
+      "Поисковый индекс / осеннее меню, проверка 04.11.2026"
+    ],
+    "latest_capture": "Осенняя версия; точная дата снимка не подтверждена",
+    "status": "Ожидает восстановления",
+    "group": "Услуги и категории"
+  },
+  {
+    "path": "/fbs-wildberries/",
+    "title": "FBS для Wildberries",
+    "sources": [
+      "Поисковый индекс / осеннее меню, проверка 04.11.2026"
+    ],
+    "latest_capture": "Осенняя версия; точная дата снимка не подтверждена",
+    "status": "Ожидает восстановления",
+    "group": "Услуги и категории"
+  },
+  {
+    "path": "/fbs-yandex-market/",
+    "title": "FBS Яндекс Маркет: сборка и отгрузка со склада продавца | Преп-Центр",
+    "sources": [
+      "Поисковый индекс, проверка 04.11.2026"
+    ],
+    "latest_capture": "Обход: last month; точная дата снимка не раскрыта",
+    "status": "Ожидает восстановления",
+    "group": "Услуги и категории"
+  },
+  {
+    "path": "/fby-yandex-market/",
+    "title": "FBY Яндекс Маркет: подготовка поставок на склад | Преп-Центр",
+    "sources": [
+      "Поисковый индекс, проверка 04.11.2026"
+    ],
+    "latest_capture": "Обход: last month; точная дата снимка не раскрыта",
+    "status": "Ожидает восстановления",
+    "group": "Услуги и категории"
+  },
+  {
+    "path": "/fulfillment-avtohimiya/",
+    "title": "Фулфилмент для автохимии и автокосметики",
+    "sources": [
+      "Drive 22.08.2026",
+      "Поисковый индекс, проверка 04.11.2026"
+    ],
+    "latest_capture": "Обход: last month; точная дата снимка не раскрыта",
+    "status": "Ожидает восстановления",
+    "source_folder": "023__fulfillment-avtohimiya",
+    "group": "Услуги и категории"
+  },
+  {
+    "path": "/fulfillment-bytovaya-himiya/",
+    "title": "Фулфилмент для бытовой химии для Ozon, Wildberries и Яндекс Маркета",
+    "sources": [
+      "Drive 22.08.2026",
+      "Поисковый индекс, проверка 04.11.2026"
+    ],
+    "latest_capture": "Обход: last month; точная дата снимка не раскрыта",
+    "status": "Ожидает восстановления",
+    "source_folder": "024__fulfillment-bytovaya-himiya",
+    "group": "Услуги и категории"
+  },
+  {
+    "path": "/fulfillment-fbo/",
+    "title": "FBO-фулфилмент для Озон, Wildberries и Яндекс.Маркета",
+    "sources": [
+      "Drive 22.08.2026",
+      "Поисковый индекс, проверка 04.11.2026"
+    ],
+    "latest_capture": "Обход: last month; точная дата снимка не раскрыта",
+    "status": "Ожидает восстановления",
+    "source_folder": "025__fulfillment-fbo",
+    "group": "Услуги и категории"
+  },
+  {
+    "path": "/fulfillment-fbs/",
+    "title": "FBS-фулфилмент для Wildberries, Ozon и Яндекс Маркета",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Ожидает восстановления",
+    "source_folder": "026__fulfillment-fbs",
+    "group": "Услуги и категории"
+  },
+  {
+    "path": "/fulfillment-kosmetika/",
+    "title": "Фулфилмент для косметики для Wildberries и Ozon",
+    "sources": [
+      "Drive 22.08.2026",
+      "Поисковый индекс, проверка 04.11.2026"
+    ],
+    "latest_capture": "Обход: last month; точная дата снимка не раскрыта",
+    "status": "Ожидает восстановления",
+    "source_folder": "027__fulfillment-kosmetika",
+    "group": "Услуги и категории"
+  },
+  {
+    "path": "/fulfillment-shampuni-geli/",
+    "title": "Фулфилмент для шампуней и гелей для Ozon, Wildberries и Яндекс Маркета",
+    "sources": [
+      "Drive 22.08.2026",
+      "Поисковый индекс, проверка 04.11.2026"
+    ],
+    "latest_capture": "Обход: 2 months ago; точная дата снимка не раскрыта",
+    "status": "Ожидает восстановления",
+    "source_folder": "028__fulfillment-shampuni-geli",
+    "group": "Услуги и категории"
+  },
+  {
+    "path": "/fulfillment-stroitelnaya-himiya/",
+    "title": "Фулфилмент для строительной химии",
+    "sources": [
+      "Drive 22.08.2026",
+      "Поисковый индекс, проверка 04.11.2026"
+    ],
+    "latest_capture": "Обход: last month; точная дата снимка не раскрыта",
+    "status": "Ожидает восстановления",
+    "source_folder": "029__fulfillment-stroitelnaya-himiya",
+    "group": "Услуги и категории"
+  },
+  {
+    "path": "/fulfillment-zhidkih-tovarov/",
+    "title": "Фулфилмент для жидких товаров на Ozon, Wildberries и Яндекс Маркете",
+    "sources": [
+      "Drive 22.08.2026",
+      "Поисковый индекс, проверка 04.11.2026"
+    ],
+    "latest_capture": "Индекс: 2 weeks ago (проверка 04.11.2026); HTML и скриншоты 22.08.2026; текст сопоставлен",
+    "status": "Сверстана и опубликована первая внутренняя страница; проверка отображения отмечена в журнале",
+    "source_folder": "030__fulfillment-zhidkih-tovarov",
+    "group": "Услуги и категории",
+    "assets": "6 исходных изображений найдены и добавлены"
+  },
+  {
+    "path": "/komplektatsiya-naborov/",
+    "title": "Комплектация и сборка наборов для маркетплейсов",
+    "sources": [
+      "Drive 22.08.2026"
+    ],
+    "latest_capture": "22.08.2026: каталог полного HTML и двух скриншотов",
+    "status": "Ожидает восстановления",
+    "source_folder": "031__komplektatsiya-naborov",
+    "group": "Услуги и категории"
+  },
+  {
+    "path": "/srochnaya-obrabotka-partiy/",
+    "title": "Срочная обработка крупных партий 10 000–20 000+ единиц для маркетплейсов",
+    "sources": [
+      "Drive 22.08.2026",
+      "Поисковый индекс, проверка 04.11.2026"
+    ],
+    "latest_capture": "Обход: last month; точная дата снимка не раскрыта",
+    "status": "Ожидает восстановления",
+    "source_folder": "053__srochnaya-obrabotka-partiy",
+    "group": "Услуги и категории"
+  },
+  {
+    "path": "/termousadka-vpp/",
+    "title": "Термоусадка и упаковка в воздушно-пузырьковую пленку для маркетплейсов",
+    "sources": [
+      "Drive 22.08.2026",
+      "Поисковый индекс, проверка 04.11.2026"
+    ],
+    "latest_capture": "Обход: last week; точная дата снимка не раскрыта",
+    "status": "Ожидает восстановления",
+    "source_folder": "054__termousadka-vpp",
+    "group": "Услуги и категории"
+  }
+]

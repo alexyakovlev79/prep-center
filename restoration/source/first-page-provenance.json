@@ -1,0 +1,24 @@
+{
+  "page": "https://prep-center.ru/fulfillment-zhidkih-tovarov/",
+  "retrieved_on": "2026-11-04",
+  "latest_indexed_copy": {
+    "crawl_label": "2 weeks ago",
+    "exact_capture_date": null,
+    "content_date": "2026-08-21",
+    "note": "Relative crawl label is consistent with late October 2026; exact date is not verified. Main text was compared with the complete saved HTML."
+  },
+  "complete_html_snapshot_date": "2026-08-22",
+  "source_html_sha256": "050cf5d1c6da89d7c67507dd61e0ac321c7edf30debb7c1be37e13b0a5b5ede4",
+  "visual_assets": {
+    "original_files": 6,
+    "generated_now": 0,
+    "hero": "Existing illustrative cover; not a real warehouse photograph."
+  },
+  "functionality": {
+    "faq": "Native details/summary restored",
+    "contact": "Phone, email and Telegram links work",
+    "forms": "Server-side submission is not restored; CTA opens contacts",
+    "internal_links": "Unrestored destinations temporarily point to the homepage; original paths retained in data-original-href"
+  },
+  "shared_components": "Generated from the current root index.html; no separate manually edited header/footer source."
+}
