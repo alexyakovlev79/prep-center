@@ -29,6 +29,8 @@ for section in text.split('-----------------------------------------------------
     if 'Total lines:' in section and '\nL' in section:r['indexed_text_available']=True
     if r['title']==path and title!=path:r['title']=title
 
+rows['/spasibo']={'path':'/spasibo','title':'Старая страница благодарности','sources':['Wayback CDX'],'latest_capture':'06.12.2023 01:34:39 UTC','status':'Отдельное решение при восстановлении функций'}
+
 # URLs found in the later cached navigation, or independent site result pages.
 additional={
 '/tarify/':'Тарифы на фулфилмент',
