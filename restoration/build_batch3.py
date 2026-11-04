@@ -110,6 +110,7 @@ for slug,cls,prefix,count in PAGES:
         j=json.loads(sc.text);nodes+=j.get('@graph',[j])
     for j in nodes:
         if j.get('@type') not in ['Service','BreadcrumbList']:continue
+        j={'@context':'https://schema.org',**j}
         sc=etree.SubElement(body,'script',type='application/ld+json');sc.text=json.dumps(j,ensure_ascii=False,separators=(',',':'))
     faq=[]
     for item in a.xpath('.//details'):
