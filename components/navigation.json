@@ -1,0 +1,224 @@
+[
+  {
+    "label": "Услуги",
+    "href": "/#services",
+    "children": [
+      {
+        "label": "Приемка и сортировка",
+        "href": "/#services"
+      },
+      {
+        "label": "Проверка товара и брака",
+        "href": "/#services"
+      },
+      {
+        "label": "Комплектация наборов",
+        "href": "/komplektatsiya-naborov/"
+      },
+      {
+        "label": "Термоусадка и ВПП",
+        "href": "/termousadka-vpp/"
+      },
+      {
+        "label": "Этикетки маркетплейсов",
+        "href": "/etiketki-marketpleysov/"
+      },
+      {
+        "label": "Честный знак",
+        "href": "/chestnyy-znak/"
+      },
+      {
+        "label": "Агрегация КИЗ наборов",
+        "href": "/agregatsiya-kiz-naborov/"
+      },
+      {
+        "label": "Срочная обработка партий",
+        "href": "/srochnaya-obrabotka-partiy/"
+      },
+      {
+        "label": "Хранение товаров",
+        "href": "/#services"
+      },
+      {
+        "label": "FBO-поставки",
+        "href": "/fulfillment-fbo/",
+        "children": [
+          {
+            "label": "Поставки FBO на OZON",
+            "href": "/fbo-ozon/"
+          },
+          {
+            "label": "Поставки FBW на Wildberries",
+            "href": "/fbo-wildberries/"
+          },
+          {
+            "label": "Поставки FBY на Яндекс Маркет",
+            "href": "/fby-yandex-market/"
+          },
+          {
+            "label": "Поставки FBL на ЛЭТУАЛЬ",
+            "href": "/fbl-letual/"
+          }
+        ]
+      },
+      {
+        "label": "FBS-отгрузки",
+        "href": "/fulfillment-fbs/",
+        "children": [
+          {
+            "label": "FBS для Ozon",
+            "href": "/fbs-ozon/"
+          },
+          {
+            "label": "FBS для Wildberries",
+            "href": "/fbs-wildberries/"
+          },
+          {
+            "label": "FBS для Яндекс Маркета",
+            "href": "/fbs-yandex-market/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Фулфилмент",
+    "href": "/#services",
+    "children": [
+      {
+        "label": "Фулфилмент для жидких товаров",
+        "href": "/fulfillment-zhidkih-tovarov/"
+      },
+      {
+        "label": "Бытовая химия",
+        "href": "/fulfillment-bytovaya-himiya/"
+      },
+      {
+        "label": "Для шампуней и гелей",
+        "href": "/fulfillment-shampuni-geli/"
+      },
+      {
+        "label": "Для косметики",
+        "href": "/fulfillment-kosmetika/"
+      },
+      {
+        "label": "Для автохимии и автокосметики",
+        "href": "/fulfillment-avtohimiya/"
+      },
+      {
+        "label": "Для строительной химии",
+        "href": "/fulfillment-stroitelnaya-himiya/"
+      }
+    ]
+  },
+  {
+    "label": "Кейсы",
+    "href": "/cases/",
+    "children": [
+      {
+        "label": "Косметика: 8 400 единиц за 2 дня",
+        "href": "/cases/kosmetika-8400-za-2-dnya/"
+      },
+      {
+        "label": "Автохимия: 2 393 набора за 2 дня",
+        "href": "/cases/avtohimiya-2393-nabora-za-2-dnya/"
+      },
+      {
+        "label": "Строительная химия: 5 180 единиц за 3 дня",
+        "href": "/cases/stroitelnaya-himiya-5180-za-3-dnya/"
+      },
+      {
+        "label": "Канцелярские наборы: 144000 единиц за 5 дней",
+        "href": "/cases/kantselyarskie-nabory-6000-za-5-dney/"
+      },
+      {
+        "label": "Ополаскиватели: 3 186 единиц за 2 дня",
+        "href": "/cases/opolaskivateli-3186-za-2-dnya/"
+      },
+      {
+        "label": "Агрегация КИЗ набора через WMS",
+        "href": "/cases/agregatsiya-kiz-naborov-wms/"
+      },
+      {
+        "label": "Автоматизированная упаковка косметики",
+        "href": "/cases/avtomatizirovannaya-upakovka-kosmetiki/"
+      }
+    ]
+  },
+  {
+    "label": "Тарифы",
+    "href": "/tarify/"
+  },
+  {
+    "label": "Статьи",
+    "href": "/blog/",
+    "children": [
+      {
+        "label": "Производство упаковки",
+        "href": "/upakovka-bytovoy-khimii/"
+      },
+      {
+        "label": "WMS МПФИТ в Преп-Центре",
+        "href": "/wms-mpfit-dlya-fulfillmenta/"
+      },
+      {
+        "label": "Требования Wildberries FBW",
+        "href": "/trebovaniya-fbw-wildberries/"
+      },
+      {
+        "label": "Требования Wildberries FBS",
+        "href": "/trebovaniya-fbs-wildberries/"
+      },
+      {
+        "label": "Требования Ozon FBO",
+        "href": "/trebovaniya-fbo-ozon/"
+      },
+      {
+        "label": "Требования Ozon FBS",
+        "href": "/trebovaniya-fbs-ozon/"
+      },
+      {
+        "label": "Требования FBY Яндекс Маркета",
+        "href": "/trebovaniya-fby-yandex-market/"
+      },
+      {
+        "label": "Требования FBS Яндекс Маркета",
+        "href": "/trebovaniya-fbs-yandex-market/"
+      },
+      {
+        "label": "Требования FBL ЛЭТУАЛЬ",
+        "href": "/trebovaniya-fbl-letual/"
+      }
+    ]
+  },
+  {
+    "label": "О компании",
+    "href": "/about/",
+    "children": [
+      {
+        "label": "О Преп-Центре",
+        "href": "/about/"
+      },
+      {
+        "label": "Преп-Центр в интернете",
+        "href": "/online/"
+      },
+      {
+        "label": "Отзывы",
+        "href": "/#reviews"
+      },
+      {
+        "label": "Вопросы и ответы",
+        "href": "/#questions"
+      },
+      {
+        "label": "Контакты",
+        "href": "/contacts/"
+      }
+    ]
+  },
+  {
+    "label": "Обсудить задачу",
+    "href": "/#contact"
+  }
+]
