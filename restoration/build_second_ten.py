@@ -116,7 +116,9 @@ def mdpage(slug,meta,body,date,image,targets,published,modified=None):
   copy.append(p)
  hero.append(picture(image,'Складские операции Преп-Центра',True));sec=None;faqmode=False;item=None
  for e in list(parsed):
-  if e.tag=='h2':sec=etree.SubElement(c,'section',{'class':'fboservice__section'});sec.append(e);faqmode=label(e)=='Частые вопросы'
+  if e.tag=='h2':
+   sec=etree.SubElement(c,'section',{'class':'fboservice__section'});sec.append(e);faqmode=label(e)=='Частые вопросы'
+   if faqmode:sec.set('class','fboservice__section fboservice__faq')
   elif sec is None:continue
   elif faqmode:
    if e.tag=='h3':item=etree.SubElement(sec,'details');etree.SubElement(item,'summary').text=label(e)

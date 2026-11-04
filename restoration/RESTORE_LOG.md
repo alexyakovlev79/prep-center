@@ -88,6 +88,7 @@ FBS сопоставлен с текстом в индексе, где стои�
 
 
 
+
 ## 04.11.2026: вторая группа из 10 страниц
 
 Восстановлены `/fulfillment-shampuni-geli/`, `/fulfillment-bytovaya-himiya/`, `/fulfillment-kosmetika/`, `/fulfillment-avtohimiya/`, `/fulfillment-stroitelnaya-himiya/`, `/srochnaya-obrabotka-partiy/`, `/about/`, `/contacts/`, `/trebovaniya-fbl-letual/`, `/wms-mpfit-dlya-fulfillmenta/`.
