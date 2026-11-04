@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "fbo-wildberries",
+    "source_package": "Prep-Center_month3_PackageA_2026-09-18(1).zip",
+    "source_file": "01_page_fbo_wildberries.md",
+    "source_date": "2026-09-18",
+    "indexed_check": "2026-11-04",
+    "freshness": "Late indexed delivery sections restored; no complete October HTML obtained",
+    "confirmed_price_changes": "2026-10-20: box 150 RUB; palletization 400 RUB; pallet supply 500 RUB unchanged",
+    "images": 3,
+    "faq": 8,
+    "generated_images": 0
+  },
+  {
+    "slug": "fbo-ozon",
+    "source_package": "Prep-Center_month3_PackageA_2026-09-18(1).zip",
+    "source_file": "02_page_fbo_ozon.md",
+    "source_date": "2026-09-18",
+    "indexed_check": "2026-11-04",
+    "freshness": "Late indexed delivery sections restored; no complete October HTML obtained",
+    "confirmed_price_changes": "2026-10-20: box 150 RUB; palletization 400 RUB; pallet supply 500 RUB unchanged",
+    "images": 3,
+    "faq": 8,
+    "generated_images": 0
+  },
+  {
+    "slug": "fby-yandex-market",
+    "source_package": "Prep-Center_month3_PackageA_2026-09-18(1).zip",
+    "source_file": "03_page_fby_yandex_market.md",
+    "source_date": "2026-09-18",
+    "indexed_check": "2026-11-04",
+    "freshness": "Late indexed delivery sections restored; no complete October HTML obtained",
+    "confirmed_price_changes": "2026-10-20: box 150 RUB; palletization 400 RUB; pallet supply 500 RUB unchanged",
+    "images": 3,
+    "faq": 8,
+    "generated_images": 0
+  }
+]
