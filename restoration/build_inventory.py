@@ -70,6 +70,11 @@ for path,r in rows.items():
     elif path=='/':r['group']='Основные страницы';r['status']='Восстановленная временная главная опубликована'
     elif path in ['/about/','/online/','/contacts/','/privacy-policy/','/cases/','/tarify/']:r['group']='Основные страницы'
     else:r['group']='Услуги и категории'
+    if path in ['/fulfillment-fbo/','/fulfillment-fbs/','/termousadka-vpp/']:
+        r['status']='Сверстана; десктоп и 390 px проверены в предпросмотре; публичная проверка отмечена в журнале'
+        r['assets']={'/fulfillment-fbo/':'7 изображений, 10 FAQ','/fulfillment-fbs/':'8 изображений, 10 FAQ','/termousadka-vpp/':'5 изображений, 9 FAQ'}[path]
+        if path=='/fulfillment-fbs/':r['latest_capture']='Индексная копия: Обновлено 20.10.2026; основной текст сопоставлен, дополнения восстановлены'
+        if path=='/fulfillment-fbo/':r['latest_capture']='Полный HTML 22.08.2026; индекс: Обновлено 18.09.2026; цены короба/паллетирования исправлены по согласованию 20.10.2026'
     if path=='/fulfillment-zhidkih-tovarov/':
         r['status']='Сверстана и опубликована первая внутренняя страница; проверка отображения отмечена в журнале'
         r['latest_capture']='Индекс: 2 weeks ago (проверка 04.11.2026); HTML и скриншоты 22.08.2026; текст сопоставлен'
@@ -94,6 +99,7 @@ for i,r in enumerate(public,1):
     material='HTML и скриншоты в снимке 22.08.2026' if 'source_folder' in r else 'URL и следы в осеннем поисковом индексе / меню'
     if r.get('indexed_text_available'):material+='; извлечен текст из индекса'
     if r['path']=='/fulfillment-zhidkih-tovarov/':material+='; 6 изображений; первая сверстанная внутренняя страница'
+    if r['path'] in ['/fulfillment-fbo/','/fulfillment-fbs/','/termousadka-vpp/']:material+='; сверстана, '+r['assets']
     lines.append(f'| {i} | {r["title"].replace("|","/")} | `{r["path"]}` | {material} |')
 for group in ['Старые разделы: требуется проверка содержания','Служебные URL','Остатки банковского шаблона']:
     lines+=['',f'## {group}','', '| Путь | Название | Решение |','|---|---|---|']

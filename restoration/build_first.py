@@ -41,6 +41,7 @@ for m in head.xpath('./meta[@name="description"]'):
 head.xpath('./link[@rel="canonical"]')[0].set('href',f'https://prep-center.ru/{SLUG}/')
 for node in head.xpath('.//*[@href]'):
     if node.get('href','').startswith('./assets/'):node.set('href','.'+node.get('href'))
+for n in head.xpath('./link[@rel="preload"][@as="image"]'):n.set('href','../assets/liquid-01.webp')
 css=etree.SubElement(head,'link',rel='stylesheet',href='../assets/liquid-service.css')
 header=deepcopy(home.xpath('//header')[0])
 contact=deepcopy(home.xpath('//*[@id="contact"]')[0])
@@ -76,7 +77,7 @@ css=(SOURCE/'liquid-inline.css').read_text()+'''
 .liquidservice li{margin-bottom:.55em}.liquidservice ul:not(.liquidservice__facts),.liquidservice ol{padding-left:1.35em;margin:0 0 24px}.liquidservice li::marker{color:#ff9800;font-weight:700}.liquidservice__facts{list-style:none}.liquidservice__facts li{margin:0}.liquidservice__hero>*,.liquidservice__split>*{min-width:0}.liquidservice img{height:auto}.liquidservice summary::marker{color:#ff9800}.liquidservice details[open] summary{color:#a65d00}.liquidservice a:focus-visible{outline:3px solid #ff9800;outline-offset:4px}.liquidservice__final a:not(.liquidservice__button){color:#fff}.liquidservice__hero h1{font-family:Bebas,sans-serif}.liquidservice h3{font-family:Tilda,sans-serif;font-weight:600}.liquidservice__date{font-size:14px;color:#5d6c7d;margin-bottom:20px}
 @media(max-width:640px){.liquidservice h1{font-size:34px;overflow-wrap:break-word}.liquidservice__button{white-space:normal}.liquidservice__breadcrumbs{font-size:14px}}
 '''
-(SITE/'assets/liquid-service.css').write_text(css)
+(SITE/'assets/liquid-service.css').write_text(css+'\n/* Reserve visible widths for lazy portrait images. */\n.liquidservice__photo-pair img{width:min(100%,390px);height:auto;max-height:none}.liquidservice__content-image,.liquidservice__split img{width:min(100%,650px);height:auto;max-height:none}\n')
 
 # A single navigation link activates the first restored page. Other homepage
 # links retain the user's temporary homepage fallback.

@@ -1,0 +1,29 @@
+[
+  {
+    "slug": "fulfillment-fbo",
+    "complete_html_date": "2026-08-22",
+    "latest_evidence": "Indexed copy says updated 2026-09-18; complete October HTML not found; confirmed 2026-10-20 box and palletization prices applied",
+    "images": 7,
+    "faq": 10,
+    "new_images_generated": 0,
+    "limitations": "Unrestored internal destinations temporarily point to homepage; contact route replaces server-side form"
+  },
+  {
+    "slug": "fulfillment-fbs",
+    "complete_html_date": "2026-08-22",
+    "latest_evidence": "Indexed copy updated 2026-10-20, main text compared; October marketplace blocks and WMS/KIZ additions restored",
+    "images": 8,
+    "faq": 10,
+    "new_images_generated": 0,
+    "limitations": "Unrestored internal destinations temporarily point to homepage; contact route replaces server-side form"
+  },
+  {
+    "slug": "termousadka-vpp",
+    "complete_html_date": "2026-08-22",
+    "latest_evidence": "Index result says updated 2026-08-21; a previous index response reported crawl last week, exact capture unavailable; no later body snapshot obtained",
+    "images": 5,
+    "faq": 9,
+    "new_images_generated": 0,
+    "limitations": "Unrestored internal destinations temporarily point to homepage; contact route replaces server-side form"
+  }
+]
