@@ -1,0 +1,77 @@
+
+.chemservice {
+    --chem-blue: #00598e;
+    --chem-blue-dark: #003f68;
+    --chem-orange: #ff9900;
+    --chem-ink: #17222d;
+    --chem-muted: #5d6872;
+    --chem-soft: #f4f7fa;
+    color: var(--chem-ink);
+    background: #fff;
+    padding: 34px 0 80px;
+}
+.chemservice, .chemservice * { box-sizing: border-box; }
+.chemservice__wrap { width: min(1180px, calc(100% - 40px)); margin: 0 auto; }
+.chemservice__breadcrumbs { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 28px; color: var(--chem-muted); font-size: 15px; }
+.chemservice__breadcrumbs a { color: var(--chem-blue); text-decoration: none; }
+.chemservice__breadcrumbs a:hover { text-decoration: underline; }
+.chemservice__hero { max-width: 1050px; }
+.chemservice__eyebrow { margin: 0 0 14px; color: var(--chem-orange); font-size: 15px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.chemservice h1 { margin: 0; color: var(--chem-blue-dark); font-size: clamp(34px, 4.2vw, 58px); line-height: 1.04; letter-spacing: -.025em; }
+.chemservice__lead { margin: 24px 0 0; color: #34414c; font-size: 20px; line-height: 1.55; }
+.chemservice__lead + .chemservice__lead { margin-top: 14px; }
+.chemservice__facts { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; margin: 34px 0 28px; padding: 0; list-style: none; }
+.chemservice__facts li { min-height: 92px; padding: 18px; border: 1px solid #dce5ec; border-radius: 16px; background: #fff; font-weight: 700; line-height: 1.45; }
+.chemservice__button { display: inline-flex; align-items: center; justify-content: center; min-height: 56px; padding: 14px 30px; border: 0; border-radius: 12px; color: #fff !important; font-size: 17px; font-weight: 700; text-align: center; text-decoration: none; background: var(--chem-orange); transition: transform .2s ease, box-shadow .2s ease; }
+.chemservice__button:hover { transform: translateY(-2px); box-shadow: 0 10px 24px rgba(0, 0, 0, .18); }
+.chemservice__button--blue { background: var(--chem-blue); }
+.chemservice__section { margin-top: 72px; }
+.chemservice__section h2 { margin: 0 0 22px; color: var(--chem-blue-dark); font-size: clamp(28px, 3.1vw, 42px); line-height: 1.15; }
+.chemservice__section h3 { margin: 0 0 12px; color: var(--chem-blue-dark); font-size: 23px; line-height: 1.25; }
+.chemservice__section p, .chemservice__section li { font-size: 18px; line-height: 1.65; }
+.chemservice__section p { margin: 0 0 18px; }
+.chemservice__section ul, .chemservice__section ol { margin: 14px 0 0; padding-left: 24px; }
+.chemservice__section li + li { margin-top: 7px; }
+.chemservice__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.chemservice__card { padding: 28px; border: 1px solid #dce5ec; border-radius: 18px; background: #fff; box-shadow: 0 10px 28px rgba(0, 63, 104, .06); }
+.chemservice__card ul { margin-bottom: 0; }
+.chemservice__note { padding: 24px 26px; border-left: 5px solid var(--chem-orange); border-radius: 0 16px 16px 0; background: #fff8ec; }
+.chemservice__note p:last-child { margin-bottom: 0; }
+.chemservice__layers { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin-top: 24px; }
+.chemservice__layer { padding: 28px; border-radius: 18px; color: #fff; background: linear-gradient(135deg, var(--chem-blue-dark), var(--chem-blue)); }
+.chemservice__layer h3, .chemservice__layer p { color: #fff; }
+.chemservice__layer p:last-child { margin-bottom: 0; }
+.chemservice__case { padding: 34px; border-radius: 22px; color: #fff; background: linear-gradient(135deg, var(--chem-blue-dark), var(--chem-blue)); }
+.chemservice__case h2, .chemservice__case h3, .chemservice__case p, .chemservice__case li { color: #fff; }
+.chemservice__case h2 { margin-bottom: 20px; }
+.chemservice__case-lead { font-size: 20px !important; }
+.chemservice__stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin: 26px 0; }
+.chemservice__stat { padding: 18px; border: 1px solid rgba(255,255,255,.25); border-radius: 15px; background: rgba(255,255,255,.08); }
+.chemservice__stat strong { display: block; color: #fff; font-size: 25px; line-height: 1.15; }
+.chemservice__stat span { display: block; margin-top: 8px; color: #e9f4fb; font-size: 15px; line-height: 1.4; }
+.chemservice__links { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 26px; }
+.chemservice__text-link { display: inline-flex; align-items: center; min-height: 48px; color: var(--chem-blue); font-size: 17px; font-weight: 700; text-decoration: none; }
+.chemservice__text-link:hover { text-decoration: underline; }
+.chemservice__faq details { border-bottom: 1px solid #dce5ec; }
+.chemservice__faq details:first-child { border-top: 1px solid #dce5ec; }
+.chemservice__faq summary { padding: 22px 44px 22px 0; color: var(--chem-blue-dark); font-size: 19px; font-weight: 700; line-height: 1.4; cursor: pointer; }
+.chemservice__faq details p { padding: 0 24px 22px 0; margin: 0; }
+.chemservice__cta { margin-top: 72px; padding: 38px; border-radius: 22px; background: var(--chem-soft); }
+.chemservice__cta h2 { margin-top: 0; }
+@media (max-width: 980px) {
+    .chemservice__facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .chemservice__stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 640px) {
+    .chemservice { padding-top: 22px; padding-bottom: 54px; overflow-x: hidden; }
+    .chemservice__wrap { width: min(100% - 28px, 1180px); }
+    .chemservice h1 { font-size: 36px; overflow-wrap: anywhere; }
+    .chemservice__lead { font-size: 18px; }
+    .chemservice__facts, .chemservice__grid, .chemservice__layers, .chemservice__stats { grid-template-columns: 1fr; }
+    .chemservice__facts li { min-height: auto; }
+    .chemservice__section { margin-top: 54px; }
+    .chemservice__section p, .chemservice__section li { font-size: 17px; }
+    .chemservice__card, .chemservice__layer, .chemservice__case, .chemservice__cta { padding: 22px 18px; border-radius: 16px; }
+    .chemservice__button { width: 100%; }
+    .chemservice__links { display: grid; grid-template-columns: 1fr; }
+}

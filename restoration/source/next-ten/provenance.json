@@ -1,0 +1,96 @@
+[
+  {
+    "path": "/fulfillment-shampuni-geli/",
+    "images": 4,
+    "faq": 7,
+    "kind": "Service",
+    "source_published": "2026-08-22",
+    "source_updated": "2026-08-22",
+    "complete_source": "2026-08-22 HTML",
+    "late_index_checked": "2026-11-04"
+  },
+  {
+    "path": "/fulfillment-bytovaya-himiya/",
+    "images": 4,
+    "faq": 8,
+    "kind": "Service",
+    "source_published": "2026-08-22",
+    "source_updated": "2026-08-22",
+    "complete_source": "2026-08-22 HTML",
+    "late_index_checked": "2026-11-04"
+  },
+  {
+    "path": "/fulfillment-kosmetika/",
+    "images": 5,
+    "faq": 7,
+    "kind": "Service",
+    "source_published": "2026-08-22",
+    "source_updated": "2026-08-22",
+    "complete_source": "2026-08-22 HTML",
+    "late_index_checked": "2026-11-04"
+  },
+  {
+    "path": "/fulfillment-avtohimiya/",
+    "images": 3,
+    "faq": 7,
+    "kind": "Service",
+    "source_published": "2026-08-22",
+    "source_updated": "2026-08-22",
+    "complete_source": "2026-08-22 HTML",
+    "late_index_checked": "2026-11-04"
+  },
+  {
+    "path": "/fulfillment-stroitelnaya-himiya/",
+    "images": 3,
+    "faq": 7,
+    "kind": "Service",
+    "source_published": "2026-08-22",
+    "source_updated": "2026-08-22",
+    "complete_source": "2026-08-22 HTML",
+    "late_index_checked": "2026-11-04"
+  },
+  {
+    "path": "/srochnaya-obrabotka-partiy/",
+    "images": 5,
+    "faq": 10,
+    "kind": "Service",
+    "source_published": "2026-08-21",
+    "source_updated": "2026-08-21",
+    "complete_source": "2026-08-22 HTML",
+    "late_index_checked": "2026-11-04"
+  },
+  {
+    "path": "/about/",
+    "images": 7,
+    "faq": 0,
+    "kind": "AboutPage",
+    "source_published": "2026-08-22",
+    "source_updated": "2026-10-21",
+    "complete_source": "2026-08-22 HTML",
+    "late_index_checked": "2026-11-04"
+  },
+  {
+    "path": "/trebovaniya-fbl-letual/",
+    "images": 2,
+    "faq": 7,
+    "kind": "Article",
+    "source_published": "2026-09-18",
+    "source_updated": null
+  },
+  {
+    "path": "/wms-mpfit-dlya-fulfillmenta/",
+    "images": 11,
+    "faq": 6,
+    "kind": "Article",
+    "source_published": "2026-09-05",
+    "source_updated": "2026-10-20"
+  },
+  {
+    "path": "/contacts/",
+    "images": 1,
+    "faq": 0,
+    "kind": "ContactPage",
+    "source_published": null,
+    "source_updated": null
+  }
+]

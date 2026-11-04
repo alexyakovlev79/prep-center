@@ -1,0 +1,83 @@
+
+.cosservice {
+    --service-blue: #00598e;
+    --service-blue-dark: #003f68;
+    --service-orange: #ff9900;
+    --service-ink: #17222d;
+    --service-muted: #5d6872;
+    --service-soft: #f4f7fa;
+    color: var(--service-ink);
+    background: #fff;
+    padding: 34px 0 80px;
+}
+.cosservice, .cosservice * { box-sizing: border-box; }
+.cosservice__wrap { width: min(1180px, calc(100% - 40px)); margin: 0 auto; }
+.cosservice__breadcrumbs { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 28px; color: var(--service-muted); font-size: 15px; }
+.cosservice__breadcrumbs a { color: var(--service-blue); text-decoration: none; }
+.cosservice__breadcrumbs a:hover { text-decoration: underline; }
+.cosservice__hero { max-width: 1030px; }
+.cosservice__eyebrow { margin: 0 0 14px; color: var(--service-orange); font-size: 15px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.cosservice h1 { margin: 0; color: var(--service-blue-dark); font-size: clamp(34px, 4.2vw, 58px); line-height: 1.04; letter-spacing: -.025em; }
+.cosservice__lead { margin: 24px 0 0; color: #34414c; font-size: 20px; line-height: 1.55; }
+.cosservice__lead + .cosservice__lead { margin-top: 14px; }
+.cosservice__facts { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; margin: 34px 0 28px; padding: 0; list-style: none; }
+.cosservice__facts li { min-height: 92px; padding: 18px; border: 1px solid #dce5ec; border-radius: 16px; background: #fff; font-weight: 700; line-height: 1.45; }
+.cosservice__button { display: inline-flex; align-items: center; justify-content: center; min-height: 56px; padding: 14px 30px; border: 0; border-radius: 12px; color: #fff !important; font-size: 17px; font-weight: 700; text-decoration: none; background: var(--service-orange); transition: transform .2s ease, box-shadow .2s ease; }
+.cosservice__button:hover { transform: translateY(-2px); box-shadow: 0 10px 24px rgba(0, 0, 0, .18); }
+.cosservice__button--blue { background: var(--service-blue); }
+.cosservice__section { margin-top: 72px; }
+.cosservice__section h2 { margin: 0 0 22px; color: var(--service-blue-dark); font-size: clamp(28px, 3.1vw, 42px); line-height: 1.15; }
+.cosservice__section h3 { margin: 0 0 12px; color: var(--service-blue-dark); font-size: 23px; line-height: 1.25; }
+.cosservice__section p, .cosservice__section li { font-size: 18px; line-height: 1.65; }
+.cosservice__section p { margin: 0 0 18px; }
+.cosservice__section ul { margin: 14px 0 0; padding-left: 24px; }
+.cosservice__section li + li { margin-top: 7px; }
+.cosservice__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.cosservice__card { padding: 28px; border: 1px solid #dce5ec; border-radius: 18px; background: #fff; box-shadow: 0 10px 28px rgba(0, 63, 104, .06); }
+.cosservice__card ul { margin-bottom: 0; }
+.cosservice__note { padding: 24px 26px; border-left: 5px solid var(--service-orange); border-radius: 0 16px 16px 0; background: #fff8ec; }
+.cosservice__note p:last-child { margin-bottom: 0; }
+.cosservice__split { display: grid; grid-template-columns: minmax(0, 1.12fr) minmax(320px, .88fr); gap: 30px; align-items: start; }
+.cosservice__photo { margin: 0; overflow: hidden; border-radius: 18px; background: var(--service-soft); }
+.cosservice__photo img { display: block; width: 100%; height: 520px; object-fit: cover; }
+.cosservice__photo figcaption { padding: 12px 15px; color: var(--service-muted); font-size: 14px; line-height: 1.4; }
+.cosservice__case { padding: 34px; border-radius: 22px; color: #fff; background: linear-gradient(135deg, var(--service-blue-dark), var(--service-blue)); }
+.cosservice__case h2, .cosservice__case h3, .cosservice__case p, .cosservice__case li { color: #fff; }
+.cosservice__case h2 { margin-bottom: 20px; }
+.cosservice__case-lead { font-size: 20px !important; }
+.cosservice__stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin: 26px 0; }
+.cosservice__stat { padding: 18px; border: 1px solid rgba(255,255,255,.25); border-radius: 15px; background: rgba(255,255,255,.08); }
+.cosservice__stat strong { display: block; color: #fff; font-size: 25px; line-height: 1.15; }
+.cosservice__stat span { display: block; margin-top: 8px; color: #e9f4fb; font-size: 15px; line-height: 1.4; }
+.cosservice__gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-top: 24px; }
+.cosservice__gallery .cosservice__photo img { height: 320px; }
+.cosservice__links { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 26px; }
+.cosservice__text-link { display: inline-flex; align-items: center; min-height: 48px; color: var(--service-blue); font-size: 17px; font-weight: 700; text-decoration: none; }
+.cosservice__text-link:hover { text-decoration: underline; }
+.cosservice__case .cosservice__text-link { color: #fff; }
+.cosservice__faq details { border-bottom: 1px solid #dce5ec; }
+.cosservice__faq details:first-child { border-top: 1px solid #dce5ec; }
+.cosservice__faq summary { padding: 22px 44px 22px 0; color: var(--service-blue-dark); font-size: 19px; font-weight: 700; line-height: 1.4; cursor: pointer; }
+.cosservice__faq details p { padding: 0 24px 22px 0; margin: 0; }
+.cosservice__cta { margin-top: 72px; padding: 38px; border-radius: 22px; background: var(--service-soft); }
+.cosservice__cta h2 { margin-top: 0; }
+@media (max-width: 980px) {
+    .cosservice__facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .cosservice__split { grid-template-columns: 1fr; }
+    .cosservice__stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .cosservice__gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 640px) {
+    .cosservice { padding-top: 22px; padding-bottom: 54px; overflow-x: hidden; }
+    .cosservice__wrap { width: min(100% - 28px, 1180px); }
+    .cosservice h1 { font-size: 36px; }
+    .cosservice__lead { font-size: 18px; }
+    .cosservice__facts, .cosservice__grid, .cosservice__stats, .cosservice__gallery { grid-template-columns: 1fr; }
+    .cosservice__facts li { min-height: auto; }
+    .cosservice__section { margin-top: 54px; }
+    .cosservice__section p, .cosservice__section li { font-size: 17px; }
+    .cosservice__card, .cosservice__case, .cosservice__cta { padding: 22px 18px; border-radius: 16px; }
+    .cosservice__photo img, .cosservice__gallery .cosservice__photo img { height: auto; max-height: 500px; object-fit: cover; }
+    .cosservice__button { width: 100%; text-align: center; }
+    .cosservice__links { display: grid; grid-template-columns: 1fr; }
+}

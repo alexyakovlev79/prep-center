@@ -1,0 +1,47 @@
+
+.chemservice{--blue:#005b8f;--orange:#ff9800;--ink:#10223a;--muted:#5d6c7d;--soft:#f3f7fa;--line:#dce5eb;color:var(--ink);font-size:18px;line-height:1.65;padding:32px 0 76px;overflow-x:clip}
+.chemservice *{box-sizing:border-box}
+.chemservice__container{width:min(1200px,calc(100% - 40px));margin:0 auto}
+.chemservice a:not(.btn){color:var(--blue)}
+.chemservice p{margin:0 0 18px}
+.chemservice h1,.chemservice h2,.chemservice h3{color:var(--blue);line-height:1.18;margin-top:0}
+.chemservice h1{font-size:clamp(38px,4.6vw,66px);margin-bottom:24px}
+.chemservice h2{font-size:clamp(30px,3.2vw,46px);margin-bottom:26px}
+.chemservice h3{font-size:24px;margin-bottom:14px}
+.chemservice__breadcrumbs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:34px;font-size:16px;color:var(--muted)}
+.chemservice__breadcrumbs a{text-decoration:none}
+.chemservice__breadcrumbs span:before{content:"/";margin-right:8px;color:#9ba8b4}
+.service-page__hero{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(340px,.92fr);gap:44px;align-items:center;padding:42px;border-radius:32px;background:linear-gradient(135deg,#f4f9fc,#fff);box-shadow:0 18px 50px rgba(0,68,107,.1)}
+.service-page__hero-content>p:first-of-type{font-size:21px}
+.service-page__hero-media{margin:0}
+.service-page__hero-media img{display:block;width:100%;height:auto!important;object-fit:contain;margin:0 auto;border-radius:24px}
+.service-page__facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:28px 0}
+.service-page__fact{padding:15px 16px;border-radius:16px;background:#fff;border:1px solid var(--line)}
+.service-page__fact strong{display:block;color:var(--blue);font-size:19px;line-height:1.25}
+.service-page__fact span,.service-page__case-facts span{display:block;margin-top:5px;color:var(--muted);font-size:14px;line-height:1.35}
+.service-page__section{padding:74px 0 0}
+.service-page__cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.service-page__card{padding:28px;border:1px solid var(--line);border-radius:22px;background:#fff;box-shadow:0 10px 30px rgba(0,68,107,.06)}
+.service-page__card p:last-child{margin-bottom:0}
+.chemservice ol{margin:20px 0 0;padding-left:1.8em}
+.chemservice ol>li{margin:0 0 18px;padding:22px 24px 22px 28px;border:1px solid var(--line);border-radius:18px;background:var(--soft)}
+.service-page__media-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:30px;align-items:start}
+.service-page__media-row figure,.service-page__section>figure{margin:0}
+.service-page__media-row img,.service-page__section>figure img{display:block;width:auto;max-width:100%;height:auto!important;max-height:650px;object-fit:contain;margin:0 auto;border-radius:22px;background:var(--soft)}
+.service-page__table-wrap{overflow:hidden;border:1px solid var(--line);border-radius:22px;background:#fff;box-shadow:0 12px 34px rgba(0,68,107,.07)}
+.chemservice table{width:100%;border-collapse:collapse;table-layout:fixed}
+.chemservice th,.chemservice td{padding:16px 18px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line);overflow-wrap:anywhere;word-break:normal}
+.chemservice tr:last-child td{border-bottom:0}
+.chemservice th{background:var(--blue);color:#fff}
+.chemservice th:first-child,.chemservice td:first-child{width:34%}
+.service-page__case-facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:24px 0}
+.service-page__case-facts>div{padding:18px;border:1px solid var(--line);border-radius:16px;background:#fff;text-align:center}
+.service-page__case-facts strong{display:block;color:var(--orange);font-size:22px;line-height:1.2}
+.service-page__note{padding:22px 24px;border-left:5px solid var(--orange);border-radius:0 18px 18px 0;background:#fff8e9}
+.service-page__faq details{border-bottom:1px solid var(--line)}
+.service-page__faq summary{cursor:pointer;padding:22px 42px 22px 0;color:var(--blue);font-weight:700;font-size:20px}
+.service-page__faq details p{padding:0 0 22px;max-width:980px}
+.service-page__cta{padding:42px;margin-top:74px;border-radius:28px;background:var(--blue);color:#fff}
+.service-page__cta h2{color:#fff}
+@media(max-width:980px){.service-page__hero{grid-template-columns:1fr}.service-page__hero-media img{max-width:620px}.service-page__case-facts{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.chemservice{font-size:16px;padding:22px 0 54px}.chemservice__container{width:calc(100% - 24px)}.chemservice h1{font-size:34px}.chemservice h2{font-size:28px}.chemservice h3{font-size:21px}.service-page__hero-content>p:first-of-type{font-size:18px}.service-page__hero{padding:22px;border-radius:24px;gap:26px}.service-page__facts,.service-page__cards,.service-page__media-row,.service-page__case-facts{grid-template-columns:1fr}.service-page__section{padding-top:54px}.service-page__card{padding:22px}.chemservice ol>li{padding:20px 18px 20px 22px}.chemservice th,.chemservice td{padding:10px 8px;font-size:13px;line-height:1.4}.chemservice th:first-child,.chemservice td:first-child{width:38%}.service-page__case-facts>div{text-align:left}.service-page__cta{padding:26px 22px;margin-top:54px}.service-page__hero .btn,.service-page__cta .btn{width:100%;text-align:center;justify-content:center}}
