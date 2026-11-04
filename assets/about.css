@@ -48,3 +48,9 @@
 .aboutpage__cta .btn{margin-right:10px;margin-bottom:10px}
 @media(max-width:980px){.aboutpage__hero{grid-template-columns:1fr}.aboutpage__gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.aboutpage__gallery figure:last-child{grid-column:1/-1;width:min(100%,620px);justify-self:center}.aboutpage__stats,.aboutpage__cases{grid-template-columns:repeat(2,minmax(0,1fr))}.aboutpage__requisites{grid-template-columns:1fr}}
 @media(max-width:640px){.aboutpage{font-size:16px;padding-top:20px}.aboutpage__container{width:min(100% - 24px,1180px)}.aboutpage__hero{padding:20px;border-radius:20px;gap:24px}.aboutpage__hero h1{font-size:34px}.aboutpage__facts,.aboutpage__gallery,.aboutpage__media-row,.aboutpage__stats,.aboutpage__cases{grid-template-columns:1fr}.aboutpage__gallery figure:last-child{grid-column:auto;width:100%}.aboutpage__section{padding:44px 0}.aboutpage__section h2{font-size:30px}.aboutpage ol>li{padding:20px 18px 20px 22px}.aboutpage__requisites>div{grid-template-columns:1fr;gap:4px}.aboutpage__cta{padding:26px 20px;border-radius:20px}.aboutpage__actions{display:grid}.aboutpage__actions .btn,.aboutpage__cta .btn{width:100%;margin-right:0;text-align:center;justify-content:center}}
+
+/* Keep step numbers inside their cards; ordinary article lists are unchanged. */
+.aboutpage .aboutpage__container ol{padding-left:0;list-style:none;counter-reset:card-step}
+.aboutpage .aboutpage__container ol>li{position:relative;list-style:none;counter-increment:card-step;padding-left:68px}
+.aboutpage .aboutpage__container ol>li::before{content:counter(card-step) ".";position:absolute;left:24px;top:22px;width:28px;color:var(--blue-dark);font-size:21px;line-height:1.3}
+@media(max-width:640px){.aboutpage .aboutpage__container ol>li{padding-left:54px}.aboutpage .aboutpage__container ol>li::before{left:18px;top:20px;width:24px}}

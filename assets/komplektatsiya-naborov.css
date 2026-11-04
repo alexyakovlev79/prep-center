@@ -48,3 +48,7 @@
 /* Adaptation to the shared recovery shell; original page component layout preserved. */
 .kitservice li{margin-bottom:.5em}.kitservice ul,.kitservice ol{padding-left:1.35em;margin:0 0 24px}.kitservice li::marker{color:#ff9800;font-weight:700}.kitservice__highlights,.kitservice__facts{list-style:none;padding:0!important}.kitservice__highlights li,.kitservice__facts li{margin:0}.kitservice__hero>*,.kitservice__split>*{min-width:0}.kitservice img{height:auto}.kitservice h3{font-family:Tilda,sans-serif}.kitservice a:focus-visible{outline:3px solid #ff9800;outline-offset:4px}.kitservice__recovery-date{font-size:14px;color:#5e6b78;margin:0 0 18px}.kitservice__faq summary::marker{color:#ff9800}.kitservice__photo-pair img{width:min(100%,390px);height:auto;max-height:none}.kitservice__split img{width:min(100%,650px);height:auto!important;max-height:none}
 @media(max-width:640px){.kitservice h1{overflow-wrap:break-word}.kitservice__button{white-space:normal}}
+
+/* Custom card numbers replace the native outside list marker. */
+.kitservice ol.kitservice__numbered{padding-left:0;list-style:none}
+.kitservice ol.kitservice__numbered>li{list-style:none}

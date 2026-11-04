@@ -8,3 +8,7 @@
 @media(max-width:640px){.packservice h1{overflow-wrap:break-word}.packservice__button{white-space:normal}}
 
 @media(max-width:640px){.packservice__compare th:first-child,.packservice__compare td:first-child{width:42%}.packservice__compare th:not(:first-child),.packservice__compare td:not(:first-child){width:29%}}
+
+/* Custom card numbers replace the native outside list marker. */
+.packservice ol.packservice__steps{padding-left:0;list-style:none}
+.packservice ol.packservice__steps>li{list-style:none}

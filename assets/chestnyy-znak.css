@@ -6,3 +6,7 @@
 /* Adaptation to the shared recovery shell; original page component layout preserved. */
 .czservice li{margin-bottom:.5em}.czservice ul,.czservice ol{padding-left:1.35em;margin:0 0 24px}.czservice li::marker{color:#ff9800;font-weight:700}.czservice__highlights,.czservice__facts{list-style:none;padding:0!important}.czservice__highlights li,.czservice__facts li{margin:0}.czservice__hero>*,.czservice__split>*{min-width:0}.czservice img{height:auto}.czservice h3{font-family:Tilda,sans-serif}.czservice a:focus-visible{outline:3px solid #ff9800;outline-offset:4px}.czservice__recovery-date{font-size:14px;color:#5e6b78;margin:0 0 18px}.czservice__faq summary::marker{color:#ff9800}.czservice__photo-pair img{width:min(100%,390px);height:auto;max-height:none}.czservice__split img{width:min(100%,650px);height:auto!important;max-height:none}
 @media(max-width:640px){.czservice h1{overflow-wrap:break-word}.czservice__button{white-space:normal}}
+
+/* Custom card numbers replace the native outside list marker. */
+.czservice ol.czservice__steps{padding-left:0;list-style:none}
+.czservice ol.czservice__steps>li{list-style:none}
