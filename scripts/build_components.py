@@ -34,6 +34,7 @@ for route in routes:
  s=s.replace('</head>','<link rel="stylesheet" href="/assets/shared-components.css?v=20261105-icons-2"></head>')
  s=re.sub(r'<!-- shared:head -->.*?<!-- /shared:head -->','',s,flags=re.S)
  shared_head=(ROOT/'components/head.html').read_text().strip()
+ if 'responsive-table' in s:shared_head+='\n<link rel="stylesheet" href="/assets/responsive-tables.css?v=20261105">'
  s=s.replace('</head>','<!-- shared:head -->'+shared_head+'<!-- /shared:head --></head>')
  s=re.sub(r'<script defer src="/assets/shared-components.js(?:\?[^\"]*)?"></script>','',s)
  s=s.replace('</body>','<script defer src="/assets/shared-components.js?v=20261104"></script></body>')
