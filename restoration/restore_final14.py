@@ -335,6 +335,18 @@ for i,im in enumerate(list(a.xpath('.//img'))):
     parent=im.getparent()
     if parent.tag=='a' and parent.get('href','').startswith('/upload/'):
         parent.set('href',im.get('src'));parent.attrib.pop('data-fslightbox',None);parent.set('target','_blank');parent.set('rel','noopener')
+# Only three distinct packing photos are available; do not clone the last one into missing slots.
+for gallery in a.xpath('.//div[@class="prep-article-gallery"]'):
+    seen=set()
+    for item in list(gallery):
+        photos=item.xpath('.//img')
+        if not photos:continue
+        src=photos[0].get('src')
+        if src in seen:
+            gallery.remove(item);continue
+        seen.add(src)
+        item.set('class','prep-article-gallery__item')
+        photos[0].attrib.pop('style',None)
 for e in list(a.xpath('.//form')):e.getparent().remove(e)
 for item in list(a.xpath('.//div[contains(concat(" ",@class," ")," prep-article-faq__item ")]')):
     question=item.xpath('./button')[0];answer=item.xpath('./div')[0]
