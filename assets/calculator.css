@@ -1,7 +1,7 @@
 #calc {
   background: #101010;
   color: white;
-  padding: clamp(44px, 6vw, 84px) 0 clamp(48px, 7vw, 100px);
+  padding: clamp(44px, 6vw, 84px) 0 clamp(24px, 3vw, 40px);
 }
 
 #calc .calculator-title {
