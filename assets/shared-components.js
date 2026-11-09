@@ -53,3 +53,20 @@
     if (map.getBoundingClientRect().top < window.innerHeight + 250) loadMap();
   });
 })();
+
+/* Contact form loader, shared by every restored page. */
+(function loadPrepCenterLeadForm(){
+  if(document.getElementById('prep-lead-form-script'))return;
+  const style=document.createElement('link');
+  style.rel='stylesheet';style.href='/assets/prep-lead-form.css?v=20261109';
+  document.head.appendChild(style);
+  const boot=function(){
+    if(document.getElementById('prep-lead-form-script'))return;
+    const script=document.createElement('script');
+    script.id='prep-lead-form-script';script.src='/assets/prep-lead-form.js?v=20261109';
+    script.async=false;document.body.appendChild(script);
+  };
+  const config=document.createElement('script');
+  config.src='/assets/prep-form-config.js?v=20261109';config.async=false;
+  config.onload=boot;config.onerror=boot;document.head.appendChild(config);
+})();
