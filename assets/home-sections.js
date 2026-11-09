@@ -16,7 +16,7 @@
 
   const track = document.getElementById('feature-track');
   const controls = track.nextElementSibling;
-  const cards = [...track.children];
+  const cards = [...track.querySelectorAll('.home-feature-content')];
   let pendingHeight = 0;
 
   function updateHeight() {
@@ -32,7 +32,9 @@
           : largest;
       }, 0);
       const size = `${Math.ceil(height)}px`;
-      if (height && track.style.height !== size) track.style.height = size;
+      if (height && track.style.getPropertyValue('--feature-row-height') !== size) {
+        track.style.setProperty('--feature-row-height', size);
+      }
       if (track.scrollTop) track.scrollTop = 0;
     });
   }

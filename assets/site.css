@@ -70,8 +70,18 @@
 }
 
 .delivery-market-logo {
-  display: block;
-  object-fit: contain;
+  display: grid;
+  place-items: center;
+  width: 94px;
+  height: 25px;
+  border-radius: 2px;
+  background: linear-gradient(105deg, #c506a5, #48106b);
+}
+
+.delivery-market-logo img {
+  width: 80px;
+  height: auto;
+  filter: brightness(0) invert(1);
 }
 
 .delivery-operations {
