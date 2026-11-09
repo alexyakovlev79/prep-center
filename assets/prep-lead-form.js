@@ -25,7 +25,8 @@ function maskInfo(c){
 function formatNational(v,c){
  const meta=maskInfo(c),max=meta.count||15,dd=String(c.dial).replace(/\D/g,'');
  let digits=String(v||'').replace(/\D/g,'');
- if(dd&&digits.startsWith(dd)&&digits.length>max)digits=digits.slice(dd.length);
+ if(c.iso2==='ru'&&digits.length===11&&(digits[0]==='8'||digits[0]==='7'))digits=digits.slice(1);
+ else if(dd&&digits.startsWith(dd)&&digits.length>max)digits=digits.slice(dd.length);
  digits=digits.slice(0,max);
  let out='',k=0;
  for(const ch of meta.pattern){
