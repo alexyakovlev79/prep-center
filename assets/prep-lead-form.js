@@ -206,7 +206,7 @@ function isLeadTrigger(anchor){
  if(!anchor||anchor.getAttribute('href')!=='https://t.me/prepmanager2')return false;
  const label=(anchor.textContent||'').trim().replace(/\s+/g,' ');
  if(/telegram|рассчитать стоимость|калькулятор|расчет стоимости/i.test(label))return false;
- return /^(Начать сотрудничество|Обсудить задачу|Оставить заявку|Записаться на экскурсию|Получить консультацию|Заказать консультацию|Связаться с нами)$/i.test(label);
+ return /^(Начать сотрудничество|Записаться на экскурсию|Оставить заявку)$/i.test(label);
 }
 document.addEventListener('click',function(e){
  const a=e.target.closest&&e.target.closest('a[href]');
