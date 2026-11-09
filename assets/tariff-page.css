@@ -1,0 +1,129 @@
+/* Palette from the archived FBO/FBS tariff tables and the original accordion. */
+article.tariff-page {
+  --tariff-blue: #075b8d;
+  --tariff-blue-dark: #06446a;
+  --tariff-blue-light: #f3f8fb;
+  --tariff-border: #c9dce7;
+  --tariff-orange: #ff9900;
+  --tariff-orange-ink: #a34d00;
+}
+
+article.tariff-page .tariff-intro {
+  margin: 0 0 24px;
+  padding: clamp(20px, 3vw, 42px);
+  border-inline-start: 5px solid var(--tariff-orange);
+  border-radius: 14px;
+  background: var(--tariff-blue-light);
+}
+
+article.tariff-page .tariff-intro h1 {
+  margin: 0;
+  color: var(--tariff-blue-dark);
+  font-size: clamp(36px, 4.8vw, 68px);
+  line-height: 1.1;
+}
+
+article.tariff-page .tariff-intro h1 span {
+  color: var(--tariff-orange-ink);
+}
+
+article.tariff-page .tariff-intro .restore-date {
+  color: var(--tariff-blue-dark);
+  margin: 12px 0 0 !important;
+}
+
+article.tariff-page label[for="tariff-search"] {
+  color: var(--tariff-blue-dark);
+}
+
+article.tariff-page input[type="search"] {
+  background: var(--tariff-blue-light);
+  border-color: var(--tariff-border);
+}
+
+article.tariff-page details.tariff-category {
+  border-color: var(--tariff-border);
+}
+
+article.tariff-page .tariff-category__label h2,
+article.tariff-page .tariff-category__count {
+  color: var(--tariff-blue-dark);
+}
+
+article.tariff-page details.tariff-category[open] > summary {
+  background: var(--tariff-orange);
+  border-color: var(--tariff-orange);
+}
+
+article.tariff-page details.tariff-category[open] > summary::after {
+  background-color: #fff;
+  color: var(--tariff-orange-ink);
+}
+
+article.tariff-page details.tariff-category > summary:focus-visible {
+  outline-color: var(--tariff-blue-dark);
+}
+
+article.tariff-page .tariff-table th {
+  background: var(--tariff-blue);
+  border-color: var(--tariff-blue-dark);
+  color: #fff;
+}
+
+article.tariff-page .tariff-table td {
+  border-color: var(--tariff-border);
+}
+
+article.tariff-page .tariff-table td:nth-child(2) {
+  color: var(--tariff-orange-ink);
+}
+
+article.tariff-page .tariff-cta {
+  background: linear-gradient(135deg, var(--tariff-blue-dark), var(--tariff-blue));
+}
+
+article.tariff-page .tariff-cta h2,
+article.tariff-page .tariff-cta p {
+  color: #fff;
+}
+
+article.tariff-page .tariff-cta .telegram-button {
+  border-color: var(--tariff-blue);
+  color: var(--tariff-blue-dark);
+}
+
+article.tariff-page .restore-related {
+  background: var(--tariff-blue-light);
+}
+
+article.tariff-page .restore-related h2,
+article.tariff-page .restore-related a {
+  color: var(--tariff-blue-dark);
+}
+
+@media (min-width: 701px) {
+  article.tariff-page .tariff-row:nth-child(even) {
+    background: var(--tariff-blue-light);
+  }
+}
+
+@media (max-width: 700px) {
+  article.tariff-page .tariff-intro h1 {
+    font-size: clamp(30px, 8.4vw, 40px);
+  }
+
+  article.tariff-page details.tariff-category[open] .restore-table-wrap {
+    background: var(--tariff-blue-light);
+    padding-top: 1px;
+  }
+
+  article.tariff-page .tariff-row {
+    border-color: var(--tariff-border);
+    border-inline-start: 4px solid var(--tariff-blue);
+  }
+
+  article.tariff-page .tariff-row td::before,
+  article.tariff-page .tariff-row td:first-child {
+    color: var(--tariff-blue-dark);
+  }
+}
