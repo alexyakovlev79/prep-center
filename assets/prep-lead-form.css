@@ -16,8 +16,8 @@
 .prep-lead-input:focus,.prep-lead-textarea:focus,.prep-lead-phone:focus-within{outline:0;border-color:#de8200;box-shadow:0 0 0 3px #ff990025}
 .prep-lead-input[aria-invalid="true"],.prep-lead-phone.is-invalid{border-color:#bb291a}
 .prep-lead-phone{height:54px;position:relative;display:flex;align-items:stretch}
-.prep-lead-phone input{min-width:0;flex:1 1 0;border:0;border-radius:0 11px 11px 0;box-shadow:none!important;padding-left:12px}
-.prep-lead-country-button{display:flex;flex:0 0 auto;align-items:center;gap:7px;border:0;border-radius:11px 0 0 11px;border-right:1px solid #d9dfe3;background:white;padding:0 10px;min-width:94px;cursor:pointer;color:#24282e;font-weight:600}
+.prep-lead-phone input{min-width:0;flex:1 1 0;height:auto;border:0;background:transparent;box-shadow:none;padding-left:12px}
+.prep-lead-country-button{display:flex;flex:0 0 auto;align-items:center;gap:7px;border:0;border-radius:10px 0 0 10px;border-right:1px solid #d9dfe3;background:transparent;padding:0 10px;min-width:94px;cursor:pointer;color:#24282e;font-weight:600}
 .prep-lead-country-button:hover{background:#fff7e9}
 .prep-lead-country-flag{display:inline-flex;align-items:center;justify-content:center;width:25px;height:18px;line-height:18px;font-size:23px;overflow:hidden;flex-shrink:0}
 .prep-lead-country-flag.is-ru{background:linear-gradient(to bottom,#fff 0 33.333%,#0039a6 33.333% 66.666%,#d52b1e 66.666%);border:1px solid #e6e6e6;box-shadow:0 0 0 1px #00000009}
