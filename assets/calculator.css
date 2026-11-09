@@ -1,0 +1,312 @@
+#calc {
+  background: #101010;
+  color: white;
+  padding: clamp(44px, 6vw, 84px) 0 clamp(48px, 7vw, 100px);
+}
+
+#calc .calculator-title {
+  margin-bottom: 32px;
+  max-width: 960px;
+  font-size: clamp(36px, 4.3vw, 60px);
+}
+
+.calculator-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(235px, 350px);
+  gap: 30px;
+}
+
+.calculator-step,
+.calculator-aside {
+  border-radius: 16px;
+}
+
+.calculator-step {
+  min-width: 0;
+  padding: clamp(22px, 3.5vw, 50px);
+  background: white;
+  color: #191919;
+}
+
+.calculator-progress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 30px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+  background: linear-gradient(to right, #ff9900 var(--progress), #f3f4f7 var(--progress));
+  font-size: 15px;
+}
+
+.calculator-question {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.calculator-question span {
+  flex: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background: #f5f5f7;
+  font-size: 15px;
+}
+
+.calculator-question h3 {
+  font-size: clamp(20px, 2vw, 24px);
+  line-height: 1.24;
+  font-weight: 500;
+}
+
+.calculator-cards {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  align-content: start;
+  gap: 22px clamp(10px, 2vw, 32px);
+  max-height: 385px;
+  overflow-y: auto;
+  scrollbar-color: #f90 #f3f4f7;
+  padding: 2px 8px 4px 2px;
+}
+
+.calculator-card {
+  min-width: 0;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.25;
+  cursor: pointer;
+}
+
+.calculator-card-media {
+  position: relative;
+  display: grid;
+  place-items: center;
+  height: clamp(92px, 12vw, 140px);
+  border-radius: 14px;
+  background: #eeeef0;
+  margin-bottom: 17px;
+}
+
+.calculator-card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
+
+.calculator-card-media svg {
+  width: min(56%, 60px);
+  height: auto;
+  color: #4e555a;
+}
+
+.calculator-card-media input {
+  appearance: none;
+  position: absolute;
+  bottom: -13px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background: #fde9dd;
+  color: #9e4e00;
+  cursor: pointer;
+}
+
+.calculator-card-media input::before {
+  content: "";
+  width: 9px;
+  height: 5px;
+  border: solid currentColor;
+  border-width: 0 0 2px 2px;
+  transform: translateY(-1px) rotate(-45deg);
+}
+
+.calculator-card-media input:checked {
+  background: #ff9900;
+  color: #191919;
+}
+
+.calculator-card:has(input:checked) .calculator-card-media {
+  outline: 2px solid #e27d00;
+  outline-offset: -2px;
+}
+
+#calc :focus-visible {
+  outline: 2px solid #8a4500;
+  outline-offset: 3px;
+}
+
+.calculator-field {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  padding: 16px 18px;
+  border: 1px solid transparent;
+  border-radius: 14px;
+  background: #f3f4f7;
+  color: #191919;
+  font: inherit;
+}
+
+.calculator-other {
+  margin-top: 18px;
+}
+
+.calculator-scroll-hint {
+  display: none;
+}
+
+.calculator-block + .calculator-block {
+  margin-top: 22px;
+}
+
+.calculator-block > label,
+.calculator-block legend {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.calculator-block:where(fieldset) {
+  min-inline-size: 0;
+  padding: 0;
+  border: 0;
+  margin-inline: 0;
+}
+
+.calculator-dimensions,
+.calculator-options {
+  display: grid;
+  gap: 10px;
+}
+
+.calculator-dimensions {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.calculator-options {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.calculator-options label {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  min-height: 40px;
+  cursor: pointer;
+}
+
+.calculator-options input {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  flex: none;
+  accent-color: #ec8300;
+}
+
+.calculator-actions {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+#calc .calculator-button {
+  min-height: 52px;
+  padding-inline: 28px;
+  border: 0;
+  border-radius: 16px;
+  color: #1a1a1a;
+  background: linear-gradient(105deg, #ff9900, #ffad32);
+}
+
+#calc .calculator-back {
+  background: #f3f4f7;
+  box-shadow: none;
+}
+
+.calculator-error {
+  color: #ab2825;
+  margin-top: 10px;
+}
+
+.calculator-result {
+  font-size: clamp(21px, 2.5vw, 30px);
+  line-height: 1.4;
+}
+
+.calculator-result strong {
+  white-space: nowrap;
+}
+
+.calculator-note {
+  margin-top: 14px;
+  color: #555c63;
+  line-height: 1.45;
+}
+
+.calculator-aside {
+  padding: 40px 34px clamp(290px, 34vw, 438px);
+  background: #ff9900 url("./calculator/aside.webp") center bottom / 100% auto no-repeat;
+  color: #201500;
+}
+
+.calculator-aside h3 {
+  margin-bottom: 23px;
+  text-align: center;
+  font: 700 29px/1.1 Bebas, sans-serif;
+}
+
+.calculator-aside ul {
+  display: grid;
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.calculator-aside li {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+  line-height: 1.25;
+}
+
+.calculator-aside li::before {
+  content: "✓";
+  flex: 0 0 23px;
+  border-radius: 50%;
+  background: white;
+  color: #864000;
+  text-align: center;
+  line-height: 23px;
+}
+
+@media (max-width: 1100px) {
+  .calculator-cards { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (max-width: 800px) {
+  .calculator-layout { grid-template-columns: minmax(0, 1fr); }
+  .calculator-aside { display: none; }
+}
+
+@media (max-width: 540px) {
+  .calculator-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); max-height: 292px; }
+  .calculator-scroll-hint { display: block; margin-top: 8px; color: #555c63; font-size: 14px; }
+  .calculator-question { gap: 10px; margin-bottom: 20px; }
+  .calculator-question span { padding: 6px 8px; font-size: 13px; }
+  .calculator-dimensions .calculator-field { padding-inline: 10px; }
+  .calculator-options { grid-template-columns: minmax(0, 1fr); }
+  .calculator-actions { justify-content: stretch; }
+  #calc .calculator-button { flex: 1; padding-inline: 12px; }
+}
