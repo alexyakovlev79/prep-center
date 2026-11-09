@@ -29,7 +29,7 @@ for route in routes:
  s=re.sub(r'<header\b.*?</header>\s*',lambda m:header,s,count=1,flags=re.S)
  s=re.sub(r'<section class="contact section-dark(?: shared-contact)?" id="contact">.*?</section>\s*',lambda m:footer,s,count=1,flags=re.S)
  s=re.sub(r'<link rel="stylesheet" href="/assets/shared-components.css(?:\?[^\"]*)?">','',s)
- s=s.replace('</head>','<link rel="stylesheet" href="/assets/shared-components.css?v=20261109-footer"></head>')
+ s=s.replace('</head>','<link rel="stylesheet" href="/assets/shared-components.css?v=20261110-map-links"></head>')
  s=re.sub(r'<!-- shared:head -->.*?<!-- /shared:head -->','',s,flags=re.S)
  shared_head=(ROOT/'components/head.html').read_text().strip()
  if 'responsive-table' in s:shared_head+='\n<link rel="stylesheet" href="/assets/responsive-tables.css?v=20261105">'
