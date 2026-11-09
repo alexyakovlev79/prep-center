@@ -92,15 +92,6 @@ article.tariff-page .tariff-cta .telegram-button {
   color: var(--tariff-blue-dark);
 }
 
-article.tariff-page .restore-related {
-  background: var(--tariff-blue-light);
-}
-
-article.tariff-page .restore-related h2,
-article.tariff-page .restore-related a {
-  color: var(--tariff-blue-dark);
-}
-
 @media (min-width: 701px) {
   article.tariff-page .tariff-row:nth-child(even) {
     background: var(--tariff-blue-light);

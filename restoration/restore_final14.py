@@ -301,7 +301,6 @@ for c in cats:
         it=o['itemOffered'];p=o.get('priceSpecification',{});price=p.get('price',p.get('minPrice'));value=('от ' if 'minPrice' in p else '')+f'{price:,.0f}'.replace(',',' ')+' ₽' if price is not None else 'По договоренности'
         tr=etree.SubElement(tbody,'tr',{'class':'tariff-row'});tr.set('data-search',(it['name']+' '+it['description']).lower())
         for t in [it['name'],value,p.get('unitText','по согласованию'),it['description']]:etree.SubElement(tr,'td').text=t
-related(a,['/fulfillment-fbo/','/fulfillment-fbs/','/fby-yandex-market/','/fbl-letual/','/agregatsiya-kiz-naborov/','/contacts/'])
 doc=shell(route,a,'Тарифы на фулфилмент для маркетплейсов | Преп-Центр','134 тарифа: приемка, сортировка, маркировка, упаковка, хранение и доставка. Цены с изменениями 20 октября 2026.',kind='CollectionPage',published='2026-08-27',modified='2026-10-20',source='Полная схема каталога 129 услуг; архив прайсов 20.10.2026; 4 осенних FBY-тарифа из позднего индекса')
 catalog={'@context':'https://schema.org','@type':'OfferCatalog','@id':'https://prep-center.ru/tarify/#catalog','name':'Тарифы Преп-Центра','numberOfItems':134,'itemListElement':cats}
 etree.SubElement(doc.xpath('//body')[0],'script',type='application/ld+json').text=json.dumps(catalog,ensure_ascii=False)
