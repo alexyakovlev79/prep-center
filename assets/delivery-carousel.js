@@ -4,20 +4,31 @@
   const previous = controls.querySelector('.delivery-prev');
   const next = controls.querySelector('.delivery-next');
   const counter = controls.querySelector('.delivery-count');
-  const last = track.children.length - 1;
-  const current = () => Math.max(0, Math.min(last, Math.round(track.scrollLeft / track.clientWidth)));
+  const count = track.children.length;
+  const [firstCard, secondCard] = track.children;
+
+  function position() {
+    const step = secondCard.getBoundingClientRect().left - firstCard.getBoundingClientRect().left;
+    const maxScroll = track.scrollWidth - track.clientWidth;
+    const lastStart = Math.round(maxScroll / step);
+    const index = Math.max(0, Math.min(lastStart, Math.round(track.scrollLeft / step)));
+    return { step, maxScroll, lastStart, index };
+  }
 
   function updateControls() {
-    const index = current();
+    const { index, lastStart } = position();
     previous.disabled = index === 0;
-    next.disabled = index === last;
-    const status = `${index + 1} из ${last + 1}`;
+    next.disabled = index === lastStart;
+    const first = index + 1;
+    const end = index + count - lastStart;
+    const status = (first === end ? first : `${first}–${end}`) + ` из ${count}`;
     if (counter.textContent !== status) counter.textContent = status;
   }
 
   function moveBy(direction) {
-    const index = Math.max(0, Math.min(last, current() + direction));
-    track.scrollTo({ left: index * track.clientWidth });
+    const { step, maxScroll, lastStart, index } = position();
+    const target = Math.max(0, Math.min(lastStart, index + direction));
+    track.scrollTo({ left: Math.min(maxScroll, target * step) });
   }
 
   previous.addEventListener('click', () => moveBy(-1));
