@@ -22,33 +22,47 @@
 .home-reviews #more-reviews:not([hidden]){margin-top:22px}
 .home-reviews [hidden]{display:none}
 .home-reviews button.button{border:0;cursor:pointer}
-.home-features{position:relative;padding-bottom:88px}
+.home-features{position:relative;padding-block:54px 32px}
+.home-features .section-heading{margin-bottom:24px}
 .home-features::before{content:"";position:absolute;inset:-32px 0 auto;height:33px;background:var(--dark);mask:url('/assets/section-wave.svg') center/100% 100% no-repeat;pointer-events:none}
-.home-feature-track{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 24px)/3);gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:thin;scrollbar-color:#ad6800 var(--dark);padding-bottom:10px}
-.home-feature-card{min-width:0;scroll-snap-align:start;border-radius:32px;background:#fff;color:var(--ink);text-align:center;padding:30px 32px 42px}
-.home-feature-icon{display:block;width:144px;height:144px;padding:28px;margin:0 auto 24px;border-radius:50%;background:#fff1de;color:#985300}
+.home-feature-carousel{position:relative;overflow-anchor:none}
+.home-feature-carousel[data-ready]{padding-inline:52px}
+.home-feature-track{display:grid;grid-auto-flow:column;grid-auto-columns:100%;align-items:start;gap:12px;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory}
+.home-feature-carousel[data-ready] .home-feature-track{scrollbar-width:none}
+.home-feature-carousel[data-ready] .home-feature-track::-webkit-scrollbar{display:none}
+.home-feature-card{min-width:0;scroll-snap-align:start;border-radius:18px;background:#fff;color:var(--ink);padding:18px 18px 20px}
+.home-feature-icon{display:block;width:48px;height:48px;padding:7px;margin-bottom:10px;border-radius:50%;background:#fff1de;color:#985300}
 .home-feature-icon path,.home-feature-controls path{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-.home-feature-card h3{font-size:clamp(22px,2.25vw,32px);margin-bottom:16px}
-.home-feature-card p{font-size:18px;line-height:1.5;color:#616673}
+.home-feature-card h3{font-size:20px;margin-bottom:8px}
+.home-feature-card p{font-size:15px;line-height:1.45;color:#616673}
+.home-feature-card p+p{margin-top:8px}
 .home-feature-card a{color:#985300;text-decoration:underline;text-underline-offset:3px}
-.home-feature-controls:not([hidden]){display:flex;justify-content:center;gap:12px;margin-top:20px}
-.home-feature-controls button{display:grid;place-items:center;min-width:58px;min-height:48px;padding:0;border:1px solid var(--orange);border-radius:28px;color:var(--orange);background:transparent;cursor:pointer}
+.home-feature-controls button{position:absolute;top:clamp(24px,12vw,100px);display:grid;place-items:center;width:42px;height:42px;padding:0;border:1px solid var(--orange);border-radius:50%;color:var(--orange);background:var(--dark);cursor:pointer}
+.home-feature-controls button:first-child{inset-inline-start:0}
+.home-feature-controls button:last-child{inset-inline-end:0}
 .home-feature-controls button:hover{background:var(--orange);color:var(--ink)}
 .home-feature-controls svg{width:22px;height:22px}
-.home-feature-track:focus-visible,.home-feature-controls button:focus-visible,.home-reviews button:focus-visible{outline:2px solid var(--orange);outline-offset:4px}
+.home-feature-track:focus-visible,.home-feature-controls button:focus-visible,.home-reviews button:focus-visible{outline:2px solid var(--orange);outline-offset:3px}
 
+@media(min-width:620px){
+  .home-feature-track{grid-auto-columns:calc((100% - 12px)/2)}
+}
+@media(min-width:860px){
+  .home-feature-track{grid-auto-columns:calc((100% - 24px)/3)}
+}
+@media(min-width:1200px){
+  .home-feature-track{grid-auto-columns:calc((100% - 36px)/4)}
+}
 @media(max-width:1000px){
   .home-case-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
-  .home-feature-track{grid-auto-columns:calc((100% - 12px)/2)}
 }
 @media(max-width:640px){
   .home-case-grid{grid-template-columns:1fr}
   .home-case-media{height:200px}
-  .home-features{padding-bottom:54px}
+  .home-features{padding-block:40px 24px}
   .home-features::before{top:-16px;height:17px}
-  .home-feature-track{grid-auto-columns:100%}
-  .home-feature-card{border-radius:20px;padding:24px}
-  .home-feature-icon{width:108px;height:108px;padding:20px;margin-bottom:16px}
-  .home-feature-card h3{font-size:21px;margin-bottom:12px}
-  .home-feature-card p{font-size:14px}
+  .home-feature-carousel[data-ready]{padding-inline:43px;margin-inline:-7px}
+  .home-feature-controls button{top:70px;width:37px;height:40px}
+  .home-feature-card{padding:15px}
+  .home-feature-card h3{font-size:18px}
 }
