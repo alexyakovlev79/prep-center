@@ -7,6 +7,21 @@
   const count = track.children.length;
   const [firstCard, secondCard] = track.children;
 
+  const mobileLayout = window.matchMedia('(max-width: 700px)');
+
+  function syncMobileHeight(index) {
+    if (!mobileLayout.matches) {
+      track.style.removeProperty('height');
+      return;
+    }
+    const activeCard = track.children[index];
+    if (!activeCard) return;
+    const height = Math.ceil(activeCard.getBoundingClientRect().height);
+    if (height > 0 && track.style.height !== `${height}px`) {
+      track.style.height = `${height}px`;
+    }
+  }
+
   function position() {
     const step = secondCard.getBoundingClientRect().left - firstCard.getBoundingClientRect().left;
     const maxScroll = track.scrollWidth - track.clientWidth;
@@ -23,6 +38,7 @@
     const end = index + count - lastStart;
     const status = (first === end ? first : `${first}–${end}`) + ` из ${count}`;
     if (counter.textContent !== status) counter.textContent = status;
+    syncMobileHeight(index);
   }
 
   function moveBy(direction) {
@@ -40,6 +56,14 @@
     moveBy(event.key === 'ArrowLeft' ? -1 : 1);
   });
   window.addEventListener('resize', updateControls);
+  window.addEventListener('load', updateControls, { once: true });
+  if (document.fonts) document.fonts.ready.then(updateControls);
+  if ('ResizeObserver' in window) {
+    const observer = new ResizeObserver(() => {
+      if (mobileLayout.matches) syncMobileHeight(position().index);
+    });
+    for (const card of track.children) observer.observe(card);
+  }
   updateControls();
   controls.hidden = false;
 })();
