@@ -8,6 +8,7 @@
     .map((input) => input.value);
   const format = new Intl.NumberFormat('ru-RU');
   let currentStep = 0;
+  let currentMessage = "";
 
   const rates = {
     defect: 5,
@@ -89,8 +90,9 @@
       manual ? 'Нужен индивидуальный расчёт.' :
         `Предварительный расчёт: ${field('calc-total').textContent} ₽ за партию, ${field('calc-unit').textContent} ₽ за единицу.`,
     ];
+    currentMessage = lines.filter(Boolean).join('\n');
     const chat = new URL('https://t.me/prepmanager2');
-    chat.searchParams.set('text', lines.filter(Boolean).join('\n'));
+    chat.searchParams.set('text', currentMessage);
     field('calc-telegram').href = chat.href;
   }
 
@@ -99,6 +101,19 @@
     if (currentStep >= steps.length - 1 || !validateStep()) return;
     if (currentStep === steps.length - 2) showResult();
     showStep(currentStep + 1);
+  });
+
+  // The form receives exactly the same breakdown as the Telegram message.
+  const sendFormButton = field('calc-send-form');
+  sendFormButton.addEventListener('click', () => {
+    const leadForm = window.PrepCenterLeadForm;
+    const error = field('calc-form-error');
+    if (!currentMessage || !leadForm || typeof leadForm.open !== 'function') {
+      error.hidden = false;
+      return;
+    }
+    error.hidden = true;
+    leadForm.open(sendFormButton, currentMessage);
   });
 
   for (const back of form.querySelectorAll('[data-back]')) {

@@ -3,7 +3,7 @@
 <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
 <link rel="shortcut icon" href="/favicon.ico">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="stylesheet" href="/assets/archive-refinements.css?v=20261105-icons-2"><!-- /shared:head --><link rel="stylesheet" href="/assets/calculator.css?v=20261110-home-sections"><script defer src="/assets/calculator.js"></script><script defer src="/assets/delivery-carousel.js?v=20261110-mobile-delivery-height"></script><link rel="stylesheet" href="/assets/home-sections.css?v=20261110-case-carousel"><script defer src="/assets/home-sections.js?v=20261110-case-carousel"></script></head><body><header class="header shared-header"><div class="container"><div class="header-main">
+<link rel="stylesheet" href="/assets/archive-refinements.css?v=20261105-icons-2"><!-- /shared:head --><link rel="stylesheet" href="/assets/calculator.css?v=20261110-calculator-contact"><script defer src="/assets/calculator.js?v=20261110-calculator-contact"></script><script defer src="/assets/delivery-carousel.js?v=20261110-mobile-delivery-height"></script><link rel="stylesheet" href="/assets/home-sections.css?v=20261110-case-carousel"><script defer src="/assets/home-sections.js?v=20261110-case-carousel"></script></head><body><header class="header shared-header"><div class="container"><div class="header-main">
 <a href="/" class="brand"><img src="/assets/prep-center-logo.svg" alt="Преп-Центр" width="484" height="100"></a>
 <a class="header-address" href="https://yandex.ru/maps/org/prep_tsentr/113144699853/" target="_blank" rel="noopener"><svg width="24" height="28" viewBox="0 0 24 28" aria-hidden="true"><path d="M12 26S2 16 2 11a10 10 0 0 1 20 0c0 5-10 15-10 15Z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="11" r="3" fill="currentColor"/></svg><span>Московская область, г. Пушкино,<br>ул. Новая, д.&nbsp;10</span></a>
 <div class="header-contact"><a href="tel:+79306007520" class="header-phone">+7 (930) 600 75 20</a><a href="mailto:info@prep-center.ru" class="header-email">info@prep-center.ru</a><span>Ежедневно с 08:00 до 20:00</span></div>
@@ -198,11 +198,13 @@
           <p class="calculator-note">Предварительный расчёт без НДС. Доставку менеджер рассчитает отдельно. Расчёт не является публичной офертой.</p>
         </div>
         <p class="calculator-result" id="calc-manual" hidden>Для выбранных услуг нужен индивидуальный расчёт.</p>
-        <p class="calculator-note">В Telegram откроется черновик с параметрами партии. Проверьте его и отправьте менеджеру.</p>
-        <div class="calculator-actions">
+        <p class="calculator-note">Вы можете отправить расчет вместе с заявкой через форму на сайте или передать его менеджеру в Telegram.</p>
+        <div class="calculator-actions calculator-actions--result">
           <button class="button calculator-button calculator-back" type="button" data-back>Назад</button>
-          <a class="button calculator-button" id="calc-telegram" href="https://t.me/prepmanager2" target="_blank" rel="noopener">Передать в Telegram</a>
+          <button class="button calculator-button calculator-send-form" type="button" id="calc-send-form">Отправить</button>
+          <a class="button calculator-button calculator-telegram" id="calc-telegram" href="https://t.me/prepmanager2" target="_blank" rel="noopener">Передать в Telegram</a>
         </div>
+        <p class="calculator-error" id="calc-form-error" role="status" hidden>Не удалось открыть форму. Попробуйте обновить страницу или передайте расчет в Telegram.</p>
       </div>
       </form>
       <aside class="calculator-aside">
@@ -606,4 +608,4 @@
 <li><a href="/contacts/">Контакты</a></li>
 </ul></nav>
 <div class="footer-legal"><p>© Преп-Центр, все права защищены</p><a href="/privacy-policy/">Политика конфиденциальности</a></div>
-</footer></div></section></main><script defer src="/assets/shared-components.js?v=20261110-phone-border"></script></body></html>
+</footer></div></section></main><script defer src="/assets/shared-components.js?v=20261110-calculator-contact"></script></body></html>

@@ -236,6 +236,31 @@
   box-shadow: none;
 }
 
+/* Telegram's official blue distinguishes messenger delivery from the lead form. */
+#calc .calculator-telegram {
+  background: #229ed9;
+  color: #fff;
+  box-shadow: none;
+}
+#calc .calculator-telegram:hover,
+#calc .calculator-telegram:focus-visible {
+  background: #1889c1;
+  color: #fff;
+}
+@media (max-width: 600px) {
+  #calc .calculator-actions--result {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+  #calc .calculator-actions--result .calculator-telegram {
+    grid-column: 1 / -1;
+  }
+  #calc .calculator-actions--result .calculator-button {
+    min-width: 0;
+  }
+}
+
 .calculator-error {
   color: #ab2825;
   margin-top: 10px;

@@ -197,18 +197,19 @@ function modalKeydown(e){
  if(e.shiftKey&&document.activeElement===controls[0]){e.preventDefault();controls[controls.length-1].focus();}
  else if(!e.shiftKey&&document.activeElement===controls[controls.length-1]){e.preventDefault();controls[0].focus();}
 }
-function openModal(opener){
+function openModal(opener,prefill){
  if(overlay)return;
  lastOpener=opener||document.activeElement;
  const excursion=/экскурси/i.test((opener&&opener.textContent)||'');
+ const calculatorRequest=typeof prefill==='string' && prefill.length>0;
  overlay=document.createElement('div');overlay.className='prep-lead-overlay';
  const dialog=document.createElement('div');dialog.className='prep-lead-dialog';
  dialog.setAttribute('role','dialog');dialog.setAttribute('aria-modal','true');dialog.setAttribute('aria-labelledby','prep-lead-dialog-title');
  const close=document.createElement('button');close.type='button';close.className='prep-lead-close';close.setAttribute('aria-label','Закрыть форму');close.textContent='×';
- const title=document.createElement('h2');title.id='prep-lead-dialog-title';title.textContent=excursion?'Записаться на экскурсию':'Оставить заявку';
+ const title=document.createElement('h2');title.id='prep-lead-dialog-title';title.textContent=calculatorRequest?'Отправить расчет':excursion?'Записаться на экскурсию':'Оставить заявку';
  const lead=document.createElement('p');lead.className='prep-lead-modal-intro';
- lead.textContent=excursion?'Оставьте контакты, чтобы согласовать удобное время посещения склада.':'Оставьте контакты и коротко расскажите, какой товар нужно подготовить к маркетплейсам.';
- const form=createForm('modal',excursion?'Хочу записаться на экскурсию на склад.':'');
+ lead.textContent=calculatorRequest?'Укажите, как с вами связаться. Расчет партии уже добавлен в комментарий.':excursion?'Оставьте контакты, чтобы согласовать удобное время посещения склада.':'Оставьте контакты и коротко расскажите, какой товар нужно подготовить к маркетплейсам.';
+ const form=createForm('modal',calculatorRequest?prefill:excursion?'Хочу записаться на экскурсию на склад.':'');
  dialog.append(close,title,lead,form);overlay.appendChild(dialog);document.body.appendChild(overlay);
  document.body.classList.add('prep-lead-modal-open');
  close.addEventListener('click',closeModal);
