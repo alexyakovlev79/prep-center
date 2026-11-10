@@ -3,7 +3,7 @@
 <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
 <link rel="shortcut icon" href="/favicon.ico">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="stylesheet" href="/assets/archive-refinements.css?v=20261105-icons-2"><!-- /shared:head --><link rel="stylesheet" href="/assets/calculator.css?v=20261110-home-sections"><script defer src="/assets/calculator.js"></script><script defer src="/assets/delivery-carousel.js?v=20261110-mobile-delivery-height"></script><link rel="stylesheet" href="/assets/home-sections.css?v=20261110-equal-cards"><script defer src="/assets/home-sections.js?v=20261110-equal-cards"></script></head><body><header class="header shared-header"><div class="container"><div class="header-main">
+<link rel="stylesheet" href="/assets/archive-refinements.css?v=20261105-icons-2"><!-- /shared:head --><link rel="stylesheet" href="/assets/calculator.css?v=20261110-home-sections"><script defer src="/assets/calculator.js"></script><script defer src="/assets/delivery-carousel.js?v=20261110-mobile-delivery-height"></script><link rel="stylesheet" href="/assets/home-sections.css?v=20261110-case-carousel"><script defer src="/assets/home-sections.js?v=20261110-case-carousel"></script></head><body><header class="header shared-header"><div class="container"><div class="header-main">
 <a href="/" class="brand"><img src="/assets/prep-center-logo.svg" alt="Преп-Центр" width="484" height="100"></a>
 <a class="header-address" href="https://yandex.ru/maps/org/prep_tsentr/113144699853/" target="_blank" rel="noopener"><svg width="24" height="28" viewBox="0 0 24 28" aria-hidden="true"><path d="M12 26S2 16 2 11a10 10 0 0 1 20 0c0 5-10 15-10 15Z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="11" r="3" fill="currentColor"/></svg><span>Московская область, г. Пушкино,<br>ул. Новая, д.&nbsp;10</span></a>
 <div class="header-contact"><a href="tel:+79306007520" class="header-phone">+7 (930) 600 75 20</a><a href="mailto:info@prep-center.ru" class="header-email">info@prep-center.ru</a><span>Ежедневно с 08:00 до 20:00</span></div>
@@ -343,10 +343,11 @@
 </section><section class="section home-cases" id="cases">
   <div class="container">
     <div class="section-heading"><h2><em>Кейсы</em> наших клиентов</h2></div>
-    <div class="home-case-grid">
+    <div class="home-case-carousel">
+      <div class="home-case-grid" id="home-case-track" tabindex="0" aria-label="Шесть кейсов клиентов Преп-Центра">
       <article class="home-case-card">
         <a href="/cases/avtomatizirovannaya-upakovka-kosmetiki/">
-          <div class="home-case-media home-case-media--logo"><img src="/assets/prep-center-logo.svg" alt="" width="484" height="100" loading="lazy" decoding="async"></div>
+          <div class="home-case-media"><img src="/assets/autoline-01.webp" alt="Линия автоматизированной упаковки косметики в Преп-Центре" width="1448" height="1086" loading="lazy" decoding="async"></div>
           <div class="home-case-body">
             <span class="eyebrow">Кейс Преп-Центра</span>
             <h3>Автоматизированная упаковка косметики</h3>
@@ -392,7 +393,7 @@
       </article>
       <article class="home-case-card">
         <a href="/cases/avtohimiya-2393-nabora-za-2-dnya/">
-          <div class="home-case-media home-case-media--logo"><img src="/assets/prep-center-logo.svg" alt="" width="484" height="100" loading="lazy" decoding="async"></div>
+          <div class="home-case-media"><img src="/assets/bubble-packed-set.webp" alt="Пример защитной упаковки товара на складе Преп-Центра" width="1050" height="1400" loading="lazy" decoding="async"></div>
           <div class="home-case-body">
             <span class="eyebrow">Кейс Преп-Центра</span>
             <h3>2 393 подарочных набора автохимии</h3>
@@ -404,7 +405,7 @@
       </article>
       <article class="home-case-card">
         <a href="/cases/stroitelnaya-himiya-5180-za-3-dnya/">
-          <div class="home-case-media home-case-media--logo"><img src="/assets/prep-center-logo.svg" alt="" width="484" height="100" loading="lazy" decoding="async"></div>
+          <div class="home-case-media"><img src="/assets/about-04-liniya-termousadki.webp" alt="Термоусадочная линия Преп-Центра, иллюстрация процесса упаковки" width="1050" height="1280" loading="lazy" decoding="async"></div>
           <div class="home-case-body">
             <span class="eyebrow">Кейс Преп-Центра</span>
             <h3>5 180 единиц строительной химии</h3>
@@ -414,6 +415,12 @@
           </div>
         </a>
       </article>
+      </div>
+      <div class="home-case-controls" hidden aria-label="Переключение кейсов">
+        <button type="button" class="home-case-arrow home-case-prev" aria-label="Предыдущий кейс" aria-controls="home-case-track">‹</button>
+        <span class="home-case-count" aria-live="polite"></span>
+        <button type="button" class="home-case-arrow home-case-next" aria-label="Следующий кейс" aria-controls="home-case-track">›</button>
+      </div>
     </div>
     <a href="/cases/" class="button button-center">Все кейсы</a>
   </div>
