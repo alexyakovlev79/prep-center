@@ -15,7 +15,7 @@ from urllib.parse import urlparse
 
 POSTBOX_URL = "https://postbox.cloud.yandex.net/v2/email/outbound-emails"
 POSTBOX_FROM = os.getenv("POSTBOX_FROM", "form@prep-center.ru")
-POSTBOX_TO = os.getenv("POSTBOX_TO", "info@prep-center.ru")
+POSTBOX_TO = os.getenv("POSTBOX_TO", "info@prep-center.ru,ya@gaeo.ru")
 ALLOWED_ORIGINS = {
     item.strip()
     for item in os.getenv(
@@ -172,9 +172,18 @@ def _send_postbox(payload: dict[str, Any], context: Any) -> str:
     if not token:
         raise RuntimeError("missing_service_account_token")
 
+    recipients = list(dict.fromkeys(
+        item.strip() for item in POSTBOX_TO.split(",") if item.strip()
+    ))
+    # Validate recipients before building either the MIME or Postbox destination.
+    if not 1 <= len(recipients) <= 10 or any(
+        not EMAIL_RE.fullmatch(address) for address in recipients
+    ):
+        raise ValueError("invalid_postbox_recipients")
+
     message = EmailMessage()
     message["From"] = POSTBOX_FROM
-    message["To"] = POSTBOX_TO
+    message["To"] = ", ".join(recipients)
     message["Subject"] = "Новая заявка с Преп-Центра"
     message["Date"] = format_datetime(datetime.now(timezone.utc))
     message["Message-ID"] = make_msgid(domain="prep-center.ru")
@@ -185,7 +194,7 @@ def _send_postbox(payload: dict[str, Any], context: Any) -> str:
     raw_message = base64.b64encode(message.as_bytes(policy=SMTP)).decode("ascii")
     postbox_payload = {
         "FromEmailAddress": POSTBOX_FROM,
-        "Destination": {"ToAddresses": [POSTBOX_TO]},
+        "Destination": {"ToAddresses": recipients},
         "Content": {"Raw": {"Data": raw_message}},
     }
     body = json.dumps(postbox_payload, ensure_ascii=False).encode("utf-8")
