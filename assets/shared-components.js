@@ -58,12 +58,12 @@
 (function loadPrepCenterLeadForm(){
   if(document.getElementById('prep-lead-form-script'))return;
   const style=document.createElement('link');
-  style.rel='stylesheet';style.href='/assets/prep-lead-form.css?v=20261110-modal-field-alignment';
+  style.rel='stylesheet';style.href='/assets/prep-lead-form.css?v=20261110-modal-fields-synced';
   document.head.appendChild(style);
   const boot=function(){
     if(document.getElementById('prep-lead-form-script'))return;
     const script=document.createElement('script');
-    script.id='prep-lead-form-script';script.src='/assets/prep-lead-form.js?v=20261110-calculator-prefill';
+    script.id='prep-lead-form-script';script.src='/assets/prep-lead-form.js?v=20261110-calc-reset-header';
     script.async=false;document.body.appendChild(script);
   };
   const config=document.createElement('script');

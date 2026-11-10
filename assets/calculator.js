@@ -20,11 +20,11 @@
     shrink: 5,
   };
 
-  function showStep(index) {
+  function showStep(index, focus = true) {
     steps[currentStep].hidden = true;
     currentStep = index;
     steps[currentStep].hidden = false;
-    steps[currentStep].querySelector('[data-step-title]').focus();
+    if (focus) steps[currentStep].querySelector('[data-step-title]').focus();
   }
 
   function showError(id, invalid) {
@@ -101,6 +101,21 @@
     if (currentStep >= steps.length - 1 || !validateStep()) return;
     if (currentStep === steps.length - 2) showResult();
     showStep(currentStep + 1);
+  });
+
+  // Reset only after our calculator-specific lead was accepted by Cloud Functions.
+  // Closing the popup or an unsuccessful submission must preserve all selections.
+  document.addEventListener('prep:lead-success', (event) => {
+    if (event.detail?.source !== 'calculator') return;
+    form.reset();
+    form.querySelectorAll('.calculator-error').forEach(error => { error.hidden = true; });
+    field('calc-prices').hidden = false;
+    field('calc-manual').hidden = true;
+    field('calc-total').textContent = '';
+    field('calc-unit').textContent = '';
+    field('calc-telegram').href = 'https://t.me/prepmanager2';
+    currentMessage = '';
+    showStep(0, false);
   });
 
   // The form receives exactly the same breakdown as the Telegram message.

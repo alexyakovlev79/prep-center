@@ -81,7 +81,7 @@ function readTracking(){
  UTM_KEYS.forEach(function(k){const v=p.get(k);if(v)out[k]=v.slice(0,500);});
  return out;
 }
-function createForm(mode,prefill){
+function createForm(mode,prefill,source){
  const shell=document.createElement('div');shell.className='prep-lead-shell';
  const form=document.createElement('form');form.className='prep-lead-form';form.noValidate=true;
  form.innerHTML="\n<div class=\"prep-lead-field\"><label class=\"prep-label\">Ваше имя<input class=\"prep-lead-input\" name=\"full_name\" type=\"text\" maxlength=\"180\" autocomplete=\"name\" placeholder=\"Как к вам обращаться\" required></label></div>\n<div class=\"prep-lead-field\"><label class=\"prep-label\">Телефон</label><div class=\"prep-lead-phone\">\n<button type=\"button\" class=\"prep-lead-country-button\" aria-label=\"Выбрать страну\" aria-haspopup=\"listbox\" aria-expanded=\"false\"><span class=\"prep-lead-flag-holder\"></span><span class=\"prep-lead-country-code\">+7</span><span class=\"prep-lead-country-chevron\" aria-hidden=\"true\">▾</span></button>\n<input class=\"prep-lead-input prep-lead-phone-input\" type=\"tel\" name=\"phone_national\" inputmode=\"tel\" autocomplete=\"tel-national\" placeholder=\"(000) 000-00-00\">\n<div class=\"prep-lead-country-menu\" role=\"listbox\" aria-label=\"Коды стран\"></div></div></div>\n<div class=\"prep-lead-field prep-lead-wide\"><label class=\"prep-label\">Email (необязательно, если указан телефон)<input class=\"prep-lead-input\" name=\"email\" type=\"email\" autocomplete=\"email\" maxlength=\"254\" placeholder=\"name@example.ru\"></label></div>\n<fieldset class=\"prep-lead-method\"><legend>Как с вами удобнее связаться?</legend><div class=\"prep-lead-method-options\">\n<label class=\"prep-lead-method-option\"><input type=\"radio\" name=\"preferred_contact\" value=\"phone\"><span>Звонок</span></label>\n<label class=\"prep-lead-method-option\"><input type=\"radio\" name=\"preferred_contact\" value=\"telegram\"><span>Telegram</span></label>\n<label class=\"prep-lead-method-option\"><input type=\"radio\" name=\"preferred_contact\" value=\"whatsapp\"><span>WhatsApp</span></label>\n<label class=\"prep-lead-method-option\"><input type=\"radio\" name=\"preferred_contact\" value=\"email\"><span>Email</span></label>\n</div></fieldset>\n<div class=\"prep-lead-field prep-lead-wide\"><label class=\"prep-label\">Комментарий (необязательно)<textarea class=\"prep-lead-textarea\" name=\"comment\" maxlength=\"3000\" placeholder=\"Какие товары и объем партии? Для какого маркетплейса нужна подготовка?\"></textarea></label></div>\n<div class=\"prep-lead-honeypot\" aria-hidden=\"true\"><label>Веб-сайт<input name=\"company_website\" type=\"text\" tabindex=\"-1\" autocomplete=\"off\"></label></div>\n<div class=\"prep-lead-action\"><button class=\"prep-lead-submit\" type=\"submit\">Отправить заявку</button></div>\n<p class=\"prep-lead-status\" role=\"status\" aria-live=\"polite\"></p>\n<p class=\"prep-lead-consent\">Нажимая «Отправить заявку», вы соглашаетесь с <a href=\"/privacy-policy/\">политикой обработки персональных данных</a>.</p>";
@@ -145,7 +145,7 @@ function createForm(mode,prefill){
    startTime=Date.now();
    submit.disabled=false;
    show('Заявка отправлена. Менеджер свяжется с вами.','success');
-   document.dispatchEvent(new CustomEvent('prep:lead-success',{detail:{mode:mode}}));
+   document.dispatchEvent(new CustomEvent('prep:lead-success',{detail:{mode:mode,source:source||'general'}}));
    if(mode==='modal')setTimeout(closeModal,1250);
   }catch(err){submit.disabled=false;show('Не удалось отправить. Попробуйте еще раз или обратитесь к менеджеру.','error');}
   finally{clearTimeout(timer);}
@@ -186,7 +186,12 @@ function mountInline(){
 function closeModal(){
  if(!overlay)return;overlay.remove();overlay=null;
  document.body.classList.remove('prep-lead-modal-open');document.removeEventListener('keydown',modalKeydown);
- if(lastOpener&&typeof lastOpener.focus==='function')lastOpener.focus({preventScroll:true});lastOpener=null;
+ if(lastOpener){
+  const fallback=document.querySelector('#calc .calculator-step:not([hidden]) [data-step-title]');
+  const target=lastOpener.getClientRects().length?lastOpener:fallback;
+  if(target&&typeof target.focus==='function')target.focus({preventScroll:true});
+ }
+ lastOpener=null;
 }
 function modalKeydown(e){
  if(!overlay)return;
@@ -209,7 +214,7 @@ function openModal(opener,prefill){
  const title=document.createElement('h2');title.id='prep-lead-dialog-title';title.textContent=calculatorRequest?'Отправить расчет':excursion?'Записаться на экскурсию':'Оставить заявку';
  const lead=document.createElement('p');lead.className='prep-lead-modal-intro';
  lead.textContent=calculatorRequest?'Укажите, как с вами связаться. Расчет партии уже добавлен в комментарий.':excursion?'Оставьте контакты, чтобы согласовать удобное время посещения склада.':'Оставьте контакты и коротко расскажите, какой товар нужно подготовить к маркетплейсам.';
- const form=createForm('modal',calculatorRequest?prefill:excursion?'Хочу записаться на экскурсию на склад.':'');
+ const form=createForm('modal',calculatorRequest?prefill:excursion?'Хочу записаться на экскурсию на склад.':'',calculatorRequest?'calculator':'general');
  dialog.append(close,title,lead,form);overlay.appendChild(dialog);document.body.appendChild(overlay);
  document.body.classList.add('prep-lead-modal-open');
  close.addEventListener('click',closeModal);
@@ -226,6 +231,11 @@ function isLeadTrigger(anchor){
  if(/telegram|рассчитать стоимость|калькулятор|расчет стоимости/i.test(label))return false;
  return /^(Начать сотрудничество|Записаться на экскурсию|Оставить заявку)$/i.test(label);
 }
+document.querySelectorAll('.shared-header .compact-cta').forEach(function(a){
+ a.setAttribute('href','#modal');
+ a.removeAttribute('target');
+ a.removeAttribute('rel');
+});
 document.addEventListener('click',function(e){
  const a=e.target.closest&&e.target.closest('a[href]');
  if(!isLeadTrigger(a)||e.button!==0||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;

@@ -223,6 +223,7 @@
 }
 
 #calc .calculator-button {
+  cursor: pointer;
   min-height: 52px;
   padding-inline: 28px;
   border: 0;
