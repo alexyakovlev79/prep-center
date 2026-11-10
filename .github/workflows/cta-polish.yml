@@ -1,0 +1,75 @@
+name: CTA normalization and browser QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/polish_cta.py'
+      - 'scripts/apply_cta_runtime.py'
+      - 'scripts/check_cta_browser.py'
+      - 'assets/cta.css'
+      - '.github/workflows/cta-polish.yml'
+      - 'docs/CTA_RELEASE.md'
+permissions:
+  contents: write
+concurrency:
+  group: cta-normalization
+  cancel-in-progress: false
+jobs:
+  cta:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install beautifulsoup4==4.13.4 playwright==1.55.0
+      - run: python -m playwright install --with-deps chromium
+      - name: Normalize canonical components and all current pages
+        run: |
+          python scripts/apply_cta_runtime.py
+          python scripts/polish_cta.py
+          node --check assets/prep-lead-form.js
+          node --check assets/calculator.js
+          node --check assets/shared-components.js
+      - name: Browser checks without live mail
+        run: |
+          python -m http.server 8765 > /tmp/cta-http.log 2>&1 &
+          python scripts/check_cta_browser.py
+      - name: Commit only verified generated changes
+        run: |
+          git add -- '*.html' components/navigation.json assets/prep-lead-form.js assets/shared-components.js scripts/build_components.py reports/cta-audit.json
+          if ! git diff --cached --quiet; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Normalize CTA semantics, paired contact actions and contexts across 45 pages'
+            git push origin HEAD:main
+          fi
+      - name: Public browser check after release marker
+        if: startsWith(github.event.head_commit.message, 'Audit CTA live')
+        env:
+          CTA_BASE_URL: https://prep-center.ru
+          CTA_REPORT_DIR: /tmp/cta-live-qa
+        run: |
+          python - <<'PY'
+          import time,urllib.request
+          for i in range(40):
+            try:
+              text=urllib.request.urlopen('https://prep-center.ru/online/?cta_release=20261110',timeout=15).read().decode()
+              if 'cta.css?v=20261110-cta-v1' in text:break
+            except Exception:pass
+            time.sleep(10)
+          else:raise SystemExit('Published CTA version not yet available')
+          PY
+          python scripts/check_cta_browser.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: cta-browser-qa
+          retention-days: 7
+          path: |
+            /tmp/cta-qa/
+            /tmp/cta-live-qa/
+            reports/cta-audit.json
