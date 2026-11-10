@@ -68,3 +68,65 @@
   cards.forEach(card => layout.observe(card));
   updateHeight();
 })();
+
+/* Six customer cases: swipe on phones, natural height per selected slide. */
+(() => {
+  const track = document.getElementById('home-case-track');
+  const controls = track?.nextElementSibling;
+  if (!track || !controls) return;
+  const cards = Array.from(track.children);
+  if (cards.length < 2) return;
+  const previous = controls.querySelector('.home-case-prev');
+  const next = controls.querySelector('.home-case-next');
+  const counter = controls.querySelector('.home-case-count');
+  const mobile = window.matchMedia('(max-width:700px)');
+
+  function getPosition() {
+    const step = cards[1].offsetLeft - cards[0].offsetLeft;
+    const limit = Math.max(0, track.scrollWidth - track.clientWidth);
+    const index = step ? Math.max(0, Math.min(cards.length - 1, Math.round(track.scrollLeft / step))) : 0;
+    return { step, limit, index };
+  }
+
+  function update() {
+    if (!mobile.matches) {
+      track.style.removeProperty('height');
+      controls.hidden = true;
+      return;
+    }
+    const { index } = getPosition();
+    const height = Math.ceil(cards[index].getBoundingClientRect().height);
+    if (height > 0 && track.style.height !== `${height}px`) track.style.height = `${height}px`;
+    previous.disabled = index === 0;
+    next.disabled = index === cards.length - 1;
+    const label = `${index + 1} из ${cards.length}`;
+    if (counter.textContent !== label) counter.textContent = label;
+    controls.hidden = false;
+  }
+
+  function move(direction) {
+    const { step, limit, index } = getPosition();
+    const target = Math.max(0, Math.min(cards.length - 1, index + direction));
+    track.scrollTo({
+      left: Math.min(limit, target * step),
+      behavior: window.matchMedia('(prefers-reduced-motion:reduce)').matches ? 'instant' : 'smooth'
+    });
+  }
+
+  previous.addEventListener('click', () => move(-1));
+  next.addEventListener('click', () => move(1));
+  track.addEventListener('scroll', update, { passive:true });
+  track.addEventListener('keydown', event => {
+    if (event.target !== track || !['ArrowLeft','ArrowRight'].includes(event.key)) return;
+    event.preventDefault();
+    move(event.key === 'ArrowLeft' ? -1 : 1);
+  });
+  window.addEventListener('resize', update);
+  window.addEventListener('load', update, { once:true });
+  if (document.fonts) document.fonts.ready.then(update);
+  if ('ResizeObserver' in window) {
+    const observer = new ResizeObserver(update);
+    cards.forEach(card => observer.observe(card));
+  }
+  update();
+})();
