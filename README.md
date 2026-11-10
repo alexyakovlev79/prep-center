@@ -1,6 +1,20 @@
-# Преп-Центр: восстановление сайта
+# Преп-Центр: восстановленный сайт и развитие
 
-Опубликовано на GitHub Pages: https://alexyakovlev79.github.io/prep-center-emergency/
+## Актуальное состояние на 10.11.2026
+
+- **Рабочий репозиторий:** [alexyakovlev79/prep-center](https://github.com/alexyakovlev79/prep-center), ветка `main`. Старое имя `prep-center-emergency` заменено владельцем 10.11.2026. GitHub перенаправляет старые ссылки, но для новых инструкций, инструментов, автоматизаций и подключений всегда используйте **новое имя**.
+- **Публичный сайт:** https://prep-center.ru/ ; файл `CNAME` содержит `prep-center.ru`. GitHub Pages публикует `main` из корня. Последняя проверенная после переименования публикация: [Actions #42821722334](https://github.com/alexyakovlev79/prep-center/actions/runs/42821722334), результат `success`, коммит `08ea37e75c6359b519dde94d6239e3d39bb64d88`.
+- **Содержимое:** 45 страниц сайта; `robots.txt`, `sitemap.xml` (45 URL), canonical по адресу `https://prep-center.ru/` и индексация `index,follow`.
+- **Формы:** `assets/prep-lead-form.js`, `assets/prep-lead-form.css`, `assets/prep-form-config.js`; публичная Cloud Function `d4emtgdns8k5tca7p9re` и Cloud Postbox. Подробности: [инструкция отправки заявок](serverless/prepcenter-form/README.md).
+- **Калькулятор:** `assets/calculator.js`, `assets/calculator.css`; на последнем шаге форма заявки и Telegram получают одинаковый расчет, после подтвержденной отправки заявки калькулятор сбрасывается.
+- **CTA:** [единый стандарт](docs/CTA_RELEASE.md), [подтвержденная проверка 45 страниц](reports/CTA_ACCEPTANCE_2026-11-10.md), скрипты `scripts/polish_cta.py` и `scripts/apply_cta_runtime.py`.
+- **Шапка/подвал:** канонические `components/header.html`, `components/footer.html`, меню `components/navigation.json`; сборка `python scripts/build_components.py`. Перед повторным запуском сборки учитывать нормы CTA, не возвращать старые ссылки и не удалять рабочие формы.
+- **Совместная работа:** перед коммитами читать актуальную ветку `main`, проверять новые коммиты других участников; не переписывать чужую работу. Для независимых крупных задач использовать отдельную ветку/PR. Следить за результатом GitHub Pages после изменения.
+- **Переименование репозитория:** [акт проверки, найденные риски и ограничения](docs/REPOSITORY_RENAME_2026-11-10.md).
+
+**Ниже — хронологический журнал раннего восстановления.** Отдельные утверждения ниже о временном `noindex`, неработающих формах и недоступном домене описывают состояние **на дату соответствующего этапа**, а не действующее состояние сайта.
+
+---
 
 Содержание восстановлено по HTML из Google Search Console. Дата последнего обхода, указанная Google: **26 октября 2026, 12:05:06**.
 

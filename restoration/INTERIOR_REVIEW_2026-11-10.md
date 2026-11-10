@@ -1100,9 +1100,9 @@
 
 ## 10. Публикация и проверка основного домена
 
-Код опубликован атомарным обновлением `main`: [9834beeff80888b2deb8f681ff27db91e750c41d](https://github.com/alexyakovlev79/prep-center-emergency/commit/9834beeff80888b2deb8f681ff27db91e750c41d). Дерево файлов GitHub `9763a52481949eceb04919a5c30d14bbf29066d2` совпадает с проверенным локальным деревом.
+Код опубликован атомарным обновлением `main`: [9834beeff80888b2deb8f681ff27db91e750c41d](https://github.com/alexyakovlev79/prep-center/commit/9834beeff80888b2deb8f681ff27db91e750c41d). Дерево файлов GitHub `9763a52481949eceb04919a5c30d14bbf29066d2` совпадает с проверенным локальным деревом.
 
-[GitHub Pages, запуск 42766279492](https://github.com/alexyakovlev79/prep-center-emergency/actions/runs/42766279492): `completed/success`, завершение 10.11.2026 в 09:06:52 МСК.
+[GitHub Pages, запуск 42766279492](https://github.com/alexyakovlev79/prep-center/actions/runs/42766279492): `completed/success`, завершение 10.11.2026 в 09:06:52 МСК.
 
 После публикации все 44 публичных URL вернули HTTP 200, новый внутренний CSS и новый загрузчик формы. Дополнительно в браузере проверены контакты, форма FBO на desktop/mobile, шесть фотографий дублирования, восемь FAQ агрегации, страница публикаций и 134 тарифа. На контактах присутствуют «Позвонить» и Telegram, отсутствуют придуманные related-блоки; мобильное содержимое помещается в 375 px. Реальные заявки не отправлялись.
 
