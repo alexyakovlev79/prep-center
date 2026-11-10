@@ -227,7 +227,8 @@
   .delivery-track::-webkit-scrollbar { display: none; }
   .delivery-example { flex: 0 0 100%; align-self: flex-start; }
   .delivery-example-body { flex: none; }
-  .delivery-example-totals { margin-top: 0; }
+  .delivery-operations { margin-bottom: 12px; }
+  .delivery-example-totals { margin-top: 0; padding-top: 14px; }
   .delivery-controls:not([hidden]) {
     position: absolute;
     inset: 0;
