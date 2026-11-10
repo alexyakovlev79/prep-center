@@ -1,0 +1,42 @@
+{
+  "contacts": "https://prep-center.ru/contacts/",
+  "desktopAndMobileForm": "https://prep-center.ru/fulfillment-fbo/",
+  "checks": [
+    {
+      "duplicationImages": 6,
+      "faq": 11,
+      "innerStyle": true,
+      "media": 0,
+      "tariffRows": 0,
+      "title": "Честный знак при подготовке товаров к маркетплейсам",
+      "url": "https://prep-center.ru/chestnyy-znak/"
+    },
+    {
+      "duplicationImages": 0,
+      "faq": 8,
+      "innerStyle": true,
+      "media": 0,
+      "tariffRows": 0,
+      "title": "Агрегация КИЗ при сборке маркированных наборов для маркетплейсов",
+      "url": "https://prep-center.ru/agregatsiya-kiz-naborov/"
+    },
+    {
+      "duplicationImages": 0,
+      "faq": 0,
+      "innerStyle": true,
+      "media": 0,
+      "tariffRows": 0,
+      "title": "Преп-Центр в интернете",
+      "url": "https://prep-center.ru/online/"
+    },
+    {
+      "duplicationImages": 0,
+      "faq": 13,
+      "innerStyle": true,
+      "media": 0,
+      "tariffRows": 134,
+      "title": "Тарифы на фулфилмент и подготовку товаров к маркетплейсам",
+      "url": "https://prep-center.ru/tarify/"
+    }
+  ]
+}
