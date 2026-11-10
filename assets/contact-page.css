@@ -1,0 +1,32 @@
+/* Verified contact details; colors inherited from the original service cards.
+   A complete October contacts layout has not survived. */
+.contacts-page .fboservice__hero { align-items: center; }
+.contacts-page .fboservice__lead { margin-bottom: 0; }
+.contacts-page .fboservice__grid { gap: 24px; margin-top: 0; }
+.contacts-page .contacts-page__card {
+  padding: clamp(24px, 3vw, 36px);
+  background: linear-gradient(135deg, #06446a, #075b8d);
+  border: 0;
+  border-radius: 20px;
+  color: #fff;
+}
+.contacts-page .contacts-page__card h2,
+.contacts-page .contacts-page__card h3 {
+  color: #ff9900;
+  font-size: 30px;
+  margin: 0 0 20px;
+}
+.contacts-page .contacts-page__card a {
+  color: #fff;
+  text-decoration-color: #ffffff80;
+  text-underline-offset: 4px;
+  overflow-wrap: anywhere;
+}
+.contacts-page .contacts-page__card a:hover { color: #ffbf60; }
+.contacts-page .contacts-page__card p { margin: 0 0 14px; }
+.contacts-page .contacts-page__card p:last-child { margin: 0; }
+.contacts-page .fboservice__section { padding-bottom: 0; border: 0; }
+@media (max-width: 640px) {
+  .contacts-page .fboservice__hero h1 { font-size: 38px; }
+  .contacts-page .contacts-page__card h3 { font-size: 28px; }
+}

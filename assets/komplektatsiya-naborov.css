@@ -52,3 +52,6 @@
 /* Custom card numbers replace the native outside list marker. */
 .kitservice ol.kitservice__numbered{padding-left:0;list-style:none}
 .kitservice ol.kitservice__numbered>li{list-style:none}
+
+/* Archive base typography, scoped to this internal content component. */
+.kitservice h3,.kitservice h4,.kitservice h5,.kitservice h6{font-family:Bebas,"Arial Narrow",sans-serif;font-weight:700}

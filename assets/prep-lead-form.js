@@ -153,6 +153,10 @@ function inlineForm(titleText,leadText,kind){
  return section;
 }
 function mountInline(){
+ document.querySelectorAll('[data-prep-inline-form]').forEach(function(container){
+  if(container.querySelector('.prep-lead-shell'))return;
+  container.appendChild(createForm('inline',''));
+ });
  const reviews=document.getElementById('reviews'),about=document.getElementById('about');
  if(reviews&&about&&!document.getElementById('prep-lead-consultation')){
   const s=inlineForm('Оставьте свои контактные данные','Мы перезвоним вам и поможем подобрать услуги для вашей партии товаров.','prep-lead-section--after-reviews');
@@ -203,7 +207,10 @@ function openModal(opener){
  setTimeout(function(){if(overlay)form.prepFocus();},0);
 }
 function isLeadTrigger(anchor){
- if(!anchor||anchor.getAttribute('href')!=='https://t.me/prepmanager2')return false;
+ if(!anchor)return false;
+ const href=anchor.getAttribute('href')||'';
+ if(href==='#modal'||href==='/#modal'||href==='https://prep-center.ru/#modal')return true;
+ if(href!=='https://t.me/prepmanager2')return false;
  const label=(anchor.textContent||'').trim().replace(/\s+/g,' ');
  if(/telegram|рассчитать стоимость|калькулятор|расчет стоимости/i.test(label))return false;
  return /^(Начать сотрудничество|Записаться на экскурсию|Оставить заявку)$/i.test(label);

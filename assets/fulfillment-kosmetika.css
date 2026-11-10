@@ -81,3 +81,6 @@
     .cosservice__button { width: 100%; text-align: center; }
     .cosservice__links { display: grid; grid-template-columns: 1fr; }
 }
+
+/* Archive base typography, scoped to this internal content component. */
+.cosservice h3,.cosservice h4,.cosservice h5,.cosservice h6{font-family:Bebas,"Arial Narrow",sans-serif;font-weight:700}

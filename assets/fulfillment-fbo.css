@@ -60,3 +60,6 @@
 /* Adaptation to the shared recovery shell; original page component layout preserved. */
 .fboservice li{margin-bottom:.5em}.fboservice ul,.fboservice ol{padding-left:1.35em;margin:0 0 24px}.fboservice li::marker{color:#ff9800;font-weight:700}.fboservice__highlights,.fboservice__facts{list-style:none;padding:0!important}.fboservice__highlights li,.fboservice__facts li{margin:0}.fboservice__hero>*,.fboservice__split>*{min-width:0}.fboservice img{height:auto}.fboservice h3{font-family:Tilda,sans-serif}.fboservice a:focus-visible{outline:3px solid #ff9800;outline-offset:4px}.fboservice__recovery-date{font-size:14px;color:#5e6b78;margin:0 0 18px}.fboservice__faq summary::marker{color:#ff9800}.fboservice__photo-pair img{width:min(100%,390px);height:auto;max-height:none}
 @media(max-width:640px){.fboservice h1{overflow-wrap:break-word}.fboservice__button{white-space:normal}}
+
+/* Archive base typography, scoped to this internal content component. */
+.fboservice h3,.fboservice h4,.fboservice h5,.fboservice h6{font-family:Bebas,"Arial Narrow",sans-serif;font-weight:700}

@@ -1,0 +1,134 @@
+{
+  "pages": [
+    {
+      "p": "/agregatsiya-kiz-naborov/",
+      "desktop": {
+        "font": "Bebas, \"Arial Narrow\", sans-serif",
+        "forms": 0,
+        "h1": "Агрегация КИЗ при сборке маркированных наборов для маркетплейсов",
+        "scroll": 1348,
+        "width": 1348
+      },
+      "mobile": {
+        "h1": "Агрегация КИЗ при сборке маркированных наборов для маркетплейсов",
+        "overflowElements": [],
+        "scroll": 375,
+        "width": 375
+      }
+    },
+    {
+      "p": "/wms-mpfit-dlya-fulfillmenta/",
+      "desktop": {
+        "font": "Bebas, \"Arial Narrow\", sans-serif",
+        "forms": 0,
+        "h1": "Какую WMS мы используем в Преп-Центре и как МПФИТ помогает управлять фулфилментом",
+        "scroll": 1348,
+        "width": 1348
+      },
+      "mobile": {
+        "h1": "Какую WMS мы используем в Преп-Центре и как МПФИТ помогает управлять фулфилментом",
+        "overflowElements": [],
+        "scroll": 375,
+        "width": 375
+      }
+    },
+    {
+      "p": "/upakovka-bytovoy-khimii/",
+      "desktop": {
+        "font": "Bebas, \"Arial Narrow\", sans-serif",
+        "forms": 1,
+        "h1": "\n                        Упаковка бытовой химии                    ",
+        "scroll": 1348,
+        "width": 1348
+      },
+      "mobile": {
+        "h1": "\n                        Упаковка бытовой химии                    ",
+        "overflowElements": [
+          {
+            "class": "prep-lead-honeypot",
+            "tag": "DIV",
+            "text": "Веб-сайт"
+          },
+          {
+            "class": "",
+            "tag": "LABEL",
+            "text": "Веб-сайт"
+          },
+          {
+            "class": "",
+            "tag": "INPUT",
+            "text": ""
+          }
+        ],
+        "scroll": 375,
+        "width": 375
+      }
+    },
+    {
+      "p": "/privacy-policy/",
+      "desktop": {
+        "font": "sans-serif",
+        "h1": "Политика в отношении обработки персональных данных",
+        "scroll": 1348,
+        "width": 1348
+      },
+      "mobile": {
+        "h1": "Политика в отношении обработки персональных данных",
+        "overflowElements": [],
+        "scroll": 375,
+        "width": 375
+      }
+    },
+    {
+      "p": "/online/",
+      "desktop": {
+        "font": "Bebas, \"Arial Narrow\", sans-serif",
+        "h1": "Преп-Центр в интернете",
+        "scroll": 1348,
+        "width": 1348
+      },
+      "mobile": {
+        "h1": "Преп-Центр в интернете",
+        "overflowElements": [],
+        "scroll": 375,
+        "width": 375
+      }
+    },
+    {
+      "p": "/tarify/",
+      "desktop": {
+        "font": "Bebas, \"Arial Narrow\", sans-serif",
+        "h1": "Тарифы на фулфилмент и подготовку товаров к маркетплейсам",
+        "scroll": 1348,
+        "width": 1348
+      },
+      "mobile": {
+        "h1": "Тарифы на фулфилмент и подготовку товаров к маркетплейсам",
+        "overflowElements": [],
+        "scroll": 375,
+        "width": 375
+      }
+    },
+    {
+      "p": "/contacts/",
+      "desktop": {
+        "h1": "Контакты Преп-Центра",
+        "scroll": 1348,
+        "width": 1348
+      },
+      "mobile": {
+        "h1": "Контакты Преп-Центра",
+        "heroPadding": "0px",
+        "scroll": 375,
+        "width": 375
+      }
+    }
+  ],
+  "actions": {
+    "FBOmodal": "Opened and closed",
+    "calculator": "Clicked from FBO to /#calc; calcTop108px after scroll",
+    "packaging": "CTA scrolls to #prep-article-form; existing form mounted once",
+    "tariffs": "Search returns 1/134, accordion opens, mobile table fits"
+  },
+  "submitted": false
+}

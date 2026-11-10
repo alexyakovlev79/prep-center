@@ -1,0 +1,543 @@
+{
+  "scope": "9 internal pages; read-only browser QA",
+  "desktopDocumentWidth": 1348,
+  "mobileWrapperWidth": 390,
+  "mobileDocumentWidth": 375,
+  "pages": [
+    {
+      "route": "/cases/",
+      "desktop": {
+        "brokenImages": [],
+        "cta": [],
+        "fonts": {
+          "body": "Tilda, Arial, sans-serif",
+          "heading": "Bebas, \"Arial Narrow\", sans-serif"
+        },
+        "h1": "Кейсы Преп-Центра",
+        "h1Color": "rgb(0, 71, 108)",
+        "h1Size": "57.246px",
+        "h2Colors": [
+          "rgb(0, 71, 108)"
+        ],
+        "imageCount": 7,
+        "overflow": [],
+        "pendingImages": 0,
+        "scrollWidth": 1348,
+        "width": 1348
+      },
+      "mobile": {
+        "brokenImages": [],
+        "cta": [],
+        "fonts": {
+          "body": "Tilda, Arial, sans-serif",
+          "heading": "Bebas, \"Arial Narrow\", sans-serif"
+        },
+        "h1": "Кейсы Преп-Центра",
+        "h1Color": "rgb(0, 71, 108)",
+        "h1Size": "40px",
+        "h2Colors": [
+          "rgb(0, 71, 108)"
+        ],
+        "imageCount": 7,
+        "overflow": [],
+        "pendingImages": 4,
+        "scrollWidth": 375,
+        "width": 375
+      }
+    },
+    {
+      "route": "/blog/",
+      "desktop": {
+        "brokenImages": [],
+        "cta": [],
+        "fonts": {
+          "body": "Tilda, Arial, sans-serif",
+          "heading": "Bebas, sans-serif"
+        },
+        "h1": "Статьи",
+        "h1Color": "rgb(25, 25, 25)",
+        "h1Size": "81.78px",
+        "h2Colors": [
+          "rgb(25, 25, 25)"
+        ],
+        "imageCount": 2,
+        "overflow": [],
+        "pendingImages": 0,
+        "scrollWidth": 1348,
+        "width": 1348
+      },
+      "mobile": {
+        "brokenImages": [],
+        "cta": [],
+        "fonts": {
+          "body": "Tilda, Arial, sans-serif",
+          "heading": "Bebas, sans-serif"
+        },
+        "h1": "Статьи",
+        "h1Color": "rgb(25, 25, 25)",
+        "h1Size": "56px",
+        "h2Colors": [
+          "rgb(25, 25, 25)"
+        ],
+        "imageCount": 2,
+        "overflow": [],
+        "pendingImages": 0,
+        "scrollWidth": 375,
+        "width": 375
+      }
+    },
+    {
+      "route": "/cases/agregatsiya-kiz-naborov-wms/",
+      "desktop": {
+        "brokenImages": [],
+        "cta": [
+          {
+            "background": "linear-gradient(45deg, rgb(255, 153, 0) 0%, rgb(255, 158, 12) 44.5%, rgb(254, 179, 65) 100%)",
+            "bgColor": "rgb(255, 153, 0)",
+            "color": "rgb(255, 255, 255)",
+            "height": 56,
+            "href": "#modal",
+            "text": "Рассчитать партию",
+            "width": 183.015625
+          }
+        ],
+        "fonts": {
+          "body": "Tilda, Arial, sans-serif",
+          "heading": "Bebas, \"Arial Narrow\", sans-serif"
+        },
+        "h1": "Агрегация КИЗ при сборке набора через WMS МПФИТ",
+        "h1Color": "rgb(0, 63, 104)",
+        "h1Size": "57.246px",
+        "h2Colors": [
+          "rgb(0, 63, 104)",
+          "rgb(255, 255, 255)"
+        ],
+        "imageCount": 6,
+        "overflow": [],
+        "pendingImages": 4,
+        "scrollWidth": 1348,
+        "width": 1348
+      },
+      "mobile": {
+        "brokenImages": [],
+        "cta": [
+          {
+            "background": "linear-gradient(45deg, rgb(255, 153, 0) 0%, rgb(255, 158, 12) 44.5%, rgb(254, 179, 65) 100%)",
+            "bgColor": "rgb(255, 153, 0)",
+            "color": "rgb(255, 255, 255)",
+            "height": 56,
+            "href": "#modal",
+            "text": "Рассчитать партию",
+            "width": 307
+          }
+        ],
+        "fonts": {
+          "body": "Tilda, Arial, sans-serif",
+          "heading": "Bebas, \"Arial Narrow\", sans-serif"
+        },
+        "h1": "Агрегация КИЗ при сборке набора через WMS МПФИТ",
+        "h1Color": "rgb(0, 63, 104)",
+        "h1Size": "36px",
+        "h2Colors": [
+          "rgb(0, 63, 104)",
+          "rgb(255, 255, 255)"
+        ],
+        "imageCount": 6,
+        "overflow": [],
+        "pendingImages": 4,
+        "scrollWidth": 375,
+        "width": 375
+      }
+    },
+    {
+      "route": "/cases/avtomatizirovannaya-upakovka-kosmetiki/",
+      "desktop": {
+        "brokenImages": [],
+        "cta": [
+          {
+            "background": "linear-gradient(45deg, rgb(255, 153, 0) 0%, rgb(255, 158, 12) 44.5%, rgb(254, 179, 65) 100%)",
+            "bgColor": "rgb(255, 153, 0)",
+            "color": "rgb(255, 255, 255)",
+            "height": 56,
+            "href": "#modal",
+            "text": "Оставьте заявку в «Преп-центр»",
+            "width": 280
+          }
+        ],
+        "fonts": {
+          "body": "Tilda, Arial, sans-serif",
+          "heading": "Bebas, \"Arial Narrow\", sans-serif"
+        },
+        "h1": "Автоматизированная упаковка косметики",
+        "h1Color": "rgb(0, 63, 104)",
+        "h1Size": "57.246px",
+        "h2Colors": [
+          "rgb(0, 63, 104)"
+        ],
+        "imageCount": 7,
+        "overflow": [],
+        "pendingImages": 2,
+        "scrollWidth": 1348,
+        "width": 1348
+      },
+      "mobile": {
+        "brokenImages": [],
+        "cta": [
+          {
+            "background": "linear-gradient(45deg, rgb(255, 153, 0) 0%, rgb(255, 158, 12) 44.5%, rgb(254, 179, 65) 100%)",
+            "bgColor": "rgb(255, 153, 0)",
+            "color": "rgb(255, 255, 255)",
+            "height": 56,
+            "href": "#modal",
+            "text": "Оставьте заявку в «Преп-центр»",
+            "width": 307
+          }
+        ],
+        "fonts": {
+          "body": "Tilda, Arial, sans-serif",
+          "heading": "Bebas, \"Arial Narrow\", sans-serif"
+        },
+        "h1": "Автоматизированная упаковка косметики",
+        "h1Color": "rgb(0, 63, 104)",
+        "h1Size": "36px",
+        "h2Colors": [
+          "rgb(0, 63, 104)"
+        ],
+        "imageCount": 7,
+        "overflow": [],
+        "pendingImages": 4,
+        "scrollWidth": 375,
+        "width": 375
+      }
+    },
+    {
+      "route": "/cases/avtohimiya-2393-nabora-za-2-dnya/",
+      "desktop": {
+        "brokenImages": [],
+        "cta": [
+          {
+            "background": "none",
+            "bgColor": "rgb(244, 106, 22)",
+            "color": "rgb(255, 255, 255)",
+            "height": 54,
+            "href": "/#calc",
+            "text": "Рассчитать стоимость",
+            "width": 214.875
+          }
+        ],
+        "fonts": {
+          "body": "Tilda, Arial, sans-serif",
+          "heading": "Bebas, \"Arial Narrow\", sans-serif"
+        },
+        "h1": "Кейс: 2 393 подарочных набора автохимии для Wildberries и Ozon за 2 дня",
+        "h1Color": "rgb(0, 63, 104)",
+        "h1Size": "57.246px",
+        "h2Colors": [
+          "rgb(0, 63, 104)",
+          "rgb(255, 255, 255)"
+        ],
+        "imageCount": 0,
+        "overflow": [],
+        "pendingImages": 0,
+        "scrollWidth": 1348,
+        "width": 1348
+      },
+      "mobile": {
+        "brokenImages": [],
+        "cta": [
+          {
+            "background": "none",
+            "bgColor": "rgb(244, 106, 22)",
+            "color": "rgb(255, 255, 255)",
+            "height": 54,
+            "href": "/#calc",
+            "text": "Рассчитать стоимость",
+            "width": 307
+          }
+        ],
+        "fonts": {
+          "body": "Tilda, Arial, sans-serif",
+          "heading": "Bebas, \"Arial Narrow\", sans-serif"
+        },
+        "h1": "Кейс: 2 393 подарочных набора автохимии для Wildberries и Ozon за 2 дня",
+        "h1Color": "rgb(0, 63, 104)",
+        "h1Size": "39px",
+        "h2Colors": [
+          "rgb(0, 63, 104)",
+          "rgb(255, 255, 255)"
+        ],
+        "imageCount": 0,
+        "overflow": [],
+        "pendingImages": 0,
+        "scrollWidth": 375,
+        "width": 375
+      }
+    },
+    {
+      "route": "/cases/kantselyarskie-nabory-6000-za-5-dney/",
+      "desktop": {
+        "brokenImages": [],
+        "cta": [
+          {
+            "background": "none",
+            "bgColor": "rgb(255, 153, 0)",
+            "color": "rgb(255, 255, 255)",
+            "height": 56,
+            "href": "/#calc",
+            "text": "Рассчитать стоимость",
+            "width": 222.875
+          }
+        ],
+        "fonts": {
+          "body": "Tilda, Arial, sans-serif",
+          "heading": "Bebas, \"Arial Narrow\", sans-serif"
+        },
+        "h1": "6 000 подарочных канцелярских наборов из 24 комплектующих за 5 дней",
+        "h1Color": "rgb(0, 63, 104)",
+        "h1Size": "57.246px",
+        "h2Colors": [
+          "rgb(0, 63, 104)",
+          "rgb(255, 255, 255)"
+        ],
+        "imageCount": 7,
+        "overflow": [],
+        "pendingImages": 5,
+        "scrollWidth": 1348,
+        "width": 1348
+      },
+      "mobile": {
+        "brokenImages": [],
+        "cta": [
+          {
+            "background": "none",
+            "bgColor": "rgb(255, 153, 0)",
+            "color": "rgb(255, 255, 255)",
+            "height": 56,
+            "href": "/#calc",
+            "text": "Рассчитать стоимость",
+            "width": 307
+          }
+        ],
+        "fonts": {
+          "body": "Tilda, Arial, sans-serif",
+          "heading": "Bebas, \"Arial Narrow\", sans-serif"
+        },
+        "h1": "6 000 подарочных канцелярских наборов из 24 комплектующих за 5 дней",
+        "h1Color": "rgb(0, 63, 104)",
+        "h1Size": "36px",
+        "h2Colors": [
+          "rgb(0, 63, 104)",
+          "rgb(255, 255, 255)"
+        ],
+        "imageCount": 7,
+        "overflow": [],
+        "pendingImages": 5,
+        "scrollWidth": 375,
+        "width": 375
+      }
+    },
+    {
+      "route": "/cases/kosmetika-8400-za-2-dnya/",
+      "desktop": {
+        "brokenImages": [],
+        "cta": [
+          {
+            "background": "none",
+            "bgColor": "rgb(255, 153, 0)",
+            "color": "rgb(255, 255, 255)",
+            "height": 56,
+            "href": "/#calc",
+            "text": "Рассчитать стоимость",
+            "width": 222.875
+          }
+        ],
+        "fonts": {
+          "body": "Tilda, Arial, sans-serif",
+          "heading": "Bebas, \"Arial Narrow\", sans-serif"
+        },
+        "h1": "Кейс: 8 400 единиц косметики для Wildberries и Ozon за 2 дня",
+        "h1Color": "rgb(0, 63, 104)",
+        "h1Size": "57.246px",
+        "h2Colors": [
+          "rgb(0, 63, 104)",
+          "rgb(255, 255, 255)"
+        ],
+        "imageCount": 7,
+        "overflow": [],
+        "pendingImages": 6,
+        "scrollWidth": 1348,
+        "width": 1348
+      },
+      "mobile": {
+        "brokenImages": [],
+        "cta": [
+          {
+            "background": "none",
+            "bgColor": "rgb(255, 153, 0)",
+            "color": "rgb(255, 255, 255)",
+            "height": 56,
+            "href": "/#calc",
+            "text": "Рассчитать стоимость",
+            "width": 307
+          }
+        ],
+        "fonts": {
+          "body": "Tilda, Arial, sans-serif",
+          "heading": "Bebas, \"Arial Narrow\", sans-serif"
+        },
+        "h1": "Кейс: 8 400 единиц косметики для Wildberries и Ozon за 2 дня",
+        "h1Color": "rgb(0, 63, 104)",
+        "h1Size": "36px",
+        "h2Colors": [
+          "rgb(0, 63, 104)",
+          "rgb(255, 255, 255)"
+        ],
+        "imageCount": 7,
+        "overflow": [],
+        "pendingImages": 6,
+        "scrollWidth": 375,
+        "width": 375
+      }
+    },
+    {
+      "route": "/cases/opolaskivateli-3186-za-2-dnya/",
+      "desktop": {
+        "brokenImages": [],
+        "cta": [
+          {
+            "background": "none",
+            "bgColor": "rgb(255, 153, 0)",
+            "color": "rgb(255, 255, 255)",
+            "height": 56,
+            "href": "/#calc",
+            "text": "Рассчитать стоимость",
+            "width": 222.875
+          }
+        ],
+        "fonts": {
+          "body": "Tilda, Arial, sans-serif",
+          "heading": "Bebas, \"Arial Narrow\", sans-serif"
+        },
+        "h1": "Упаковка 3 186 ополаскивателей для полости рта в ВПП за 2 дня",
+        "h1Color": "rgb(0, 63, 104)",
+        "h1Size": "57.246px",
+        "h2Colors": [
+          "rgb(0, 63, 104)",
+          "rgb(255, 255, 255)"
+        ],
+        "imageCount": 6,
+        "overflow": [],
+        "pendingImages": 3,
+        "scrollWidth": 1348,
+        "width": 1348
+      },
+      "mobile": {
+        "brokenImages": [],
+        "cta": [
+          {
+            "background": "none",
+            "bgColor": "rgb(255, 153, 0)",
+            "color": "rgb(255, 255, 255)",
+            "height": 56,
+            "href": "/#calc",
+            "text": "Рассчитать стоимость",
+            "width": 307
+          }
+        ],
+        "fonts": {
+          "body": "Tilda, Arial, sans-serif",
+          "heading": "Bebas, \"Arial Narrow\", sans-serif"
+        },
+        "h1": "Упаковка 3 186 ополаскивателей для полости рта в ВПП за 2 дня",
+        "h1Color": "rgb(0, 63, 104)",
+        "h1Size": "36px",
+        "h2Colors": [
+          "rgb(0, 63, 104)",
+          "rgb(255, 255, 255)"
+        ],
+        "imageCount": 6,
+        "overflow": [],
+        "pendingImages": 5,
+        "scrollWidth": 375,
+        "width": 375
+      }
+    },
+    {
+      "route": "/cases/stroitelnaya-himiya-5180-za-3-dnya/",
+      "desktop": {
+        "brokenImages": [],
+        "cta": [
+          {
+            "background": "none",
+            "bgColor": "rgb(244, 106, 22)",
+            "color": "rgb(255, 255, 255)",
+            "height": 54,
+            "href": "/#calc",
+            "text": "Рассчитать стоимость",
+            "width": 214.875
+          }
+        ],
+        "fonts": {
+          "body": "Tilda, Arial, sans-serif",
+          "heading": "Bebas, \"Arial Narrow\", sans-serif"
+        },
+        "h1": "Кейс: 5 180 единиц строительной химии в термоусадке и ВПП за 3 дня",
+        "h1Color": "rgb(0, 63, 104)",
+        "h1Size": "57.246px",
+        "h2Colors": [
+          "rgb(0, 63, 104)",
+          "rgb(255, 255, 255)"
+        ],
+        "imageCount": 0,
+        "overflow": [],
+        "pendingImages": 0,
+        "scrollWidth": 1348,
+        "width": 1348
+      },
+      "mobile": {
+        "brokenImages": [],
+        "cta": [
+          {
+            "background": "none",
+            "bgColor": "rgb(244, 106, 22)",
+            "color": "rgb(255, 255, 255)",
+            "height": 54,
+            "href": "/#calc",
+            "text": "Рассчитать стоимость",
+            "width": 307
+          }
+        ],
+        "fonts": {
+          "body": "Tilda, Arial, sans-serif",
+          "heading": "Bebas, \"Arial Narrow\", sans-serif"
+        },
+        "h1": "Кейс: 5 180 единиц строительной химии в термоусадке и ВПП за 3 дня",
+        "h1Color": "rgb(0, 63, 104)",
+        "h1Size": "39px",
+        "h2Colors": [
+          "rgb(0, 63, 104)",
+          "rgb(255, 255, 255)"
+        ],
+        "imageCount": 0,
+        "overflow": [],
+        "pendingImages": 0,
+        "scrollWidth": 375,
+        "width": 375
+      }
+    }
+  ],
+  "modal": {
+    "page": "/cases/agregatsiya-kiz-naborov-wms/",
+    "desktopOpenAndClose": true,
+    "mobileOpenAndClose": true,
+    "submitted": false
+  },
+  "findings": {
+    "blocking": [],
+    "minor": [
+      "One transient shared logo load failed on the first desktop visit to the auto-chemistry case; revisiting the same page loaded it successfully (naturalWidth 484).",
+      "Lazy photos briefly show their reserved boxes immediately after navigation/scroll; observed photos loaded successfully on follow-up."
+    ]
+  },
+  "sourceChangesMade": false
+}

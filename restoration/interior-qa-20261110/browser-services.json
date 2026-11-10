@@ -1,0 +1,454 @@
+{
+  "pages": 14,
+  "desktopCssWidth": 1348,
+  "mobileFrameWidth": 390,
+  "mobileClientWidth": 375,
+  "overflowPages": [],
+  "brokenLoadedImages": [],
+  "headings": "All h1/h2/h3 computed Bebas",
+  "modalDesktop": {
+    "visible": true,
+    "focused": "full_name",
+    "closedByEscape": true
+  },
+  "modalMobile": {
+    "opened": true,
+    "closedByButton": true,
+    "rect": {
+      "left": 8,
+      "right": 382
+    },
+    "scroll": 374,
+    "text": "Оставить заявку",
+    "width": 374
+  },
+  "duplicationDesktopAll6Loaded": true,
+  "galleryMobileMetrics": {
+    "columns": "351px",
+    "images": [
+      {
+        "complete": true,
+        "fit": "contain",
+        "naturalWidth": 1086,
+        "padding": "0px",
+        "renderedWidth": 351
+      },
+      {
+        "complete": true,
+        "fit": "contain",
+        "naturalWidth": 1086,
+        "padding": "0px",
+        "renderedWidth": 351
+      },
+      {
+        "complete": true,
+        "fit": "contain",
+        "naturalWidth": 1086,
+        "padding": "0px",
+        "renderedWidth": 351
+      },
+      {
+        "complete": true,
+        "fit": "contain",
+        "naturalWidth": 1086,
+        "padding": "0px",
+        "renderedWidth": 351
+      },
+      {
+        "complete": true,
+        "fit": "contain",
+        "naturalWidth": 1086,
+        "padding": "0px",
+        "renderedWidth": 351
+      },
+      {
+        "complete": true,
+        "fit": "contain",
+        "naturalWidth": 1086,
+        "padding": "0px",
+        "renderedWidth": 351
+      }
+    ]
+  },
+  "lazyNote": "Lazy images below the viewport were not falsely counted as broken. All local media paths were statically checked; all six new duplication photographs loaded in the desktop browser.",
+  "records": [
+    {
+      "route": "/about/",
+      "desktop": {
+        "broken": [],
+        "fonts": [
+          "Bebas, \"Arial Narrow\", sans-serif"
+        ],
+        "h1": "О Преп-Центре",
+        "images": 7,
+        "lazyPending": 6,
+        "overflow": [],
+        "scrollWidth": 1348,
+        "width": 1348
+      },
+      "mobile": {
+        "broken": [],
+        "fonts": [
+          "Bebas, \"Arial Narrow\", sans-serif"
+        ],
+        "h1": "О Преп-Центре",
+        "images": 7,
+        "lazyPending": 6,
+        "overflow": [],
+        "scrollWidth": 375,
+        "width": 375
+      }
+    },
+    {
+      "route": "/fulfillment-zhidkih-tovarov/",
+      "desktop": {
+        "broken": [],
+        "fonts": [
+          "Bebas, \"Arial Narrow\", sans-serif"
+        ],
+        "h1": "Фулфилмент для жидких товаров на Ozon, Wildberries и Яндекс Маркете",
+        "images": 6,
+        "lazyPending": 5,
+        "overflow": [],
+        "scrollWidth": 1348,
+        "width": 1348
+      },
+      "mobile": {
+        "broken": [],
+        "fonts": [
+          "Bebas, \"Arial Narrow\", sans-serif"
+        ],
+        "h1": "Фулфилмент для жидких товаров на Ozon, Wildberries и Яндекс Маркете",
+        "images": 6,
+        "lazyPending": 5,
+        "overflow": [],
+        "scrollWidth": 375,
+        "width": 375
+      }
+    },
+    {
+      "route": "/fulfillment-fbo/",
+      "desktop": {
+        "broken": [],
+        "fonts": [
+          "Bebas, \"Arial Narrow\", sans-serif"
+        ],
+        "h1": "FBO-фулфилмент для Озон, Wildberries и Яндекс.Маркета",
+        "images": 7,
+        "lazyPending": 6,
+        "overflow": [],
+        "scrollWidth": 1348,
+        "width": 1348
+      },
+      "mobile": {
+        "broken": [],
+        "fonts": [
+          "Bebas, \"Arial Narrow\", sans-serif"
+        ],
+        "h1": "FBO-фулфилмент для Озон, Wildberries и Яндекс.Маркета",
+        "images": 7,
+        "lazyPending": 6,
+        "overflow": [],
+        "scrollWidth": 375,
+        "width": 375
+      }
+    },
+    {
+      "route": "/fulfillment-fbs/",
+      "desktop": {
+        "broken": [],
+        "fonts": [
+          "Bebas, \"Arial Narrow\", sans-serif"
+        ],
+        "h1": "FBS-фулфилмент для Wildberries, Ozon и Яндекс Маркета",
+        "images": 8,
+        "lazyPending": 7,
+        "overflow": [],
+        "scrollWidth": 1348,
+        "width": 1348
+      },
+      "mobile": {
+        "broken": [],
+        "fonts": [
+          "Bebas, \"Arial Narrow\", sans-serif"
+        ],
+        "h1": "FBS-фулфилмент для Wildberries, Ozon и Яндекс Маркета",
+        "images": 8,
+        "lazyPending": 7,
+        "overflow": [],
+        "scrollWidth": 375,
+        "width": 375
+      }
+    },
+    {
+      "route": "/termousadka-vpp/",
+      "desktop": {
+        "broken": [],
+        "fonts": [
+          "Bebas, \"Arial Narrow\", sans-serif"
+        ],
+        "h1": "Термоусадка и упаковка в воздушно-пузырьковую пленку для маркетплейсов",
+        "images": 5,
+        "lazyPending": 4,
+        "overflow": [],
+        "scrollWidth": 1348,
+        "width": 1348
+      },
+      "mobile": {
+        "broken": [],
+        "fonts": [
+          "Bebas, \"Arial Narrow\", sans-serif"
+        ],
+        "h1": "Термоусадка и упаковка в воздушно-пузырьковую пленку для маркетплейсов",
+        "images": 5,
+        "lazyPending": 4,
+        "overflow": [],
+        "scrollWidth": 375,
+        "width": 375
+      }
+    },
+    {
+      "route": "/chestnyy-znak/",
+      "desktop": {
+        "broken": [],
+        "fonts": [
+          "Bebas, \"Arial Narrow\", sans-serif"
+        ],
+        "h1": "Честный знак при подготовке товаров к маркетплейсам",
+        "images": 9,
+        "lazyPending": 8,
+        "overflow": [],
+        "scrollWidth": 1348,
+        "width": 1348
+      },
+      "mobile": {
+        "broken": [],
+        "fonts": [
+          "Bebas, \"Arial Narrow\", sans-serif"
+        ],
+        "h1": "Честный знак при подготовке товаров к маркетплейсам",
+        "images": 9,
+        "lazyPending": 8,
+        "overflow": [],
+        "scrollWidth": 375,
+        "width": 375
+      }
+    },
+    {
+      "route": "/etiketki-marketpleysov/",
+      "desktop": {
+        "broken": [],
+        "fonts": [
+          "Bebas, \"Arial Narrow\", sans-serif"
+        ],
+        "h1": "Печать и наклейка этикеток для Ozon, Wildberries и Яндекс Маркета",
+        "images": 4,
+        "lazyPending": 3,
+        "overflow": [],
+        "scrollWidth": 1348,
+        "width": 1348
+      },
+      "mobile": {
+        "broken": [],
+        "fonts": [
+          "Bebas, \"Arial Narrow\", sans-serif"
+        ],
+        "h1": "Печать и наклейка этикеток для Ozon, Wildberries и Яндекс Маркета",
+        "images": 4,
+        "lazyPending": 3,
+        "overflow": [],
+        "scrollWidth": 375,
+        "width": 375
+      }
+    },
+    {
+      "route": "/komplektatsiya-naborov/",
+      "desktop": {
+        "broken": [],
+        "fonts": [
+          "Bebas, \"Arial Narrow\", sans-serif"
+        ],
+        "h1": "Комплектация и сборка наборов для маркетплейсов",
+        "images": 5,
+        "lazyPending": 4,
+        "overflow": [],
+        "scrollWidth": 1348,
+        "width": 1348
+      },
+      "mobile": {
+        "broken": [],
+        "fonts": [
+          "Bebas, \"Arial Narrow\", sans-serif"
+        ],
+        "h1": "Комплектация и сборка наборов для маркетплейсов",
+        "images": 5,
+        "lazyPending": 4,
+        "overflow": [],
+        "scrollWidth": 375,
+        "width": 375
+      }
+    },
+    {
+      "route": "/fulfillment-shampuni-geli/",
+      "desktop": {
+        "broken": [],
+        "fonts": [
+          "Bebas, \"Arial Narrow\", sans-serif"
+        ],
+        "h1": "Фулфилмент для шампуней и гелей для Ozon, Wildberries и Яндекс Маркета",
+        "images": 4,
+        "lazyPending": 3,
+        "overflow": [],
+        "scrollWidth": 1348,
+        "width": 1348
+      },
+      "mobile": {
+        "broken": [],
+        "fonts": [
+          "Bebas, \"Arial Narrow\", sans-serif"
+        ],
+        "h1": "Фулфилмент для шампуней и гелей для Ozon, Wildberries и Яндекс Маркета",
+        "images": 4,
+        "lazyPending": 3,
+        "overflow": [],
+        "scrollWidth": 375,
+        "width": 375
+      }
+    },
+    {
+      "route": "/fulfillment-bytovaya-himiya/",
+      "desktop": {
+        "broken": [],
+        "fonts": [
+          "Bebas, \"Arial Narrow\", sans-serif"
+        ],
+        "h1": "Фулфилмент для бытовой химии для Ozon, Wildberries и Яндекс Маркета",
+        "images": 4,
+        "lazyPending": 3,
+        "overflow": [],
+        "scrollWidth": 1348,
+        "width": 1348
+      },
+      "mobile": {
+        "broken": [],
+        "fonts": [
+          "Bebas, \"Arial Narrow\", sans-serif"
+        ],
+        "h1": "Фулфилмент для бытовой химии для Ozon, Wildberries и Яндекс Маркета",
+        "images": 4,
+        "lazyPending": 3,
+        "overflow": [],
+        "scrollWidth": 375,
+        "width": 375
+      }
+    },
+    {
+      "route": "/fulfillment-kosmetika/",
+      "desktop": {
+        "broken": [],
+        "fonts": [
+          "Bebas, \"Arial Narrow\", sans-serif"
+        ],
+        "h1": "Фулфилмент для косметики для Wildberries и Ozon",
+        "images": 5,
+        "lazyPending": 4,
+        "overflow": [],
+        "scrollWidth": 1348,
+        "width": 1348
+      },
+      "mobile": {
+        "broken": [],
+        "fonts": [
+          "Bebas, \"Arial Narrow\", sans-serif"
+        ],
+        "h1": "Фулфилмент для косметики для Wildberries и Ozon",
+        "images": 5,
+        "lazyPending": 4,
+        "overflow": [],
+        "scrollWidth": 375,
+        "width": 375
+      }
+    },
+    {
+      "route": "/fulfillment-avtohimiya/",
+      "desktop": {
+        "broken": [],
+        "fonts": [
+          "Bebas, \"Arial Narrow\", sans-serif"
+        ],
+        "h1": "Фулфилмент для автохимии и автокосметики",
+        "images": 0,
+        "lazyPending": 0,
+        "overflow": [],
+        "scrollWidth": 1348,
+        "width": 1348
+      },
+      "mobile": {
+        "broken": [],
+        "fonts": [
+          "Bebas, \"Arial Narrow\", sans-serif"
+        ],
+        "h1": "Фулфилмент для автохимии и автокосметики",
+        "images": 0,
+        "lazyPending": 0,
+        "overflow": [],
+        "scrollWidth": 375,
+        "width": 375
+      }
+    },
+    {
+      "route": "/fulfillment-stroitelnaya-himiya/",
+      "desktop": {
+        "broken": [],
+        "fonts": [
+          "Bebas, \"Arial Narrow\", sans-serif"
+        ],
+        "h1": "Фулфилмент для строительной химии",
+        "images": 0,
+        "lazyPending": 0,
+        "overflow": [],
+        "scrollWidth": 1348,
+        "width": 1348
+      },
+      "mobile": {
+        "broken": [],
+        "fonts": [
+          "Bebas, \"Arial Narrow\", sans-serif"
+        ],
+        "h1": "Фулфилмент для строительной химии",
+        "images": 0,
+        "lazyPending": 0,
+        "overflow": [],
+        "scrollWidth": 375,
+        "width": 375
+      }
+    },
+    {
+      "route": "/srochnaya-obrabotka-partiy/",
+      "desktop": {
+        "broken": [],
+        "fonts": [
+          "Bebas, \"Arial Narrow\", sans-serif"
+        ],
+        "h1": "Срочная обработка крупных партий 10 000–20 000+ единиц для маркетплейсов",
+        "images": 5,
+        "lazyPending": 4,
+        "overflow": [],
+        "scrollWidth": 1348,
+        "width": 1348
+      },
+      "mobile": {
+        "broken": [],
+        "fonts": [
+          "Bebas, \"Arial Narrow\", sans-serif"
+        ],
+        "h1": "Срочная обработка крупных партий 10 000–20 000+ единиц для маркетплейсов",
+        "images": 5,
+        "lazyPending": 4,
+        "overflow": [],
+        "scrollWidth": 375,
+        "width": 375
+      }
+    }
+  ]
+}

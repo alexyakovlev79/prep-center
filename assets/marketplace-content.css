@@ -1,0 +1,36 @@
+/* Page body refinement. The palette and note/CTA treatment come from the retained
+   fboservice component. Original publication briefs supply the text and actions;
+   no complete October page screenshots survive for these marketplace pages. */
+.marketplace-authentic .fboservice__section>h3{
+  color:var(--blue-dark);background:transparent;border-left:4px solid var(--orange);
+  border-radius:0;padding:4px 0 4px 18px;margin:30px 0 16px;
+}
+.marketplace-authentic .marketplace-source-link{margin:18px 0 0}
+.marketplace-authentic .marketplace-source-link a{font-weight:600}
+.marketplace-authentic .marketplace-source-note{font-size:18px;line-height:1.65}
+.marketplace-authentic .marketplace-source-note strong{color:var(--blue-dark)}
+.marketplace-authentic .marketplace-source-checklist{
+  margin-top:38px;padding:30px;border:1px solid #d9e9f2;border-left:5px solid var(--orange);
+  border-radius:18px;background:var(--soft);
+}
+.marketplace-authentic .marketplace-source-checklist h2{margin-bottom:20px}
+.marketplace-authentic .marketplace-source-checklist ol{margin-bottom:0}
+.marketplace-authentic .marketplace-source-checklist li::marker{color:var(--blue);font-weight:800}
+.marketplace-authentic .marketplace-source-facts{margin:26px 0 0;align-items:stretch}
+.marketplace-authentic .marketplace-source-facts h3{margin-top:0}
+.marketplace-authentic .marketplace-source-facts strong{color:var(--blue-dark)}
+.marketplace-authentic .marketplace-final-actions{
+  margin-top:44px;padding:32px;border-radius:22px;background:linear-gradient(135deg,var(--blue-dark),var(--blue));
+  align-items:center;gap:22px;
+}
+.marketplace-authentic .marketplace-final-actions>a:not(.fboservice__button){
+  color:#fff;font-weight:600;text-decoration:underline;text-underline-offset:4px;line-height:1.45;max-width:440px;
+}
+.marketplace-authentic .fboservice__button{white-space:normal;text-align:center}
+@media(max-width:640px){
+  .marketplace-authentic .marketplace-source-checklist{padding:24px 18px;margin-top:26px}
+  .marketplace-authentic .marketplace-source-note{font-size:16px}
+  .marketplace-authentic .marketplace-final-actions{padding:26px 20px;gap:20px}
+  .marketplace-authentic .marketplace-final-actions>a:not(.fboservice__button){text-align:center}
+  .marketplace-authentic .fboservice__section>h3{padding-left:14px;font-size:21px}
+}

@@ -1,0 +1,14 @@
+{
+  "captured_utc": "2026-11-10T05:54:28.481981+00:00",
+  "stats": {
+    "pages": 44,
+    "header_unchanged": 44,
+    "footer_unchanged": 44,
+    "shared_contact_unchanged": 44,
+    "jsonld_valid": 134,
+    "local_refs": 7187,
+    "dynamic_anchors": 42,
+    "home_unchanged": true
+  },
+  "errors": []
+}

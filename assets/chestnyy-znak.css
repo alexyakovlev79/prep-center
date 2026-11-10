@@ -10,3 +10,14 @@
 /* Custom card numbers replace the native outside list marker. */
 .czservice ol.czservice__steps{padding-left:0;list-style:none}
 .czservice ol.czservice__steps>li{list-style:none}
+
+/* Archive base typography, scoped to this internal content component. */
+.czservice h3,.czservice h4,.czservice h5,.czservice h6{font-family:Bebas,"Arial Narrow",sans-serif;font-weight:700}
+
+/* Six verified 20 October process photographs; keep the complete portrait frames. */
+.czservice__duplication-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px 20px;margin:28px 0 18px}
+.czservice__duplication-gallery figure{min-width:0;margin:0}
+.czservice__duplication-gallery img{display:block;width:100%;height:auto;aspect-ratio:3/4;object-fit:contain;border-radius:18px}
+.czservice__duplication-gallery figcaption{margin-top:10px;color:var(--muted);font-size:15px;line-height:1.45}
+@media(max-width:900px){.czservice__duplication-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.czservice__duplication-gallery{grid-template-columns:1fr;gap:24px}}

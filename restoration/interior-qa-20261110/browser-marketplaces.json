@@ -1,0 +1,68 @@
+{
+  "tested_routes": [
+    "/fbo-ozon/",
+    "/fbo-wildberries/",
+    "/fby-yandex-market/",
+    "/fbl-letual/",
+    "/fbs-wildberries/",
+    "/fbs-ozon/",
+    "/fbs-yandex-market/",
+    "/trebovaniya-fbw-wildberries/",
+    "/trebovaniya-fbo-ozon/",
+    "/trebovaniya-fby-yandex-market/",
+    "/trebovaniya-fbl-letual/",
+    "/trebovaniya-fbs-wildberries/",
+    "/trebovaniya-fbs-ozon/",
+    "/trebovaniya-fbs-yandex-market/"
+  ],
+  "preview": "http://127.0.0.1:4173/",
+  "method": "CUA Chrome, own tabs7/8; desktop + 390px iframe. All lazy images were brought into view through UI when needed.",
+  "desktop": {
+    "pages": 14,
+    "documentClientWidth": 1348,
+    "documentScrollWidth": 1348,
+    "articleClientWidth": 1348,
+    "articleScrollWidth": 1348,
+    "h1FontSize": "64px",
+    "headingFontFamily": "Bebas, \"Arial Narrow\", sans-serif",
+    "fontStatus": "loaded",
+    "imagesLoaded": 41,
+    "brokenImages": 0,
+    "pendingImages": 0
+  },
+  "mobile": {
+    "pages": 14,
+    "iframeOuterWidth": 390,
+    "documentClientWidth": 375,
+    "documentScrollWidth": 375,
+    "articleClientWidth": 375,
+    "articleScrollWidth": 375,
+    "h1FontSize": "34px",
+    "headingFontFamily": "Bebas, \"Arial Narrow\", sans-serif",
+    "fontStatus": "loaded",
+    "imagesLoaded": 41,
+    "brokenImages": 0,
+    "pendingImages": 0
+  },
+  "cta": {
+    "route": "/fbo-ozon/",
+    "label": "Рассчитать FBO-поставку Ozon",
+    "result": "Opened Оставить заявку dialog; close button worked.",
+    "submitted": false
+  },
+  "initialTransientSignal": {
+    "route": "/fbo-ozon/",
+    "initialMobileScrollWidth": 403,
+    "source": ".mobile-nav right403.42px; article375/375",
+    "recheck": "Current preview and baseline both375/375 at scrollTop0, brand144.875px and mobile-nav right359px. Not reproducible after updated shared-components.css?v=20261110-mobile-logo. No code changed by QA."
+  },
+  "screenshots": {
+    "desktopFbo": "/workspace/shared/qa-marketplace-desktop-fbo.jpg",
+    "desktopFbs": "/workspace/shared/qa-marketplace-desktop-fbs.jpg",
+    "mobileFbs": "/workspace/shared/qa-marketplace-mobile-fbs.jpg",
+    "desktopRequirements": "/workspace/shared/qa-marketplace-desktop-fbl-requirements.jpg",
+    "mobileRequirements": "/workspace/shared/qa-marketplace-mobile-fbl-requirements-top.jpg",
+    "ctaDialog": "/workspace/shared/qa-marketplace-cta-dialog.jpg"
+  },
+  "remainingFailures": []
+}

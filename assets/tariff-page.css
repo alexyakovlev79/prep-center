@@ -1,4 +1,5 @@
-/* Palette from the archived FBO/FBS tariff tables and the original accordion. */
+/* Tariff-page screenshot dated 20 October: soft background, white note,
+   orange open category, black table heading. Mobile cards stay readable. */
 article.tariff-page {
   --tariff-blue: #075b8d;
   --tariff-blue-dark: #06446a;
@@ -6,25 +7,36 @@ article.tariff-page {
   --tariff-border: #c9dce7;
   --tariff-orange: #ff9900;
   --tariff-orange-ink: #a34d00;
+  max-width: none;
+  padding: 36px max(24px, calc((100% - 1110px) / 2)) 80px;
+  background: #f3f8fb;
 }
 
 article.tariff-page .tariff-intro {
-  margin: 0 0 24px;
-  padding: clamp(20px, 3vw, 42px);
-  border-inline-start: 5px solid var(--tariff-orange);
-  border-radius: 14px;
-  background: var(--tariff-blue-light);
+  margin: 0 0 28px;
+  padding: 0;
 }
 
 article.tariff-page .tariff-intro h1 {
-  margin: 0;
-  color: var(--tariff-blue-dark);
+  margin: 0 0 28px;
+  color: #191919;
   font-size: clamp(36px, 4.8vw, 68px);
   line-height: 1.1;
 }
 
 article.tariff-page .tariff-intro h1 span {
-  color: var(--tariff-orange-ink);
+  color: var(--tariff-orange);
+}
+
+article.tariff-page .tariff-intro p { color: #191919; font-size: 20px; line-height: 1.5; }
+article.tariff-page > .tariff-note {
+  margin: 0 0 52px;
+  padding: 25px 30px;
+  border-left: 5px solid #ff9900;
+  border-radius: 20px;
+  background: #fff;
+  color: #191919;
+  box-shadow: 0 18px 30px #132b3f0a;
 }
 
 article.tariff-page .tariff-intro .restore-date {
@@ -33,13 +45,24 @@ article.tariff-page .tariff-intro .restore-date {
 }
 
 article.tariff-page label[for="tariff-search"] {
-  color: var(--tariff-blue-dark);
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
 }
 
 article.tariff-page input[type="search"] {
-  background: var(--tariff-blue-light);
-  border-color: var(--tariff-border);
+  background: #fff;
+  border-color: #e0e3e5;
+  border-radius: 40px;
+  max-width: 754px;
+  margin: 0 auto;
+  box-shadow: 0 6px 18px #132b3f08;
 }
+
+article.tariff-page #tariff-count { max-width: 754px; margin: 12px auto 35px; }
 
 article.tariff-page details.tariff-category {
   border-color: var(--tariff-border);
@@ -47,8 +70,11 @@ article.tariff-page details.tariff-category {
 
 article.tariff-page .tariff-category__label h2,
 article.tariff-page .tariff-category__count {
-  color: var(--tariff-blue-dark);
+  color: #191919;
 }
+
+article.tariff-page details.tariff-category[open] { background: #ff9900; border-color: #ff9900; }
+article.tariff-page details.tariff-category[open] .tariff-category__label :is(h2,span) { color: #fff; }
 
 article.tariff-page details.tariff-category[open] > summary {
   background: var(--tariff-orange);
@@ -65,17 +91,18 @@ article.tariff-page details.tariff-category > summary:focus-visible {
 }
 
 article.tariff-page .tariff-table th {
-  background: var(--tariff-blue);
-  border-color: var(--tariff-blue-dark);
+  background: #191919;
+  border-color: #191919;
   color: #fff;
 }
 
 article.tariff-page .tariff-table td {
-  border-color: var(--tariff-border);
+  background: #f8fafc;
+  border-color: #f8fafc;
 }
 
 article.tariff-page .tariff-table td:nth-child(2) {
-  color: var(--tariff-orange-ink);
+  color: #505960;
 }
 
 article.tariff-page .tariff-cta {
@@ -99,18 +126,21 @@ article.tariff-page .tariff-cta .telegram-button {
 }
 
 @media (max-width: 700px) {
+  article.tariff-page { padding: 24px 16px 60px; }
+  article.tariff-page .tariff-intro p { font-size: 17px; }
+  article.tariff-page > .tariff-note { padding: 22px; margin-bottom: 30px; }
   article.tariff-page .tariff-intro h1 {
     font-size: clamp(30px, 8.4vw, 40px);
   }
 
   article.tariff-page details.tariff-category[open] .restore-table-wrap {
-    background: var(--tariff-blue-light);
+    background: #ff9900;
     padding-top: 1px;
   }
 
   article.tariff-page .tariff-row {
-    border-color: var(--tariff-border);
-    border-inline-start: 4px solid var(--tariff-blue);
+    border-color: #fff;
+    background: #f8fafc;
   }
 
   article.tariff-page .tariff-row td::before,

@@ -1,0 +1,29 @@
+/* Article content uses the archived FBO component and its brand palette. */
+.wms-page .wms-page__facts { grid-template-columns: repeat(4,minmax(0,1fr)); margin-top: 26px; }
+.wms-page .wms-page__facts li { border-top: 4px solid #ff9900; }
+.wms-page .wms-page__facts strong {
+  display: block;
+  color: #075b8d;
+  font: 700 32px/1.15 Bebas, "Arial Narrow", sans-serif;
+  margin-bottom: 10px;
+}
+.wms-page .wms-page__facts span { display: block; font-size: 16px; font-weight: 400; }
+.aggregation-page .fboservice__hero figure { margin: 0; }
+.aggregation-page .fboservice__hero figure img { width: 100%; max-height: none; border-radius: 20px; }
+.aggregation-page figure figcaption { color: #5e6b78; font-size: 14px; margin-top: 10px; line-height: 1.5; }
+.aggregation-page .fboservice__step h3 { font-size: 24px; }
+.aggregation-page .fboservice__step p { margin: 0; font-size: 16px; }
+.aggregation-page .fboservice__table { table-layout: auto; }
+.aggregation-page .fboservice__table :is(th,td) { width: auto; vertical-align: top; }
+.aggregation-page .fboservice__cta h2 { color: #fff; }
+.aggregation-page .fboservice__cta p { color: #fff; }
+.aggregation-page .fboservice__cta { margin-top: 40px; }
+@media (max-width: 980px) {
+  .wms-page .wms-page__facts { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}
+@media (max-width: 640px) {
+  .wms-page .wms-page__facts { grid-template-columns: 1fr; }
+  .aggregation-page .fboservice__table-wrap { overflow-x: auto; }
+  .aggregation-page .fboservice__table { min-width: 0; }
+  .aggregation-page .fboservice__table :is(th,td) { padding: 12px 9px; font-size: 14px; }
+}

@@ -74,3 +74,6 @@
 /* Adaptation to the shared recovery shell; original page component layout preserved. */
 .fbsservice li{margin-bottom:.5em}.fbsservice ul,.fbsservice ol{padding-left:1.35em;margin:0 0 24px}.fbsservice li::marker{color:#ff9800;font-weight:700}.fbsservice__highlights,.fbsservice__facts{list-style:none;padding:0!important}.fbsservice__highlights li,.fbsservice__facts li{margin:0}.fbsservice__hero>*,.fbsservice__split>*{min-width:0}.fbsservice img{height:auto}.fbsservice h3{font-family:Tilda,sans-serif}.fbsservice a:focus-visible{outline:3px solid #ff9800;outline-offset:4px}.fbsservice__recovery-date{font-size:14px;color:#5e6b78;margin:0 0 18px}.fbsservice__faq summary::marker{color:#ff9800}.fbsservice__photo-pair img{width:min(100%,390px);height:auto;max-height:none}
 @media(max-width:640px){.fbsservice h1{overflow-wrap:break-word}.fbsservice__button{white-space:normal}}
+
+/* Archive base typography, scoped to this internal content component. */
+.fbsservice h3,.fbsservice h4,.fbsservice h5,.fbsservice h6{font-family:Bebas,"Arial Narrow",sans-serif;font-weight:700}

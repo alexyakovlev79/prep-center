@@ -12,3 +12,6 @@
 /* Custom card numbers replace the native outside list marker. */
 .packservice ol.packservice__steps{padding-left:0;list-style:none}
 .packservice ol.packservice__steps>li{list-style:none}
+
+/* Archive base typography, scoped to this internal content component. */
+.packservice h3,.packservice h4,.packservice h5,.packservice h6{font-family:Bebas,"Arial Narrow",sans-serif;font-weight:700}

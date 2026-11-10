@@ -71,3 +71,6 @@
     .autservice__button { width: 100%; }
     .autservice__links { display: grid; grid-template-columns: 1fr; }
 }
+
+/* Archive base typography, scoped to this internal content component. */
+.autservice h3,.autservice h4,.autservice h5,.autservice h6{font-family:Bebas,"Arial Narrow",sans-serif;font-weight:700}

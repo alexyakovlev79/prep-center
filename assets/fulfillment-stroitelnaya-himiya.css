@@ -75,3 +75,6 @@
     .chemservice__button { width: 100%; }
     .chemservice__links { display: grid; grid-template-columns: 1fr; }
 }
+
+/* Archive base typography, scoped to this internal content component. */
+.chemservice h3,.chemservice h4,.chemservice h5,.chemservice h6{font-family:Bebas,"Arial Narrow",sans-serif;font-weight:700}

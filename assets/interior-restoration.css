@@ -1,0 +1,83 @@
+/* Original header-current.php content rules, scoped to the 44 inner pages.
+   The homepage and the common header/footer do not load these rules. */
+main > article:not(.privacy-page) :where(h1,h2,h3,h4,h5,h6) {
+  font-family: Bebas, "Arial Narrow", sans-serif;
+  font-weight: 700;
+}
+main > article .btn {
+  width: fit-content;
+  max-width: 100%;
+  transition: .2s;
+  text-align: center;
+  position: relative;
+  color: #fff;
+  overflow: hidden;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 60px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.3;
+  border-radius: 12px;
+  text-decoration: none;
+}
+main > article .btn--main {
+  color: #fff;
+  box-shadow: 0 4px 4px #0004;
+  background: linear-gradient(45deg, #ff9900 0%, #ff9e0c 44.5%, #feb341 100%);
+}
+main > article .btn--white { background: #fff; color: #ff9900; }
+main > article .pc-cta-actions {
+  display: flex !important;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 12px;
+  margin: 26px 0 0 !important;
+}
+main > article .pc-cta-actions > .pc-cta-button {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  min-height: 56px;
+  box-sizing: border-box;
+  margin: 0 !important;
+  padding: 12px 22px !important;
+  border: 2px solid transparent !important;
+  border-radius: 12px !important;
+  font-size: 16px !important;
+  font-weight: 800 !important;
+  line-height: 1.25 !important;
+  text-align: center;
+  white-space: normal;
+  text-decoration: none !important;
+  cursor: pointer;
+  transition: transform .2s, filter .2s, color .2s, background-color .2s, border-color .2s;
+}
+main > article .pc-cta-actions > .pc-cta-button--primary,
+main > article a.fboservice__button:not(.fboservice__button--ghost):not(.fboservice__button--blue),
+main > article a.fbsservice__button:not(.fbsservice__button--ghost):not(.fbsservice__button--blue) {
+  background-color: #ff9900 !important;
+  background-image: linear-gradient(45deg, #ff9900 0%, #ff9e0c 44.5%, #feb341 100%) !important;
+  color: #fff !important;
+  border-color: transparent !important;
+}
+main > article .pc-cta-actions > .pc-cta-button--telegram {
+  background: #fff !important;
+  color: #075b8d !important;
+  border-color: #075b8d !important;
+}
+main > article .pc-cta-button:hover { transform: translateY(-1px); filter: brightness(.97); }
+main > article :is(.btn,.pc-cta-button):focus-visible { outline: 3px solid #ff990073; outline-offset: 3px; }
+main > article [data-prep-inline-form] { margin-top: 24px; }
+@media (max-width: 640px) {
+  main > article .pc-cta-actions { flex-direction: column; align-items: stretch; }
+  main > article .pc-cta-actions > .pc-cta-button { width: 100%; }
+  main > article .btn { width: 100%; padding: 16px 24px; font-size: 18px; }
+}
+/* Recovery's broad [class*=__hero] rule also padded images and inner wrappers. */
+@media (max-width: 700px) {
+  main > article.recovered-content :is(img[class*="__hero"], [class*="__hero-media"], [class*="__hero-content"]) {
+    padding: 0 !important;
+  }
+}

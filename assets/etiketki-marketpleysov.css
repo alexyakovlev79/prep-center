@@ -6,3 +6,6 @@
 /* Adaptation to the shared recovery shell; original page component layout preserved. */
 .labelsservice li{margin-bottom:.5em}.labelsservice ul,.labelsservice ol{padding-left:1.35em;margin:0 0 24px}.labelsservice li::marker{color:#ff9800;font-weight:700}.labelsservice__highlights,.labelsservice__facts{list-style:none;padding:0!important}.labelsservice__highlights li,.labelsservice__facts li{margin:0}.labelsservice__hero>*,.labelsservice__split>*{min-width:0}.labelsservice img{height:auto}.labelsservice h3{font-family:Tilda,sans-serif}.labelsservice a:focus-visible{outline:3px solid #ff9800;outline-offset:4px}.labelsservice__recovery-date{font-size:14px;color:#5e6b78;margin:0 0 18px}.labelsservice__faq summary::marker{color:#ff9800}.labelsservice__photo-pair img{width:min(100%,390px);height:auto;max-height:none}.labelsservice__split img{width:min(100%,650px);height:auto!important;max-height:none}
 @media(max-width:640px){.labelsservice h1{overflow-wrap:break-word}.labelsservice__button{white-space:normal}}
+
+/* Archive base typography, scoped to this internal content component. */
+.labelsservice h3,.labelsservice h4,.labelsservice h5,.labelsservice h6{font-family:Bebas,"Arial Narrow",sans-serif;font-weight:700}
