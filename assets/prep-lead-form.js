@@ -165,7 +165,7 @@ function inlineForm(titleText,leadText,kind){
 function mountInline(){
  document.querySelectorAll('[data-prep-inline-form]').forEach(function(container){
   if(container.querySelector('.prep-lead-shell'))return;
-  container.appendChild(createForm('inline',''));
+  container.appendChild(createForm('inline',container.dataset.prepRequest||''));
  });
  const reviews=document.getElementById('reviews'),about=document.getElementById('about');
  if(reviews&&about&&!document.getElementById('prep-lead-consultation')){
@@ -206,7 +206,8 @@ function openModal(opener,prefill){
  if(overlay)return;
  lastOpener=opener||document.activeElement;
  const excursion=/экскурси/i.test((opener&&opener.textContent)||'');
- const calculatorRequest=typeof prefill==='string' && prefill.length>0;
+ const calculatorRequest=!!(opener&&opener.id==='calc-send-form'&&typeof prefill==='string'&&prefill.length);
+ const contextualRequest=(opener&&opener.dataset&&opener.dataset.prepRequest)||'';
  overlay=document.createElement('div');overlay.className='prep-lead-overlay';
  const dialog=document.createElement('div');dialog.className='prep-lead-dialog';
  dialog.setAttribute('role','dialog');dialog.setAttribute('aria-modal','true');dialog.setAttribute('aria-labelledby','prep-lead-dialog-title');
@@ -214,7 +215,7 @@ function openModal(opener,prefill){
  const title=document.createElement('h2');title.id='prep-lead-dialog-title';title.textContent=calculatorRequest?'Отправить расчет':excursion?'Записаться на экскурсию':'Оставить заявку';
  const lead=document.createElement('p');lead.className='prep-lead-modal-intro';
  lead.textContent=calculatorRequest?'Укажите, как с вами связаться. Расчет партии уже добавлен в комментарий.':excursion?'Оставьте контакты, чтобы согласовать удобное время посещения склада.':'Оставьте контакты и коротко расскажите, какой товар нужно подготовить к маркетплейсам.';
- const form=createForm('modal',calculatorRequest?prefill:excursion?'Хочу записаться на экскурсию на склад.':'',calculatorRequest?'calculator':'general');
+ const form=createForm('modal',calculatorRequest?prefill:contextualRequest||(excursion?'Хочу записаться на экскурсию на склад.':''),calculatorRequest?'calculator':'general');
  dialog.append(close,title,lead,form);overlay.appendChild(dialog);document.body.appendChild(overlay);
  document.body.classList.add('prep-lead-modal-open');
  close.addEventListener('click',closeModal);

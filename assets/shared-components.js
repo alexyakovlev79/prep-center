@@ -63,7 +63,7 @@
   const boot=function(){
     if(document.getElementById('prep-lead-form-script'))return;
     const script=document.createElement('script');
-    script.id='prep-lead-form-script';script.src='/assets/prep-lead-form.js?v=20261110-calc-reset-header';
+    script.id='prep-lead-form-script';script.src='/assets/prep-lead-form.js?v=20261110-cta-v1';
     script.async=false;document.body.appendChild(script);
   };
   const config=document.createElement('script');

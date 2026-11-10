@@ -42,23 +42,10 @@ for route in routes:
  s=re.sub(r'(<a\b[^>]*href=")/("[^>]*>Посмотреть все 134 тарифа)',r'\1/tarify/\2',s)
  # All map/review outbound links open separately.
  s=re.sub(r'<a\b[^>]*href="https://yandex.ru/maps/[^\"]*"[^>]*>',lambda m:re.sub(r'\s(?:target|rel)="[^"]*"','',m[0])[:-1]+' target="_blank" rel="noopener">',s)
- # Route every contact/conversion CTA to the manager, including legacy modal links.
- def contact_cta(match):
-  tag=match[0]
-  href=re.search(r'\bhref="([^"]*)"',tag)
-  cls=re.search(r'\bclass="([^"]*)"',tag)
-  if not href:return tag
-  destination=href[1]
-  is_button=cls and re.search(r'button|btn|cta',cls[1])
-  if '#contact' not in destination and destination!='https://t.me/prepmanager2' and not (is_button and destination.startswith('tel:')):return tag
-  tag=re.sub(r'\bhref="[^"]*"','href="https://t.me/prepmanager2"',tag)
-  tag=re.sub(r'\s(?:target|rel|data-modal|data-target)="[^"]*"','',tag)
-  tag=tag.replace(' getModal','')
-  return tag[:-1]+' target="_blank" rel="noopener">'
- s=re.sub(r'<a\b[^>]*>',contact_cta,s)
- s=re.sub(r'(<a\b[^>]*href="https://t.me/prepmanager2"[^>]*>)Позвонить(</a>)',r'\1Написать в Telegram\2',s)
  # Refresh the changed photo stylesheet in browsers with the previous cached file.
  s=re.sub(r'href="/assets/site\.css(?:\?[^"]*)?"','href="/assets/site.css?v=20261104-photos"',s)
+ from polish_cta import normalize
+ s=normalize(s,route.strip('/'))
  if old!=s:
   changed.append(str(p.relative_to(ROOT)))
   if '--check' not in sys.argv:p.write_text(s)

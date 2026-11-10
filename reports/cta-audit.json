@@ -1,0 +1,3559 @@
+[
+  {
+    "path": "about/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить сотрудничество с Преп-Центром.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D1%81%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%BE%D0%BC.",
+        "kind": "telegram",
+        "request": "Хочу обсудить сотрудничество с Преп-Центром.",
+        "tone": "light"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "agregatsiya-kiz-naborov/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Рассчитать партию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить агрегацию КИЗ при сборке маркированных наборов.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%B0%D0%B3%D1%80%D0%B5%D0%B3%D0%B0%D1%86%D0%B8%D1%8E%20%D0%9A%D0%98%D0%97%20%D0%BF%D1%80%D0%B8%20%D1%81%D0%B1%D0%BE%D1%80%D0%BA%D0%B5%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%D0%BE%D0%B2.",
+        "kind": "telegram",
+        "request": "Хочу обсудить агрегацию КИЗ при сборке маркированных наборов.",
+        "tone": "dark"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "blog/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить подготовку моей партии товаров к маркетплейсам.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D1%83%20%D0%BC%D0%BE%D0%B5%D0%B9%20%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B8%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2%20%D0%BA%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%D0%B0%D0%BC.",
+        "kind": "telegram",
+        "request": "Хочу обсудить подготовку моей партии товаров к маркетплейсам.",
+        "tone": "light"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "cases/agregatsiya-kiz-naborov-wms/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Рассчитать партию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить сборку маркированных наборов и агрегацию КИЗ через WMS.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D1%81%D0%B1%D0%BE%D1%80%D0%BA%D1%83%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%D0%BE%D0%B2%20%D0%B8%20%D0%B0%D0%B3%D1%80%D0%B5%D0%B3%D0%B0%D1%86%D0%B8%D1%8E%20%D0%9A%D0%98%D0%97%20%D1%87%D0%B5%D1%80%D0%B5%D0%B7%20WMS.",
+        "kind": "telegram",
+        "request": "Хочу обсудить сборку маркированных наборов и агрегацию КИЗ через WMS.",
+        "tone": "dark"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "cases/avtohimiya-2393-nabora-za-2-dnya/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить похожую задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить похожую задачу: сборку подарочных наборов автохимии.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D1%85%D0%BE%D0%B6%D1%83%D1%8E%20%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D1%83%3A%20%D1%81%D0%B1%D0%BE%D1%80%D0%BA%D1%83%20%D0%BF%D0%BE%D0%B4%D0%B0%D1%80%D0%BE%D1%87%D0%BD%D1%8B%D1%85%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%D0%BE%D0%B2%20%D0%B0%D0%B2%D1%82%D0%BE%D1%85%D0%B8%D0%BC%D0%B8%D0%B8.",
+        "kind": "telegram",
+        "request": "Хочу обсудить похожую задачу: сборку подарочных наборов автохимии.",
+        "tone": "light"
+      },
+      {
+        "text": "Получить расчет",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить похожую задачу: сборку подарочных наборов автохимии.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D1%85%D0%BE%D0%B6%D1%83%D1%8E%20%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D1%83%3A%20%D1%81%D0%B1%D0%BE%D1%80%D0%BA%D1%83%20%D0%BF%D0%BE%D0%B4%D0%B0%D1%80%D0%BE%D1%87%D0%BD%D1%8B%D1%85%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%D0%BE%D0%B2%20%D0%B0%D0%B2%D1%82%D0%BE%D1%85%D0%B8%D0%BC%D0%B8%D0%B8.",
+        "kind": "telegram",
+        "request": "Хочу обсудить похожую задачу: сборку подарочных наборов автохимии.",
+        "tone": "dark"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "cases/avtomatizirovannaya-upakovka-kosmetiki/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Оставьте заявку в «Преп-центр»",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить автоматизированную упаковку партии косметики.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%83%D1%8E%20%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D1%83%20%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B8%20%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B8.",
+        "kind": "telegram",
+        "request": "Хочу обсудить автоматизированную упаковку партии косметики.",
+        "tone": "dark"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "cases/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить похожую задачу по подготовке товаров к маркетплейсам.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D1%85%D0%BE%D0%B6%D1%83%D1%8E%20%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D1%83%20%D0%BF%D0%BE%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B5%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2%20%D0%BA%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%D0%B0%D0%BC.",
+        "kind": "telegram",
+        "request": "Хочу обсудить похожую задачу по подготовке товаров к маркетплейсам.",
+        "tone": "light"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "cases/kantselyarskie-nabory-6000-za-5-dney/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Получить расчет",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить похожую задачу: комплектацию подарочных канцелярских наборов.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D1%85%D0%BE%D0%B6%D1%83%D1%8E%20%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D1%83%3A%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%82%D0%B0%D1%86%D0%B8%D1%8E%20%D0%BF%D0%BE%D0%B4%D0%B0%D1%80%D0%BE%D1%87%D0%BD%D1%8B%D1%85%20%D0%BA%D0%B0%D0%BD%D1%86%D0%B5%D0%BB%D1%8F%D1%80%D1%81%D0%BA%D0%B8%D1%85%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%D0%BE%D0%B2.",
+        "kind": "telegram",
+        "request": "Хочу обсудить похожую задачу: комплектацию подарочных канцелярских наборов.",
+        "tone": "dark"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "cases/kosmetika-8400-za-2-dnya/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить похожую задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить похожую задачу: упаковку и маркировку партии косметики для Wildberries и Ozon.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D1%85%D0%BE%D0%B6%D1%83%D1%8E%20%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D1%83%3A%20%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D1%83%20%D0%B8%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D1%83%20%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B8%20%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B8%20%D0%B4%D0%BB%D1%8F%20Wildberries%20%D0%B8%20Ozon.",
+        "kind": "telegram",
+        "request": "Хочу обсудить похожую задачу: упаковку и маркировку партии косметики для Wildberries и Ozon.",
+        "tone": "light"
+      },
+      {
+        "text": "Получить расчет",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить похожую задачу: упаковку и маркировку партии косметики для Wildberries и Ozon.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D1%85%D0%BE%D0%B6%D1%83%D1%8E%20%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D1%83%3A%20%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D1%83%20%D0%B8%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D1%83%20%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B8%20%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B8%20%D0%B4%D0%BB%D1%8F%20Wildberries%20%D0%B8%20Ozon.",
+        "kind": "telegram",
+        "request": "Хочу обсудить похожую задачу: упаковку и маркировку партии косметики для Wildberries и Ozon.",
+        "tone": "dark"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "cases/opolaskivateli-3186-za-2-dnya/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Получить расчет",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить похожую задачу: упаковку ополаскивателей и других жидких товаров в ВПП.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D1%85%D0%BE%D0%B6%D1%83%D1%8E%20%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D1%83%3A%20%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D1%83%20%D0%BE%D0%BF%D0%BE%D0%BB%D0%B0%D1%81%D0%BA%D0%B8%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%B9%20%D0%B8%20%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D1%85%20%D0%B6%D0%B8%D0%B4%D0%BA%D0%B8%D1%85%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2%20%D0%B2%20%D0%92%D0%9F%D0%9F.",
+        "kind": "telegram",
+        "request": "Хочу обсудить похожую задачу: упаковку ополаскивателей и других жидких товаров в ВПП.",
+        "tone": "dark"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "cases/stroitelnaya-himiya-5180-za-3-dnya/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить похожую задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить похожую задачу: упаковку строительной химии в термоусадку и ВПП.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D1%85%D0%BE%D0%B6%D1%83%D1%8E%20%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D1%83%3A%20%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D1%83%20%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9%20%D1%85%D0%B8%D0%BC%D0%B8%D0%B8%20%D0%B2%20%D1%82%D0%B5%D1%80%D0%BC%D0%BE%D1%83%D1%81%D0%B0%D0%B4%D0%BA%D1%83%20%D0%B8%20%D0%92%D0%9F%D0%9F.",
+        "kind": "telegram",
+        "request": "Хочу обсудить похожую задачу: упаковку строительной химии в термоусадку и ВПП.",
+        "tone": "light"
+      },
+      {
+        "text": "Получить расчет",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить похожую задачу: упаковку строительной химии в термоусадку и ВПП.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D1%85%D0%BE%D0%B6%D1%83%D1%8E%20%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D1%83%3A%20%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D1%83%20%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9%20%D1%85%D0%B8%D0%BC%D0%B8%D0%B8%20%D0%B2%20%D1%82%D0%B5%D1%80%D0%BC%D0%BE%D1%83%D1%81%D0%B0%D0%B4%D0%BA%D1%83%20%D0%B8%20%D0%92%D0%9F%D0%9F.",
+        "kind": "telegram",
+        "request": "Хочу обсудить похожую задачу: упаковку строительной химии в термоусадку и ВПП.",
+        "tone": "dark"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "chestnyy-znak/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить маркировку",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить маркировку партии кодами Честного знака.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D1%83%20%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B8%20%D0%BA%D0%BE%D0%B4%D0%B0%D0%BC%D0%B8%20%D0%A7%D0%B5%D1%81%D1%82%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B7%D0%BD%D0%B0%D0%BA%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу обсудить маркировку партии кодами Честного знака.",
+        "tone": "light"
+      },
+      {
+        "text": "Смотреть полный кейс 3 186 ополаскивателей",
+        "href": "/cases/opolaskivateli-3186-za-2-dnya/",
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "FBO-фулфилмент",
+        "href": "/fulfillment-fbo/",
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "FBS-фулфилмент",
+        "href": "/fulfillment-fbs/",
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Получить расчет",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить маркировку партии кодами Честного знака.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D1%83%20%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B8%20%D0%BA%D0%BE%D0%B4%D0%B0%D0%BC%D0%B8%20%D0%A7%D0%B5%D1%81%D1%82%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B7%D0%BD%D0%B0%D0%BA%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу обсудить маркировку партии кодами Честного знака.",
+        "tone": "light"
+      },
+      {
+        "text": "Получить расчет",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить маркировку партии кодами Честного знака.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D1%83%20%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B8%20%D0%BA%D0%BE%D0%B4%D0%B0%D0%BC%D0%B8%20%D0%A7%D0%B5%D1%81%D1%82%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B7%D0%BD%D0%B0%D0%BA%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу обсудить маркировку партии кодами Честного знака.",
+        "tone": "dark"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "contacts/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Связаться с нами",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить сотрудничество с Преп-Центром.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D1%81%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%BE%D0%BC.",
+        "kind": "telegram",
+        "request": "Хочу обсудить сотрудничество с Преп-Центром.",
+        "tone": "light"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "etiketki-marketpleysov/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить маркировку",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить печать и наклейку этикеток маркетплейсов.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D1%8C%20%D0%B8%20%D0%BD%D0%B0%D0%BA%D0%BB%D0%B5%D0%B9%D0%BA%D1%83%20%D1%8D%D1%82%D0%B8%D0%BA%D0%B5%D1%82%D0%BE%D0%BA%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%D0%BE%D0%B2.",
+        "kind": "telegram",
+        "request": "Хочу обсудить печать и наклейку этикеток маркетплейсов.",
+        "tone": "light"
+      },
+      {
+        "text": "Смотреть кейс 3 186 ополаскивателей",
+        "href": "/cases/opolaskivateli-3186-za-2-dnya/",
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Посмотреть полный кейс",
+        "href": "/cases/opolaskivateli-3186-za-2-dnya/",
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Получить расчет",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить печать и наклейку этикеток маркетплейсов.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D1%8C%20%D0%B8%20%D0%BD%D0%B0%D0%BA%D0%BB%D0%B5%D0%B9%D0%BA%D1%83%20%D1%8D%D1%82%D0%B8%D0%BA%D0%B5%D1%82%D0%BE%D0%BA%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%D0%BE%D0%B2.",
+        "kind": "telegram",
+        "request": "Хочу обсудить печать и наклейку этикеток маркетплейсов.",
+        "tone": "light"
+      },
+      {
+        "text": "FBO-фулфилмент",
+        "href": "/fulfillment-fbo/",
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "FBS-фулфилмент",
+        "href": "/fulfillment-fbs/",
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Обсудить маркировку",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить печать и наклейку этикеток маркетплейсов.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D1%8C%20%D0%B8%20%D0%BD%D0%B0%D0%BA%D0%BB%D0%B5%D0%B9%D0%BA%D1%83%20%D1%8D%D1%82%D0%B8%D0%BA%D0%B5%D1%82%D0%BE%D0%BA%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%D0%BE%D0%B2.",
+        "kind": "telegram",
+        "request": "Хочу обсудить печать и наклейку этикеток маркетплейсов.",
+        "tone": "dark"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "fbl-letual/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Рассчитать подготовку поставки в ЛЭТУАЛЬ",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить подготовку косметики и парфюмерии к FBL-поставке в ЛЭТУАЛЬ.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D1%83%20%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B8%20%D0%B8%20%D0%BF%D0%B0%D1%80%D1%84%D1%8E%D0%BC%D0%B5%D1%80%D0%B8%D0%B8%20%D0%BA%20FBL-%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B5%20%D0%B2%20%D0%9B%D0%AD%D0%A2%D0%A3%D0%90%D0%9B%D0%AC.",
+        "kind": "telegram",
+        "request": "Хочу обсудить подготовку косметики и парфюмерии к FBL-поставке в ЛЭТУАЛЬ.",
+        "tone": "light"
+      },
+      {
+        "text": "Рассчитать подготовку FBL",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить подготовку косметики и парфюмерии к FBL-поставке в ЛЭТУАЛЬ.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D1%83%20%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B8%20%D0%B8%20%D0%BF%D0%B0%D1%80%D1%84%D1%8E%D0%BC%D0%B5%D1%80%D0%B8%D0%B8%20%D0%BA%20FBL-%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B5%20%D0%B2%20%D0%9B%D0%AD%D0%A2%D0%A3%D0%90%D0%9B%D0%AC.",
+        "kind": "telegram",
+        "request": "Хочу обсудить подготовку косметики и парфюмерии к FBL-поставке в ЛЭТУАЛЬ.",
+        "tone": "dark"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "fbo-ozon/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Рассчитать FBO-поставку Ozon",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить подготовку FBO-поставки на Ozon.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D1%83%20FBO-%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B8%20%D0%BD%D0%B0%20Ozon.",
+        "kind": "telegram",
+        "request": "Хочу обсудить подготовку FBO-поставки на Ozon.",
+        "tone": "light"
+      },
+      {
+        "text": "Рассчитать FBO-поставку Ozon",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить подготовку FBO-поставки на Ozon.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D1%83%20FBO-%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B8%20%D0%BD%D0%B0%20Ozon.",
+        "kind": "telegram",
+        "request": "Хочу обсудить подготовку FBO-поставки на Ozon.",
+        "tone": "dark"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "fbo-wildberries/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Рассчитать поставку на Wildberries",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить подготовку FBW-поставки на Wildberries.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D1%83%20FBW-%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B8%20%D0%BD%D0%B0%20Wildberries.",
+        "kind": "telegram",
+        "request": "Хочу обсудить подготовку FBW-поставки на Wildberries.",
+        "tone": "light"
+      },
+      {
+        "text": "Рассчитать поставку на Wildberries",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить подготовку FBW-поставки на Wildberries.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D1%83%20FBW-%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B8%20%D0%BD%D0%B0%20Wildberries.",
+        "kind": "telegram",
+        "request": "Хочу обсудить подготовку FBW-поставки на Wildberries.",
+        "tone": "dark"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "fbs-ozon/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Рассчитать FBS для Ozon",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить FBS-фулфилмент для Ozon.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20FBS-%D1%84%D1%83%D0%BB%D1%84%D0%B8%D0%BB%D0%BC%D0%B5%D0%BD%D1%82%20%D0%B4%D0%BB%D1%8F%20Ozon.",
+        "kind": "telegram",
+        "request": "Хочу обсудить FBS-фулфилмент для Ozon.",
+        "tone": "light"
+      },
+      {
+        "text": "Рассчитать FBS для Ozon",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить FBS-фулфилмент для Ozon.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20FBS-%D1%84%D1%83%D0%BB%D1%84%D0%B8%D0%BB%D0%BC%D0%B5%D0%BD%D1%82%20%D0%B4%D0%BB%D1%8F%20Ozon.",
+        "kind": "telegram",
+        "request": "Хочу обсудить FBS-фулфилмент для Ozon.",
+        "tone": "dark"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "fbs-wildberries/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Рассчитать FBS для Wildberries",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить FBS-фулфилмент для Wildberries.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20FBS-%D1%84%D1%83%D0%BB%D1%84%D0%B8%D0%BB%D0%BC%D0%B5%D0%BD%D1%82%20%D0%B4%D0%BB%D1%8F%20Wildberries.",
+        "kind": "telegram",
+        "request": "Хочу обсудить FBS-фулфилмент для Wildberries.",
+        "tone": "light"
+      },
+      {
+        "text": "Рассчитать FBS для Wildberries",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить FBS-фулфилмент для Wildberries.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20FBS-%D1%84%D1%83%D0%BB%D1%84%D0%B8%D0%BB%D0%BC%D0%B5%D0%BD%D1%82%20%D0%B4%D0%BB%D1%8F%20Wildberries.",
+        "kind": "telegram",
+        "request": "Хочу обсудить FBS-фулфилмент для Wildberries.",
+        "tone": "dark"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "fbs-yandex-market/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Рассчитать FBS для Яндекс Маркета",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить FBS-фулфилмент для Яндекс Маркета.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20FBS-%D1%84%D1%83%D0%BB%D1%84%D0%B8%D0%BB%D0%BC%D0%B5%D0%BD%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%20%D0%9C%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу обсудить FBS-фулфилмент для Яндекс Маркета.",
+        "tone": "light"
+      },
+      {
+        "text": "Рассчитать FBS для Яндекс Маркета",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить FBS-фулфилмент для Яндекс Маркета.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20FBS-%D1%84%D1%83%D0%BB%D1%84%D0%B8%D0%BB%D0%BC%D0%B5%D0%BD%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%20%D0%9C%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу обсудить FBS-фулфилмент для Яндекс Маркета.",
+        "tone": "dark"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "fby-yandex-market/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Рассчитать поставку FBY Яндекс Маркет",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить подготовку FBY-поставки на Яндекс Маркет.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D1%83%20FBY-%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B8%20%D0%BD%D0%B0%20%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%20%D0%9C%D0%B0%D1%80%D0%BA%D0%B5%D1%82.",
+        "kind": "telegram",
+        "request": "Хочу обсудить подготовку FBY-поставки на Яндекс Маркет.",
+        "tone": "light"
+      },
+      {
+        "text": "Рассчитать поставку FBY",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить подготовку FBY-поставки на Яндекс Маркет.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D1%83%20FBY-%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B8%20%D0%BD%D0%B0%20%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%20%D0%9C%D0%B0%D1%80%D0%BA%D0%B5%D1%82.",
+        "kind": "telegram",
+        "request": "Хочу обсудить подготовку FBY-поставки на Яндекс Маркет.",
+        "tone": "dark"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "fulfillment-avtohimiya/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить партию автохимии",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить подготовку автохимии и автокосметики.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D1%83%20%D0%B0%D0%B2%D1%82%D0%BE%D1%85%D0%B8%D0%BC%D0%B8%D0%B8%20%D0%B8%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B8.",
+        "kind": "telegram",
+        "request": "Хочу обсудить подготовку автохимии и автокосметики.",
+        "tone": "light"
+      },
+      {
+        "text": "Смотреть полный кейс",
+        "href": "/cases/avtohimiya-2393-nabora-za-2-dnya/",
+        "kind": "nav",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Получить расчет",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить подготовку автохимии и автокосметики.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D1%83%20%D0%B0%D0%B2%D1%82%D0%BE%D1%85%D0%B8%D0%BC%D0%B8%D0%B8%20%D0%B8%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B8.",
+        "kind": "telegram",
+        "request": "Хочу обсудить подготовку автохимии и автокосметики.",
+        "tone": "light"
+      },
+      {
+        "text": "Обсудить партию автохимии",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить подготовку автохимии и автокосметики.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D1%83%20%D0%B0%D0%B2%D1%82%D0%BE%D1%85%D0%B8%D0%BC%D0%B8%D0%B8%20%D0%B8%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B8.",
+        "kind": "telegram",
+        "request": "Хочу обсудить подготовку автохимии и автокосметики.",
+        "tone": "light"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "fulfillment-bytovaya-himiya/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Получить расчет",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить фулфилмент партии бытовой химии.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D1%84%D1%83%D0%BB%D1%84%D0%B8%D0%BB%D0%BC%D0%B5%D0%BD%D1%82%20%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B8%20%D0%B1%D1%8B%D1%82%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%85%D0%B8%D0%BC%D0%B8%D0%B8.",
+        "kind": "telegram",
+        "request": "Хочу обсудить фулфилмент партии бытовой химии.",
+        "tone": "light"
+      },
+      {
+        "text": "Обсудить партию бытовой химии",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить фулфилмент партии бытовой химии.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D1%84%D1%83%D0%BB%D1%84%D0%B8%D0%BB%D0%BC%D0%B5%D0%BD%D1%82%20%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B8%20%D0%B1%D1%8B%D1%82%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%85%D0%B8%D0%BC%D0%B8%D0%B8.",
+        "kind": "telegram",
+        "request": "Хочу обсудить фулфилмент партии бытовой химии.",
+        "tone": "dark"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "fulfillment-fbo/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить FBO-поставку",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить подготовку FBO-поставки на склад маркетплейса.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D1%83%20FBO-%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B8%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу обсудить подготовку FBO-поставки на склад маркетплейса.",
+        "tone": "light"
+      },
+      {
+        "text": "Подробнее о FBS-фулфилменте",
+        "href": "/fulfillment-fbs/",
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Получить расчет",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить подготовку FBO-поставки на склад маркетплейса.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D1%83%20FBO-%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B8%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу обсудить подготовку FBO-поставки на склад маркетплейса.",
+        "tone": "light"
+      },
+      {
+        "text": "Все тарифы",
+        "href": "/tarify/",
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Актуальный график отгрузок",
+        "href": "/tarify/",
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Обсудить доставку",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить доставку подготовленной FBO-поставки на склад маркетплейса.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D1%83%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9%20FBO-%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B8%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу обсудить доставку подготовленной FBO-поставки на склад маркетплейса.",
+        "tone": "light"
+      },
+      {
+        "text": "Обсудить крупную поставку",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить срочную подготовку крупной FBO-поставки.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D1%81%D1%80%D0%BE%D1%87%D0%BD%D1%83%D1%8E%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D1%83%20%D0%BA%D1%80%D1%83%D0%BF%D0%BD%D0%BE%D0%B9%20FBO-%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B8.",
+        "kind": "telegram",
+        "request": "Хочу обсудить срочную подготовку крупной FBO-поставки.",
+        "tone": "light"
+      },
+      {
+        "text": "Обсудить FBO-поставку",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить подготовку FBO-поставки на склад маркетплейса.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D1%83%20FBO-%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B8%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу обсудить подготовку FBO-поставки на склад маркетплейса.",
+        "tone": "dark"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "fulfillment-fbs/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить FBS",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить хранение, сборку и отгрузку FBS-заказов.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%2C%20%D1%81%D0%B1%D0%BE%D1%80%D0%BA%D1%83%20%D0%B8%20%D0%BE%D1%82%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D1%83%20FBS-%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%BE%D0%B2.",
+        "kind": "telegram",
+        "request": "Хочу обсудить хранение, сборку и отгрузку FBS-заказов.",
+        "tone": "light"
+      },
+      {
+        "text": "Получить расчет",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить хранение, сборку и отгрузку FBS-заказов.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%2C%20%D1%81%D0%B1%D0%BE%D1%80%D0%BA%D1%83%20%D0%B8%20%D0%BE%D1%82%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D1%83%20FBS-%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%BE%D0%B2.",
+        "kind": "telegram",
+        "request": "Хочу обсудить хранение, сборку и отгрузку FBS-заказов.",
+        "tone": "light"
+      },
+      {
+        "text": "Все тарифы",
+        "href": "/tarify/",
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Обсудить FBS",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить хранение, сборку и отгрузку FBS-заказов.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%2C%20%D1%81%D0%B1%D0%BE%D1%80%D0%BA%D1%83%20%D0%B8%20%D0%BE%D1%82%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D1%83%20FBS-%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%BE%D0%B2.",
+        "kind": "telegram",
+        "request": "Хочу обсудить хранение, сборку и отгрузку FBS-заказов.",
+        "tone": "dark"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "fulfillment-kosmetika/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Получить расчет",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить упаковку и подготовку косметики для Wildberries и Ozon.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D1%83%20%D0%B8%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D1%83%20%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B8%20%D0%B4%D0%BB%D1%8F%20Wildberries%20%D0%B8%20Ozon.",
+        "kind": "telegram",
+        "request": "Хочу обсудить упаковку и подготовку косметики для Wildberries и Ozon.",
+        "tone": "light"
+      },
+      {
+        "text": "Смотреть полный кейс",
+        "href": "/cases/kosmetika-8400-za-2-dnya/",
+        "kind": "nav",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Получить расчет",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить упаковку и подготовку косметики для Wildberries и Ozon.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D1%83%20%D0%B8%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D1%83%20%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B8%20%D0%B4%D0%BB%D1%8F%20Wildberries%20%D0%B8%20Ozon.",
+        "kind": "telegram",
+        "request": "Хочу обсудить упаковку и подготовку косметики для Wildberries и Ozon.",
+        "tone": "light"
+      },
+      {
+        "text": "Получить расчет",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить упаковку и подготовку косметики для Wildberries и Ozon.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D1%83%20%D0%B8%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D1%83%20%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B8%20%D0%B4%D0%BB%D1%8F%20Wildberries%20%D0%B8%20Ozon.",
+        "kind": "telegram",
+        "request": "Хочу обсудить упаковку и подготовку косметики для Wildberries и Ozon.",
+        "tone": "light"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "fulfillment-shampuni-geli/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Получить расчет",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить упаковку и фулфилмент шампуней и гелей.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D1%83%20%D0%B8%20%D1%84%D1%83%D0%BB%D1%84%D0%B8%D0%BB%D0%BC%D0%B5%D0%BD%D1%82%20%D1%88%D0%B0%D0%BC%D0%BF%D1%83%D0%BD%D0%B5%D0%B9%20%D0%B8%20%D0%B3%D0%B5%D0%BB%D0%B5%D0%B9.",
+        "kind": "telegram",
+        "request": "Хочу обсудить упаковку и фулфилмент шампуней и гелей.",
+        "tone": "light"
+      },
+      {
+        "text": "Обсудить партию шампуней и гелей",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить упаковку и фулфилмент шампуней и гелей.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D1%83%20%D0%B8%20%D1%84%D1%83%D0%BB%D1%84%D0%B8%D0%BB%D0%BC%D0%B5%D0%BD%D1%82%20%D1%88%D0%B0%D0%BC%D0%BF%D1%83%D0%BD%D0%B5%D0%B9%20%D0%B8%20%D0%B3%D0%B5%D0%BB%D0%B5%D0%B9.",
+        "kind": "telegram",
+        "request": "Хочу обсудить упаковку и фулфилмент шампуней и гелей.",
+        "tone": "dark"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "fulfillment-stroitelnaya-himiya/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Получить расчет",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить подготовку партии строительной химии.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D1%83%20%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B8%20%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9%20%D1%85%D0%B8%D0%BC%D0%B8%D0%B8.",
+        "kind": "telegram",
+        "request": "Хочу обсудить подготовку партии строительной химии.",
+        "tone": "light"
+      },
+      {
+        "text": "Смотреть полный кейс",
+        "href": "/cases/stroitelnaya-himiya-5180-za-3-dnya/",
+        "kind": "nav",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Получить расчет",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить подготовку партии строительной химии.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D1%83%20%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B8%20%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9%20%D1%85%D0%B8%D0%BC%D0%B8%D0%B8.",
+        "kind": "telegram",
+        "request": "Хочу обсудить подготовку партии строительной химии.",
+        "tone": "light"
+      },
+      {
+        "text": "Получить расчет",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить подготовку партии строительной химии.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D1%83%20%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B8%20%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9%20%D1%85%D0%B8%D0%BC%D0%B8%D0%B8.",
+        "kind": "telegram",
+        "request": "Хочу обсудить подготовку партии строительной химии.",
+        "tone": "light"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "fulfillment-zhidkih-tovarov/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить партию жидких товаров",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить упаковку и фулфилмент жидких товаров.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D1%83%20%D0%B8%20%D1%84%D1%83%D0%BB%D1%84%D0%B8%D0%BB%D0%BC%D0%B5%D0%BD%D1%82%20%D0%B6%D0%B8%D0%B4%D0%BA%D0%B8%D1%85%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2.",
+        "kind": "telegram",
+        "request": "Хочу обсудить упаковку и фулфилмент жидких товаров.",
+        "tone": "light"
+      },
+      {
+        "text": "Посмотреть кейс ополаскивателей",
+        "href": "/cases/opolaskivateli-3186-za-2-dnya/",
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Посмотреть кейс",
+        "href": "/cases/opolaskivateli-3186-za-2-dnya/",
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Посмотреть кейс",
+        "href": "/cases/stroitelnaya-himiya-5180-za-3-dnya/",
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Получить расчет",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить упаковку и фулфилмент жидких товаров.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D1%83%20%D0%B8%20%D1%84%D1%83%D0%BB%D1%84%D0%B8%D0%BB%D0%BC%D0%B5%D0%BD%D1%82%20%D0%B6%D0%B8%D0%B4%D0%BA%D0%B8%D1%85%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2.",
+        "kind": "telegram",
+        "request": "Хочу обсудить упаковку и фулфилмент жидких товаров.",
+        "tone": "light"
+      },
+      {
+        "text": "Фулфилмент FBO",
+        "href": "/fulfillment-fbo/",
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Фулфилмент FBS",
+        "href": "/fulfillment-fbs/",
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Обсудить партию жидких товаров",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить упаковку и фулфилмент жидких товаров.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D1%83%20%D0%B8%20%D1%84%D1%83%D0%BB%D1%84%D0%B8%D0%BB%D0%BC%D0%B5%D0%BD%D1%82%20%D0%B6%D0%B8%D0%B4%D0%BA%D0%B8%D1%85%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2.",
+        "kind": "telegram",
+        "request": "Хочу обсудить упаковку и фулфилмент жидких товаров.",
+        "tone": "dark"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Начать сотрудничество",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить подготовку товаров к маркетплейсам.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D1%83%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2%20%D0%BA%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%D0%B0%D0%BC.",
+        "kind": "telegram",
+        "request": "Хочу обсудить подготовку товаров к маркетплейсам.",
+        "tone": "dark"
+      },
+      {
+        "text": "Рассчитать стоимость",
+        "href": "#calc",
+        "kind": "calc",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Далее",
+        "href": null,
+        "kind": "step",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Назад",
+        "href": null,
+        "kind": "step",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Далее",
+        "href": null,
+        "kind": "step",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Назад",
+        "href": null,
+        "kind": "step",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Далее",
+        "href": null,
+        "kind": "step",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Назад",
+        "href": null,
+        "kind": "step",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Рассчитать",
+        "href": null,
+        "kind": "step",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Назад",
+        "href": null,
+        "kind": "step",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Отправить",
+        "href": null,
+        "kind": "form",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Передать в Telegram",
+        "href": "https://t.me/prepmanager2",
+        "kind": "telegram",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Все кейсы",
+        "href": "/cases/",
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Показать все отзывы",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Показать все отзывы",
+        "href": "https://yandex.ru/maps/org/prep_tsentr/113144699853/reviews/",
+        "kind": "nav",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Подробнее о Преп-Центре",
+        "href": "/about/",
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Посмотреть все 134 тарифа",
+        "href": "/tarify/",
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "komplektatsiya-naborov/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить комплектацию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить комплектацию и сборку товарных наборов.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%82%D0%B0%D1%86%D0%B8%D1%8E%20%D0%B8%20%D1%81%D0%B1%D0%BE%D1%80%D0%BA%D1%83%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BD%D1%8B%D1%85%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%D0%BE%D0%B2.",
+        "kind": "telegram",
+        "request": "Хочу обсудить комплектацию и сборку товарных наборов.",
+        "tone": "light"
+      },
+      {
+        "text": "Получить расчет",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить комплектацию и сборку товарных наборов.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%82%D0%B0%D1%86%D0%B8%D1%8E%20%D0%B8%20%D1%81%D0%B1%D0%BE%D1%80%D0%BA%D1%83%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BD%D1%8B%D1%85%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%D0%BE%D0%B2.",
+        "kind": "telegram",
+        "request": "Хочу обсудить комплектацию и сборку товарных наборов.",
+        "tone": "dark"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "online/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Связаться с нами",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить условия работы и услуги Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D1%83%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20%D0%B8%20%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу обсудить условия работы и услуги Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "privacy-policy/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "srochnaya-obrabotka-partiy/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Получить расчет",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить срок и стоимость срочной обработки крупной партии.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D1%81%D1%80%D0%BE%D0%BA%20%D0%B8%20%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C%20%D1%81%D1%80%D0%BE%D1%87%D0%BD%D0%BE%D0%B9%20%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8%20%D0%BA%D1%80%D1%83%D0%BF%D0%BD%D0%BE%D0%B9%20%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B8.",
+        "kind": "telegram",
+        "request": "Хочу обсудить срок и стоимость срочной обработки крупной партии.",
+        "tone": "light"
+      },
+      {
+        "text": "Смотреть полный кейс канцелярских наборов",
+        "href": "/cases/kantselyarskie-nabory-6000-za-5-dney/",
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Смотреть кейс строительной химии",
+        "href": "/cases/stroitelnaya-himiya-5180-za-3-dnya/",
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Подробнее о FBO",
+        "href": "/fulfillment-fbo/",
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Получить расчет",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить срок и стоимость срочной обработки крупной партии.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D1%81%D1%80%D0%BE%D0%BA%20%D0%B8%20%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C%20%D1%81%D1%80%D0%BE%D1%87%D0%BD%D0%BE%D0%B9%20%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8%20%D0%BA%D1%80%D1%83%D0%BF%D0%BD%D0%BE%D0%B9%20%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B8.",
+        "kind": "telegram",
+        "request": "Хочу обсудить срок и стоимость срочной обработки крупной партии.",
+        "tone": "light"
+      },
+      {
+        "text": "Получить расчет",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить срок и стоимость срочной обработки крупной партии.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D1%81%D1%80%D0%BE%D0%BA%20%D0%B8%20%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C%20%D1%81%D1%80%D0%BE%D1%87%D0%BD%D0%BE%D0%B9%20%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8%20%D0%BA%D1%80%D1%83%D0%BF%D0%BD%D0%BE%D0%B9%20%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B8.",
+        "kind": "telegram",
+        "request": "Хочу обсудить срок и стоимость срочной обработки крупной партии.",
+        "tone": "light"
+      },
+      {
+        "text": "Получить расчет",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить срок и стоимость срочной обработки крупной партии.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D1%81%D1%80%D0%BE%D0%BA%20%D0%B8%20%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C%20%D1%81%D1%80%D0%BE%D1%87%D0%BD%D0%BE%D0%B9%20%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8%20%D0%BA%D1%80%D1%83%D0%BF%D0%BD%D0%BE%D0%B9%20%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B8.",
+        "kind": "telegram",
+        "request": "Хочу обсудить срок и стоимость срочной обработки крупной партии.",
+        "tone": "dark"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "tarify/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить стоимость обработки моей партии товаров.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C%20%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8%20%D0%BC%D0%BE%D0%B5%D0%B9%20%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B8%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2.",
+        "kind": "telegram",
+        "request": "Хочу обсудить стоимость обработки моей партии товаров.",
+        "tone": "light"
+      },
+      {
+        "text": "Калькулятор стоимости",
+        "href": "/#calc",
+        "kind": "calc",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "termousadka-vpp/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить упаковку",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить упаковку товаров в термоусадку и ВПП.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D1%83%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2%20%D0%B2%20%D1%82%D0%B5%D1%80%D0%BC%D0%BE%D1%83%D1%81%D0%B0%D0%B4%D0%BA%D1%83%20%D0%B8%20%D0%92%D0%9F%D0%9F.",
+        "kind": "telegram",
+        "request": "Хочу обсудить упаковку товаров в термоусадку и ВПП.",
+        "tone": "light"
+      },
+      {
+        "text": "Упаковка в ВПП (пупырка)",
+        "href": "#vpp",
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Термоусадочная упаковка",
+        "href": "#termousadka",
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Получить расчет",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить упаковку товаров в термоусадку и ВПП.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D1%83%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2%20%D0%B2%20%D1%82%D0%B5%D1%80%D0%BC%D0%BE%D1%83%D1%81%D0%B0%D0%B4%D0%BA%D1%83%20%D0%B8%20%D0%92%D0%9F%D0%9F.",
+        "kind": "telegram",
+        "request": "Хочу обсудить упаковку товаров в термоусадку и ВПП.",
+        "tone": "light"
+      },
+      {
+        "text": "Посмотреть полный кейс строительной химии",
+        "href": "/cases/stroitelnaya-himiya-5180-za-3-dnya/",
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      },
+      {
+        "text": "Получить расчет",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Прошу рассчитать стоимость упаковки моей партии в термоусадку и ВПП.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%9F%D1%80%D0%BE%D1%88%D1%83%20%D1%80%D0%B0%D1%81%D1%81%D1%87%D0%B8%D1%82%D0%B0%D1%82%D1%8C%20%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C%20%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D0%B8%20%D0%BC%D0%BE%D0%B5%D0%B9%20%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B8%20%D0%B2%20%D1%82%D0%B5%D1%80%D0%BC%D0%BE%D1%83%D1%81%D0%B0%D0%B4%D0%BA%D1%83%20%D0%B8%20%D0%92%D0%9F%D0%9F.",
+        "kind": "telegram",
+        "request": "Прошу рассчитать стоимость упаковки моей партии в термоусадку и ВПП.",
+        "tone": "dark"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "trebovaniya-fbl-letual/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить подготовку косметики и парфюмерии к FBL-поставке в ЛЭТУАЛЬ по требованиям площадки.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D1%83%20%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B8%20%D0%B8%20%D0%BF%D0%B0%D1%80%D1%84%D1%8E%D0%BC%D0%B5%D1%80%D0%B8%D0%B8%20%D0%BA%20FBL-%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B5%20%D0%B2%20%D0%9B%D0%AD%D0%A2%D0%A3%D0%90%D0%9B%D0%AC%20%D0%BF%D0%BE%20%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%D0%BC%20%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%BA%D0%B8.",
+        "kind": "telegram",
+        "request": "Хочу обсудить подготовку косметики и парфюмерии к FBL-поставке в ЛЭТУАЛЬ по требованиям площадки.",
+        "tone": "light"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "trebovaniya-fbo-ozon/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить подготовку FBO-поставки на Ozon по требованиям площадки.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D1%83%20FBO-%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B8%20%D0%BD%D0%B0%20Ozon%20%D0%BF%D0%BE%20%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%D0%BC%20%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%BA%D0%B8.",
+        "kind": "telegram",
+        "request": "Хочу обсудить подготовку FBO-поставки на Ozon по требованиям площадки.",
+        "tone": "light"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "trebovaniya-fbs-ozon/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Рассчитать FBS для Ozon",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить FBS-фулфилмент для Ozon по требованиям площадки.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20FBS-%D1%84%D1%83%D0%BB%D1%84%D0%B8%D0%BB%D0%BC%D0%B5%D0%BD%D1%82%20%D0%B4%D0%BB%D1%8F%20Ozon%20%D0%BF%D0%BE%20%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%D0%BC%20%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%BA%D0%B8.",
+        "kind": "telegram",
+        "request": "Хочу обсудить FBS-фулфилмент для Ozon по требованиям площадки.",
+        "tone": "dark"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "trebovaniya-fbs-wildberries/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Рассчитать FBS для Wildberries",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить FBS-фулфилмент для Wildberries по требованиям площадки.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20FBS-%D1%84%D1%83%D0%BB%D1%84%D0%B8%D0%BB%D0%BC%D0%B5%D0%BD%D1%82%20%D0%B4%D0%BB%D1%8F%20Wildberries%20%D0%BF%D0%BE%20%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%D0%BC%20%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%BA%D0%B8.",
+        "kind": "telegram",
+        "request": "Хочу обсудить FBS-фулфилмент для Wildberries по требованиям площадки.",
+        "tone": "dark"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "trebovaniya-fbs-yandex-market/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Рассчитать FBS для Яндекс Маркета",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить FBS-фулфилмент для Яндекс Маркета по требованиям площадки.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20FBS-%D1%84%D1%83%D0%BB%D1%84%D0%B8%D0%BB%D0%BC%D0%B5%D0%BD%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%20%D0%9C%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%B0%20%D0%BF%D0%BE%20%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%D0%BC%20%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%BA%D0%B8.",
+        "kind": "telegram",
+        "request": "Хочу обсудить FBS-фулфилмент для Яндекс Маркета по требованиям площадки.",
+        "tone": "dark"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "trebovaniya-fbw-wildberries/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить подготовку FBW-поставки на Wildberries по требованиям площадки.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D1%83%20FBW-%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B8%20%D0%BD%D0%B0%20Wildberries%20%D0%BF%D0%BE%20%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%D0%BC%20%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%BA%D0%B8.",
+        "kind": "telegram",
+        "request": "Хочу обсудить подготовку FBW-поставки на Wildberries по требованиям площадки.",
+        "tone": "light"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "trebovaniya-fby-yandex-market/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить подготовку FBY-поставки на Яндекс Маркет по требованиям площадки.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D1%83%20FBY-%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B8%20%D0%BD%D0%B0%20%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%20%D0%9C%D0%B0%D1%80%D0%BA%D0%B5%D1%82%20%D0%BF%D0%BE%20%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%D0%BC%20%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%BA%D0%B8.",
+        "kind": "telegram",
+        "request": "Хочу обсудить подготовку FBY-поставки на Яндекс Маркет по требованиям площадки.",
+        "tone": "light"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "upakovka-bytovoy-khimii/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Получить консультацию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить упаковку бытовой химии под мой продукт.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D1%83%20%D0%B1%D1%8B%D1%82%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%85%D0%B8%D0%BC%D0%B8%D0%B8%20%D0%BF%D0%BE%D0%B4%20%D0%BC%D0%BE%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82.",
+        "kind": "telegram",
+        "request": "Хочу обсудить упаковку бытовой химии под мой продукт.",
+        "tone": "light"
+      },
+      {
+        "text": "Обсудить проект",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить упаковку бытовой химии под мой продукт.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D1%83%20%D0%B1%D1%8B%D1%82%D0%BE%D0%B2%D0%BE%D0%B9%20%D1%85%D0%B8%D0%BC%D0%B8%D0%B8%20%D0%BF%D0%BE%D0%B4%20%D0%BC%D0%BE%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82.",
+        "kind": "telegram",
+        "request": "Хочу обсудить упаковку бытовой химии под мой продукт.",
+        "tone": "dark"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  },
+  {
+    "path": "wms-mpfit-dlya-fulfillmenta/index.html",
+    "actions": [
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "",
+        "tone": "dark"
+      },
+      {
+        "text": "Обсудить задачу",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу обсудить складской учет, остатки и работу через личный кабинет МПФИТ в Преп-Центре.",
+        "tone": "light"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%D1%81%D0%BA%D0%BE%D0%B9%20%D1%83%D1%87%D0%B5%D1%82%2C%20%D0%BE%D1%81%D1%82%D0%B0%D1%82%D0%BA%D0%B8%20%D0%B8%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%83%20%D1%87%D0%B5%D1%80%D0%B5%D0%B7%20%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82%20%D0%9C%D0%9F%D0%A4%D0%98%D0%A2%20%D0%B2%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B5.",
+        "kind": "telegram",
+        "request": "Хочу обсудить складской учет, остатки и работу через личный кабинет МПФИТ в Преп-Центре.",
+        "tone": "light"
+      },
+      {
+        "text": "Записаться на экскурсию",
+        "href": "#modal",
+        "kind": "form",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Написать в Telegram",
+        "href": "https://t.me/prepmanager2?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8E%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%9F%D1%80%D0%B5%D0%BF-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0.",
+        "kind": "telegram",
+        "request": "Хочу записаться на экскурсию на склад Преп-Центра.",
+        "tone": "dark"
+      },
+      {
+        "text": "Показать интерактивную карту",
+        "href": null,
+        "kind": "nav",
+        "request": "",
+        "tone": "light"
+      }
+    ]
+  }
+]
