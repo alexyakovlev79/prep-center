@@ -72,7 +72,8 @@ function createPhone(form){
  return {input:input,wrap:wrap,
   normalized:function(){const n=input.value.replace(/\D/g,'');return n?'+'+current.dial.replace(/\D/g,'')+n:'';},
   valid:function(){const len=input.value.replace(/\D/g,'').length,expected=maskInfo(current).count,total=len+current.dial.replace(/\D/g,'').length;return len>0&&total>=7&&total<=15&&(!expected||len===expected);},
-  iso:function(){return current.iso2;}
+  iso:function(){return current.iso2;},
+  reset:function(){input.value='';select(RUSSIA);}
  };
 }
 function readTracking(){
@@ -90,7 +91,7 @@ function createForm(mode,prefill){
  const status=form.querySelector('.prep-lead-status'),phone=createPhone(form);
  const methods=Array.from(form.querySelectorAll('[name="preferred_contact"]'));
  if(prefill)comment.value=prefill.slice(0,3000);
- const startTime=Date.now();
+ let startTime=Date.now();
  function method(){const m=methods.find(function(el){return el.checked;});return m?m.value:'';}
  function update(){
   const hasPhone=!!phone.input.value.trim(),hasEmail=!!email.value.trim();
@@ -114,7 +115,7 @@ function createForm(mode,prefill){
   return true;
  }
  form.addEventListener('submit',async function(e){
-  e.preventDefault();if(!validate())return;
+  e.preventDefault();if(submit.disabled||!validate())return;
   if(hp.value){show('Спасибо!','success');return;}
   if(!ENDPOINT){fallback();return;}
   const canonical=document.querySelector('link[rel="canonical"][href]');
@@ -134,6 +135,15 @@ function createForm(mode,prefill){
    if(!response.ok)throw Error('HTTP '+response.status);
    const body=await response.json();
    if(!body||body.ok!==true)throw Error('Invalid delivery acknowledgement');
+   // Successful delivery: clear personal data and restore the ready-to-send state.
+   form.reset();
+   phone.reset();
+   name.removeAttribute('aria-invalid');
+   email.removeAttribute('aria-invalid');
+   phone.wrap.classList.remove('is-invalid');
+   update();
+   startTime=Date.now();
+   submit.disabled=false;
    show('Заявка отправлена. Менеджер свяжется с вами.','success');
    document.dispatchEvent(new CustomEvent('prep:lead-success',{detail:{mode:mode}}));
    if(mode==='modal')setTimeout(closeModal,1250);
