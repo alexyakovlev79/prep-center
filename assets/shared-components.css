@@ -111,3 +111,20 @@
 @media(max-width:1200px){:root{--header-full:84px;--header-small:84px}.shared-header .header-main{height:84px;gap:16px}.shared-header .brand,.header-compact .shared-header .brand{width:210px}.shared-header .desktop-nav,.shared-header .header-address{display:none}.shared-header .compact-cta{display:inline-flex}.shared-header .header-contact{margin-left:auto;text-align:left}.shared-header .header-contact span{display:block}.shared-header .header-phone{font-size:17px}.shared-header .header-email{font-size:13px}.shared-contact .contact-top{grid-template-columns:1fr 1fr}.shared-contact .contact-details{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:10px 24px}.shared-contact .contact-details h3{grid-column:1/-1}}
 @media(max-width:800px){:root{--header-full:78px;--header-small:78px}.shared-header .header-main{height:78px;gap:12px}.shared-header .brand,.header-compact .shared-header .brand{width:180px}.shared-header .header-contact,.header-compact .shared-header .header-contact{display:none}.shared-header .compact-cta{margin-left:auto}.shared-header .menu-panel{top:58px;max-height:calc(100dvh - 98px)}.shared-contact .contact-top{gap:28px}.shared-contact .contact-details{display:flex;grid-column:auto}.map-viewport{height:280px}}
 @media(max-width:540px){:root{--header-full:74px;--header-small:74px}.shared-header .header-main{height:74px;min-height:74px;gap:9px}.shared-header .brand,.header-compact .shared-header .brand{width:170px;min-width:0;flex-shrink:1}.shared-header .header-account{display:none}.shared-header .compact-cta{padding:10px 14px;font-size:15px;min-height:42px;border-radius:40px}.shared-header .mobile-nav>summary{padding:12px 9px}.shared-header .mobile-nav>summary span{width:20px}.shared-header .menu-panel{position:fixed;left:16px;right:16px;top:82px;width:auto;max-width:none;max-height:calc(100dvh - 98px)}.shared-contact .contact-top{grid-template-columns:1fr}}
+
+/* Desktop navigation polish (2026-11-10): one menu and one CTA per state. */
+/* Navigation hover changes text color only, never a filled item background. */
+.shared-header .nav-root a:hover,
+.shared-header .nav-group summary:hover {
+  background-color: transparent;
+  color: #ffb13b;
+}
+@media (min-width: 1201px) {
+  /* Bring the discussion CTA into the logo/contact row. */
+  .shared-header .compact-cta { display: inline-flex; flex-shrink: 0; }
+  /* No duplicate navigation controls while the horizontal row is visible. */
+  .shared-header .desktop-nav > .nav-root > li:last-child { display: none; }
+  html:not(.header-compact) .shared-header .mobile-nav { display: none; }
+  /* Keep the burger only after the horizontal row collapses on scroll. */
+  html.header-compact .shared-header .mobile-nav { display: block; }
+}
