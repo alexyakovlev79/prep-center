@@ -214,3 +214,50 @@
   .delivery-prev { left: -22px; }
   .delivery-next { right: -22px; }
 }
+
+/* Mobile delivery cards follow the active slide, not the tallest case. */
+@media (max-width: 700px) {
+  .delivery-track {
+    display: flex;
+    align-items: flex-start;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    transition: height .2s ease;
+  }
+  .delivery-track::-webkit-scrollbar { display: none; }
+  .delivery-example { flex: 0 0 100%; align-self: flex-start; }
+  .delivery-example-body { flex: none; }
+  .delivery-example-totals { margin-top: 0; }
+  .delivery-controls:not([hidden]) {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    display: block;
+    margin: 0;
+    pointer-events: none;
+  }
+  .delivery-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 36px;
+    height: 36px;
+    font-size: 26px;
+    background: rgba(255, 255, 255, .96);
+    box-shadow: 0 2px 10px #0002;
+    pointer-events: auto;
+  }
+  .delivery-prev { left: -16px; }
+  .delivery-next { right: -16px; }
+  .delivery-count {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    min-width: 0;
+    padding: 2px 8px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, .92);
+    font-size: 13px;
+  }
+}
+
