@@ -9,10 +9,6 @@ on:
 permissions:
   contents: write
 
-concurrency:
-  group: prep-center-cookie-consent
-  cancel-in-progress: false
-
 jobs:
   rollout:
     runs-on: ubuntu-24.04
@@ -28,7 +24,7 @@ jobs:
       - name: Install browser test dependencies
         run: |
           python -m pip install beautifulsoup4==4.13.4 playwright==1.55.0
-          python -m playwright install --with-deps chromium
+          command -v google-chrome || command -v google-chrome-stable
       - name: Apply and validate site-wide consent
         run: |
           python scripts/apply_cookie_consent.py
@@ -38,6 +34,8 @@ jobs:
           node --check assets/cookie-consent.js
           node --check assets/prep-lead-form.js
       - name: Verify desktop, mobile, consent, rejection and revocation
+        env:
+          PREP_CHROME_CHANNEL: chrome
         run: |
           python -m http.server 8765 >/tmp/prep-cookie-http.log 2>&1 &
           echo $! >/tmp/prep-cookie-http.pid
