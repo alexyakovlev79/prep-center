@@ -94,13 +94,13 @@ def update_policy(text: str) -> str:
 
 
 def update_builder(text: str) -> str:
-    original = re.compile(
-        r"""(<script defer src=\\"/assets/shared-components\.js\?v=)(?:[^\\"]+)(\\"></script>)"""
-    )
-    updated, count = original.subn(lambda m: m.group(1) + JS_VERSION + m.group(2), text)
-    if count != 1:
-        raise AssertionError("Cannot find unique shared-components.js in builder")
-    return updated
+    old = "shared-components.js?v=20261104"
+    new = "shared-components.js?v=" + JS_VERSION
+    if text.count(old) == 1:
+        return text.replace(old, new)
+    if text.count(new) == 1:
+        return text
+    raise AssertionError("Cannot find unique shared-components version in builder")
 
 
 def update_schema_generator(text: str) -> str:
@@ -170,8 +170,6 @@ def main() -> None:
     shared = (ROOT / "assets/shared-components.js").read_text("utf-8")
     if "prep-cookie-consent-script" not in shared or "mc.yandex.ru/metrika/tag.js" in shared:
         raise AssertionError("Shared JS still initializes Metrika unconditionally")
-    for feature in ("prep-cookie-banner", "prep-cookie-settings", STORE_KEY):
-        pass
     if any(token not in banner for token in (
         "prep-cookie-banner", "prep-cookie-settings",
         "prepcenter_cookie_consent_v1", "disableYaCounter",
