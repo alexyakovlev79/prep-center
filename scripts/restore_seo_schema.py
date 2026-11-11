@@ -150,7 +150,7 @@ def faq_nodes(soup):
 
 def case_nodes(soup):
     items, seen = [], set()
-    for card in soup.select("main .home-case-grid .case-card"):
+    for card in soup.select("main .home-case-grid .home-case-card"):
         link = card.select_one('a[href^="/cases/"]')
         if not link:
             continue
