@@ -23,7 +23,8 @@ SITE_ID = BASE + "/#website"
 BRAND_ID = BASE + "/#brand"
 LOGO_ID = BASE + "/#logo"
 PERSON_ID = BASE + "/about/#alexander-alkhov"
-CATALOG_ID = BASE + "/tarify/#catalog"
+CATALOG_ID = BASE + "/#offer-catalog"
+DETAILED_CATALOG_ID = BASE + "/tarify/#catalog"
 START = "<!-- prep-center-schema-restore:start -->"
 END = "<!-- prep-center-schema-restore:end -->"
 PIXEL = "<!-- prep-center-metrika-noscript -->"
@@ -62,6 +63,7 @@ WEB_SITE = {
 ORG = {
     "@type": ["Organization", "LocalBusiness"], "@id": ORG_ID,
     "name": "Преп-Центр", "legalName": "ООО «ПРЕП-ЦЕНТР»",
+    "foundingDate": "2017-03-31",  # legal entity, not start of fulfillment operations
     "alternateName": ["Преп Центр", "Prep Center", "Prep-Center", "PrepCenter"],
     "url": BASE + "/",
     "description": "Фулфилмент, приемка, сортировка, упаковка, маркировка и подготовка поставок для Wildberries, Ozon и Яндекс Маркета. Склад в Пушкино.",
@@ -96,6 +98,19 @@ ORG = {
     "currenciesAccepted": "RUB",
     "sameAs": SAME_AS,
     "hasOfferCatalog": {"@id": CATALOG_ID},
+    "knowsAbout": [
+        "Фулфилмент для Wildberries и Ozon", "FBO", "FBS",
+        "Упаковка бытовой химии", "Упаковка шампуней и гелей",
+        "Упаковка косметики", "Автохимия", "Строительная химия",
+        "Воздушно-пузырьковая пленка", "Термоусадочная упаковка",
+        "Маркировка Честный знак", "Комплектация товарных наборов",
+    ],
+    "additionalProperty": [
+        {"@type": "PropertyValue", "name": "Начало работы в фулфилменте", "value": "2019"},
+        {"@type": "PropertyValue", "name": "Площадь склада", "value": "1560 м²"},
+        {"@type": "PropertyValue", "name": "Производительность", "value": "до 20 000 единиц за 12-часовую смену"},
+        {"@type": "PropertyValue", "name": "Складская WMS", "value": "МПФИТ"},
+    ],
     "identifier": [
         {"@type": "PropertyValue", "propertyID": "ИНН", "value": "5038126700"},
         {"@type": "PropertyValue", "propertyID": "ОГРН", "value": "1175050003039"},
@@ -112,6 +127,20 @@ PERSON = {"@type": "Person", "@id": PERSON_ID,
           "name": "Александр Анатольевич Альхов",
           "jobTitle": "Директор", "worksFor": {"@id": ORG_ID},
           "url": BASE + "/about/"}
+SERVICE_CATALOG = [
+    ("Фулфилмент для бытовой химии", "/fulfillment-bytovaya-himiya/"),
+    ("Фулфилмент для шампуней и гелей", "/fulfillment-shampuni-geli/"),
+    ("Фулфилмент для косметики", "/fulfillment-kosmetika/"),
+    ("Фулфилмент для автохимии", "/fulfillment-avtohimiya/"),
+    ("Фулфилмент для строительной химии", "/fulfillment-stroitelnaya-himiya/"),
+    ("Фулфилмент жидких товаров", "/fulfillment-zhidkih-tovarov/"),
+    ("Термоусадка и упаковка в ВПП", "/termousadka-vpp/"),
+    ("Наклейка этикеток маркетплейсов", "/etiketki-marketpleysov/"),
+    ("Маркировка Честный знак", "/chestnyy-znak/"),
+    ("Комплектация товарных наборов", "/komplektatsiya-naborov/"),
+    ("Подготовка поставок FBO", "/fulfillment-fbo/"),
+    ("Обработка заказов FBS", "/fulfillment-fbs/"),
+]
 MANIFEST = {
     "name": "Преп-Центр", "short_name": "Преп-Центр", "lang": "ru",
     "start_url": "/", "scope": "/", "display": "browser",
@@ -195,6 +224,20 @@ def build_insert(soup, route, canonical, title, description):
             "hasOfferCatalog": {"@id": CATALOG_ID},
             "url": canonical,
         })
+        graph.append({
+            "@type": "OfferCatalog", "@id": CATALOG_ID,
+            "name": "Услуги Преп-Центра", "url": BASE + "/tarify/",
+            "numberOfItems": len(SERVICE_CATALOG),
+            "itemListElement": [
+                {"@type": "Offer", "url": BASE + route_path,
+                 "seller": {"@id": ORG_ID},
+                 "itemOffered": {"@type": "Service",
+                                 "@id": BASE + route_path + "#service",
+                                 "name": label, "url": BASE + route_path,
+                                 "provider": {"@id": ORG_ID}}}
+                for label, route_path in SERVICE_CATALOG
+            ],
+        })
         graph.append({"@type": "ItemList", "@id": canonical + "#case-list",
                       "name": "Примеры поставок Преп-Центра",
                       "numberOfItems": len(cases), "itemListElement": cases})
@@ -207,7 +250,8 @@ def build_insert(soup, route, canonical, title, description):
             "@type": "WebPage", "@id": canonical + "#webpage",
             "url": canonical, "name": title,
             "isPartOf": {"@id": SITE_ID}, "about": {"@id": ORG_ID},
-            "mainEntity": {"@id": PERSON_ID}, "inLanguage": "ru-RU",
+            "mainEntity": {"@id": ORG_ID}, "mentions": {"@id": PERSON_ID},
+            "inLanguage": "ru-RU",
         })
 
     ld = json.dumps({"@context": "https://schema.org", "@graph": graph},
@@ -233,9 +277,10 @@ def build_insert(soup, route, canonical, title, description):
     if not meta_is_present(soup, "property", "og:image"):
         main = soup.find("main")
         imgs = (main.select('img[src]') if main else [])
-        src = next((i["src"] for i in imgs
-                    if not i["src"].lower().split("?")[0].endswith(".svg")
-                    and "logo" not in i["src"].lower()), "/assets/hero.webp")
+        src = ("/assets/hero.webp" if route == "/" else next(
+            (i["src"] for i in imgs
+             if not i["src"].lower().split("?")[0].endswith(".svg")
+             and "logo" not in i["src"].lower()), "/assets/hero.webp"))
         out.append('<meta property="og:image" content="' + escape(abs_url(src), quote=True) + '">')
     if not meta_is_present(soup, "name", "twitter:card"):
         out.append('<meta name="twitter:card" content="summary_large_image">')
