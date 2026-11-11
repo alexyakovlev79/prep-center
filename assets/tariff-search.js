@@ -33,4 +33,26 @@
   input.addEventListener('input', search);
   input.addEventListener('search', search);
   search();
+
+  // A tariff URL can now point to an individual row. Tariff sections are
+  // collapsed by default, so expand the matching section before scrolling.
+  function openLinkedTariff() {
+    const match = /^#tariff-(PC-TAR-\\d{3})$/i.exec(window.location.hash);
+    if (!match) return;
+    const row = document.getElementById('tariff-' + match[1].toUpperCase());
+    if (!row) return;
+    if (input.value || row.hidden) {
+      input.value = '';
+      search();
+    }
+    const section = row.closest('details.tariff-category');
+    if (section) {
+      section.hidden = false;
+      section.open = true;
+    }
+    window.requestAnimationFrame(() => row.scrollIntoView({ block: 'center' }));
+  }
+
+  window.addEventListener('hashchange', openLinkedTariff);
+  openLinkedTariff();
 })();
