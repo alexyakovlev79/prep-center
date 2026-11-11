@@ -100,8 +100,8 @@
   const desc = node('p', 'prep-cookie-description');
   desc.id = 'prep-cookie-description';
   desc.append(document.createTextNode(
-    'Необходимые данные используются для работы сайта и сохранения твоего выбора. ' +
-    'С твоего разрешения подключаем Яндекс.Метрику и Вебвизор для анализа посещений. '
+    'Необходимые данные используются для работы сайта и сохранения вашего выбора. ' +
+    'С вашего разрешения подключаем Яндекс.Метрику и Вебвизор для анализа посещений. '
   ));
   const policy = node('a', 'prep-cookie-policy', 'Подробнее');
   policy.href = '/privacy-policy/#cookies-and-analytics';
