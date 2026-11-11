@@ -198,7 +198,16 @@ def meta_is_present(soup, attr, name):
 
 
 def build_insert(soup, route, canonical, title, description):
-    graph = [WEB_SITE, ORG, BRAND, LOGO]
+    # The homepage has a short 12-service overview; the tariff page also
+    # identifies the detailed catalog containing all 134 priced/quoted lines.
+    org = ORG if route != "/tarify/" else {
+        **ORG,
+        "hasOfferCatalog": [
+            {"@id": CATALOG_ID},
+            {"@id": DETAILED_CATALOG_ID},
+        ],
+    }
+    graph = [WEB_SITE, org, BRAND, LOGO]
     if route == "/about/":
         graph.append(PERSON)
     if route == "/":
@@ -331,9 +340,137 @@ def enrich_existing_ld(source, route):
     return pattern.sub(change, source)
 
 
+
+def repair_tariff_schema(source: str) -> str:
+    """Repair existing 134-item catalog, preserving its public prices and wording.
+
+    Every item gets a unique persistent ID and deep link to its visible row;
+    the CollectionPage points to the real catalog. The historic source JSON
+    remains untouched. This transformation is safe to run repeatedly.
+    """
+    script_pattern = re.compile(
+        r'(<script\b[^>]*type=["\x27]application/ld\+json["\x27][^>]*>)([\s\S]*?)(</script>)',
+        re.I,
+    )
+    offer_codes: list[str] = []
+    catalog_seen = False
+    page_seen = False
+
+    def patch_script(match):
+        nonlocal catalog_seen, page_seen
+        obj = json.loads(match.group(2))
+        if not isinstance(obj, dict):
+            return match.group(0)
+        if obj.get("@type") == "CollectionPage" and obj.get("@id") == BASE + "/tarify/#content":
+            obj["mainEntity"] = {"@id": DETAILED_CATALOG_ID}
+            page_seen = True
+        elif obj.get("@type") == "OfferCatalog" and obj.get("@id") == DETAILED_CATALOG_ID:
+            catalog_seen = True
+            groups = obj.get("itemListElement", [])
+            existing = set()
+            for group in groups:
+                for offer in group.get("itemListElement", []):
+                    oid = offer.get("@id", "")
+                    hit = re.search(r"#offer-(PC-TAR-\d+)$", oid)
+                    if hit:
+                        existing.add(hit.group(1))
+            next_number = max((int(code.rsplit("-", 1)[1]) for code in existing), default=0) + 1
+            for group in groups:
+                offers = group.get("itemListElement", [])
+                group["numberOfItems"] = len(offers)
+                if not group.get("@id"):
+                    if group.get("name") != "Доставка на склады Яндекс Маркета":
+                        raise AssertionError("Unidentified tariff category: " + str(group.get("name")))
+                    group["@id"] = BASE + "/tarify/#offer-catalog-yandex-market-delivery"
+                for offer in offers:
+                    hit = re.search(r"#offer-(PC-TAR-\d+)$", offer.get("@id", ""))
+                    if hit:
+                        code = hit.group(1)
+                    else:
+                        code = "PC-TAR-%03d" % next_number
+                        next_number += 1
+                    offer_codes.append(code)
+                    offer["@id"] = BASE + "/tarify/#offer-" + code
+                    url = BASE + "/tarify/#tariff-" + code
+                    offer["url"] = url
+                    offer["offeredBy"] = {"@id": ORG_ID}
+                    service = offer["itemOffered"]
+                    offer["name"] = service["name"]
+                    service["@id"] = BASE + "/tarify/#service-" + code
+                    service["identifier"] = code
+                    service["url"] = url
+                    service["provider"] = {"@id": ORG_ID}
+            if len(offer_codes) != 134 or len(set(offer_codes)) != 134:
+                raise AssertionError("Tariff identifiers must be unique for exactly 134 offers")
+            obj["numberOfItems"] = len(offer_codes)
+            obj["url"] = BASE + "/tarify/"
+            obj["mainEntityOfPage"] = {"@id": BASE + "/tarify/#content"}
+        else:
+            return match.group(0)
+        encoded = json.dumps(obj, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+        return match.group(1) + encoded + match.group(3)
+
+    result = script_pattern.sub(patch_script, source)
+    if not catalog_seen or not page_seen:
+        raise AssertionError("Existing tariff catalog/CollectionPage not found")
+
+    # The order of the published HTML table and JSON-LD was checked against
+    # all 134 service names and prices. Add anchors without changing table
+    # contents, CSS, layout, or the default collapsed tariff categories.
+    row_pattern = re.compile(r'<tr class="tariff-row"[^>]*>')
+    position = 0
+
+    def anchor_row(match):
+        nonlocal position
+        if position >= len(offer_codes):
+            raise AssertionError("More visible tariff rows than JSON-LD offers")
+        code = offer_codes[position]
+        position += 1
+        opening = re.sub(r'\s+id="tariff-PC-TAR-\d+"', "", match.group(0))
+        return opening.replace(
+            '<tr class="tariff-row"',
+            '<tr class="tariff-row" id="tariff-' + code + '"', 1,
+        )
+
+    result = row_pattern.sub(anchor_row, result)
+    if position != len(offer_codes):
+        raise AssertionError("Tariff row count does not match JSON-LD offers")
+
+    soup = BeautifulSoup(result, "html.parser")
+    rows = soup.select("tr.tariff-row")
+    if len(rows) != 134:
+        raise AssertionError("Expected 134 visible tariff rows")
+    catalog = None
+    for script in soup.find_all("script", attrs={"type": "application/ld+json"}):
+        obj = json.loads(script.string or script.get_text())
+        if isinstance(obj, dict) and obj.get("@id") == DETAILED_CATALOG_ID:
+            catalog = obj
+            break
+    if catalog is None:
+        raise AssertionError("Detailed offer catalog disappeared")
+    offers = [
+        offer for group in catalog["itemListElement"]
+        for offer in group["itemListElement"]
+    ]
+    for row, offer, code in zip(rows, offers, offer_codes):
+        visible_name = plain(row.select_one('td[data-label="Название услуги"]'))
+        if visible_name != offer["itemOffered"]["name"]:
+            raise AssertionError("Tariff JSON-LD and table mismatch: " + code)
+        price_text = plain(row.select_one('td[data-label="Цена"]'))
+        spec = offer["priceSpecification"]
+        if "price" in spec or "minPrice" in spec:
+            price_number = float(re.sub(r"[^\d,.]", "", price_text).replace(",", "."))
+            structured_number = float(spec.get("price", spec.get("minPrice")))
+            if price_number != structured_number:
+                raise AssertionError("Tariff price differs from visible price: " + code)
+    return result
+
+
 def restore_page(original, route):
     cleaned = re.sub(re.escape(START) + r"[\s\S]*?" + re.escape(END) + r"\s*", "", original)
     cleaned = enrich_existing_ld(cleaned, route)
+    if route == "/tarify/":
+        cleaned = repair_tariff_schema(cleaned)
     soup = BeautifulSoup(cleaned, "html.parser")
     if soup.head is None or soup.body is None:
         raise AssertionError("Missing head/body on " + route)
