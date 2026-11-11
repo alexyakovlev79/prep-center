@@ -18,7 +18,8 @@ def render(items,depth=0):
   else:result.append('<li>'+link(item)+'</li>')
  return ''.join(result)
 menu='<ul class="nav-root">'+render(NAV)+'</ul>'
-header=(ROOT/'components/header.html').read_text().replace('{{BURGER_NAV}}',menu).replace('{{DESKTOP_NAV}}',menu).strip()
+burger_menu='<ul class="nav-root">'+render(NAV[:-1])+'</ul>'
+header=(ROOT/'components/header.html').read_text().replace('{{BURGER_NAV}}',burger_menu).replace('{{DESKTOP_NAV}}',menu).strip()
 footer=(ROOT/'components/footer.html').read_text().strip()
 inv=json.loads((ROOT/'restoration/page-inventory.json').read_text())
 routes=[x['path'] for x in inv if x.get('group') in {'Услуги и категории','Статьи и требования маркетплейсов','Кейсы','Основные страницы'}]
@@ -29,7 +30,7 @@ for route in routes:
  s=re.sub(r'<header\b.*?</header>\s*',lambda m:header,s,count=1,flags=re.S)
  s=re.sub(r'<section class="contact section-dark(?: shared-contact)?" id="contact">.*?</section>\s*',lambda m:footer,s,count=1,flags=re.S)
  s=re.sub(r'<link rel="stylesheet" href="/assets/shared-components.css(?:\?[^\"]*)?">','',s)
- s=s.replace('</head>','<link rel="stylesheet" href="/assets/shared-components.css?v=20261110-mobile-logo"></head>')
+ s=s.replace('</head>','<link rel="stylesheet" href="/assets/shared-components.css?v=20261111-mobile-menu-actions"></head>')
  s=re.sub(r'<!-- shared:head -->.*?<!-- /shared:head -->','',s,flags=re.S)
  shared_head=(ROOT/'components/head.html').read_text().strip()
  if 'responsive-table' in s:shared_head+='\n<link rel="stylesheet" href="/assets/responsive-tables.css?v=20261105">'
