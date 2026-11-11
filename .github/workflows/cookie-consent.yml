@@ -1,0 +1,62 @@
+name: Cookie notice and Yandex.Metrika consent rollout
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/apply_cookie_consent.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prep-center-cookie-consent
+  cancel-in-progress: false
+
+jobs:
+  rollout:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install browser test dependencies
+        run: |
+          python -m pip install beautifulsoup4==4.13.4 playwright==1.55.0
+          python -m playwright install --with-deps chromium
+      - name: Apply and validate site-wide consent
+        run: |
+          python scripts/apply_cookie_consent.py
+          python scripts/apply_cookie_consent.py --check
+          python scripts/restore_seo_schema.py --check
+          node --check assets/shared-components.js
+          node --check assets/cookie-consent.js
+          node --check assets/prep-lead-form.js
+      - name: Verify desktop, mobile, consent, rejection and revocation
+        run: |
+          python -m http.server 8765 >/tmp/prep-cookie-http.log 2>&1 &
+          echo $! >/tmp/prep-cookie-http.pid
+          python scripts/check_cookie_consent.py
+      - name: Commit verified changes without touching old archived pages
+        run: |
+          git add -- ':(glob)**/index.html' 'scripts/build_components.py' 'scripts/restore_seo_schema.py' 'reports/schema-restore-20261111.json'
+          if ! git diff --cached --quiet; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Restore cookie preferences on 45 pages and gate Yandex Metrika'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Upload QA screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: prep-cookie-consent-qa
+          retention-days: 7
+          path: |
+            /tmp/prep-cookie-desktop.png
+            /tmp/prep-cookie-mobile.png
+            /tmp/prep-cookie-http.log
