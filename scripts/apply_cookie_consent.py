@@ -3,6 +3,7 @@
 
 The canonical shared JS inserts the notice and controls Yandex.Metrika.
 This update removes the no-JS tracking pixel, which bypassed opt-in,
+never migrates implicit legacy cookieAccepted into explicit consent,
 bumps the shared JS asset version, extends the policy, and corrects the
 schema generator so it will never reintroduce a pre-consent pixel.
 """
