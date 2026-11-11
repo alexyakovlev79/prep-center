@@ -1,0 +1,41 @@
+name: Restore structured data and social metadata
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/restore_seo_schema.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prep-center-structured-data-restore
+  cancel-in-progress: false
+
+jobs:
+  restore:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install HTML parser
+        run: python -m pip install beautifulsoup4==4.13.4
+      - name: Restore and validate 45 pages
+        run: |
+          python scripts/restore_seo_schema.py
+          python scripts/restore_seo_schema.py --check
+      - name: Commit verified HTML, manifest and QA report
+        run: |
+          git add -- ':(glob)**/index.html' 'site.webmanifest' 'reports/schema-restore-20261111.json'
+          if ! git diff --cached --quiet; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Restore schema.org entities, OG metadata and manifest across 45 pages'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
