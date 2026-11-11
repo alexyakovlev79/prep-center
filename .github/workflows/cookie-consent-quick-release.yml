@@ -1,0 +1,37 @@
+name: Publish cookie notice (static verification)
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/cookie-consent-quick-release.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install beautifulsoup4==4.13.4
+      - name: Restore cookie preferences and remove unconsented pixel on 45 pages
+        run: |
+          python scripts/apply_cookie_consent.py
+          python scripts/apply_cookie_consent.py --check
+          python scripts/restore_seo_schema.py --check
+          node --check assets/shared-components.js
+          node --check assets/cookie-consent.js
+      - name: Publish all generated pages
+        run: |
+          git add -- ':(glob)**/index.html' 'scripts/build_components.py' 'scripts/restore_seo_schema.py' 'reports/schema-restore-20261111.json'
+          if ! git diff --cached --quiet; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Restore cookie notice on 45 pages with explicit Yandex Metrika consent'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
