@@ -36,7 +36,7 @@ for route in routes:
  if 'responsive-table' in s:shared_head+='\n<link rel="stylesheet" href="/assets/responsive-tables.css?v=20261105">'
  s=s.replace('</head>','<!-- shared:head -->'+shared_head+'<!-- /shared:head --></head>')
  s=re.sub(r'<script defer src="/assets/shared-components.js(?:\?[^\"]*)?"></script>','',s)
- s=s.replace('</body>','<script defer src="/assets/shared-components.js?v=20261104"></script></body>')
+ s=s.replace('</body>','<script defer src="/assets/shared-components.js?v=20261111-cookie-v1"></script></body>')
  # Restore review destinations whose original targets were disabled in emergency recovery.
  s=re.sub(r'(<a\b[^>]*href=")/("[^>]*>Смотреть отзыв в Яндекс)',r'\1https://yandex.ru/maps/org/prep_tsentr/113144699853/reviews/\2',s)
  s=re.sub(r'(<a\b[^>]*href=")/("[^>]*>Показать все отзывы)',r'\1https://yandex.ru/maps/org/prep_tsentr/113144699853/reviews/\2',s)

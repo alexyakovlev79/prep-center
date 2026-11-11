@@ -60,7 +60,7 @@
     "Stale historical AggregateRating/review counts were not copied.",
     "Old Botfaqtor, UIS, Bitrix scripts were not restored.",
     "Existing 134 tariff entries and individual Service/Article/FAQ markup preserved.",
-    "Original counter 100290924 is unchanged; noscript fallback added."
+    "Counter 100290924 initializes only after analytics consent; no noscript pixel."
   ],
   "pages": [
     {
@@ -69,7 +69,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/about/",
@@ -77,7 +77,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/agregatsiya-kiz-naborov/",
@@ -85,7 +85,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/blog/",
@@ -93,7 +93,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/cases/",
@@ -101,7 +101,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/cases/agregatsiya-kiz-naborov-wms/",
@@ -109,7 +109,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/cases/avtohimiya-2393-nabora-za-2-dnya/",
@@ -117,7 +117,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/cases/avtomatizirovannaya-upakovka-kosmetiki/",
@@ -125,7 +125,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/cases/kantselyarskie-nabory-6000-za-5-dney/",
@@ -133,7 +133,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/cases/kosmetika-8400-za-2-dnya/",
@@ -141,7 +141,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/cases/opolaskivateli-3186-za-2-dnya/",
@@ -149,7 +149,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/cases/stroitelnaya-himiya-5180-za-3-dnya/",
@@ -157,7 +157,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/chestnyy-znak/",
@@ -165,7 +165,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/contacts/",
@@ -173,7 +173,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/etiketki-marketpleysov/",
@@ -181,7 +181,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/fbl-letual/",
@@ -189,7 +189,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/fbo-ozon/",
@@ -197,7 +197,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/fbo-wildberries/",
@@ -205,7 +205,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/fbs-ozon/",
@@ -213,7 +213,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/fbs-wildberries/",
@@ -221,7 +221,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/fbs-yandex-market/",
@@ -229,7 +229,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/fby-yandex-market/",
@@ -237,7 +237,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/fulfillment-avtohimiya/",
@@ -245,7 +245,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/fulfillment-bytovaya-himiya/",
@@ -253,7 +253,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/fulfillment-fbo/",
@@ -261,7 +261,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/fulfillment-fbs/",
@@ -269,7 +269,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/fulfillment-kosmetika/",
@@ -277,7 +277,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/fulfillment-shampuni-geli/",
@@ -285,7 +285,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/fulfillment-stroitelnaya-himiya/",
@@ -293,7 +293,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/fulfillment-zhidkih-tovarov/",
@@ -301,7 +301,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/komplektatsiya-naborov/",
@@ -309,7 +309,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/online/",
@@ -317,7 +317,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/privacy-policy/",
@@ -325,7 +325,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/srochnaya-obrabotka-partiy/",
@@ -333,7 +333,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/tarify/",
@@ -341,7 +341,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/termousadka-vpp/",
@@ -349,7 +349,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/trebovaniya-fbl-letual/",
@@ -357,7 +357,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/trebovaniya-fbo-ozon/",
@@ -365,7 +365,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/trebovaniya-fbs-ozon/",
@@ -373,7 +373,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/trebovaniya-fbs-wildberries/",
@@ -381,7 +381,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/trebovaniya-fbs-yandex-market/",
@@ -389,7 +389,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/trebovaniya-fbw-wildberries/",
@@ -397,7 +397,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/trebovaniya-fby-yandex-market/",
@@ -405,7 +405,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/upakovka-bytovoy-khimii/",
@@ -413,7 +413,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     },
     {
       "path": "/wms-mpfit-dlya-fulfillmenta/",
@@ -421,7 +421,7 @@
       "new_schema": true,
       "open_graph": true,
       "manifest": true,
-      "metrika_noscript": true
+      "metrika_noscript": false
     }
   ]
 }

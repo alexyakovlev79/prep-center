@@ -27,7 +27,6 @@ CATALOG_ID = BASE + "/#offer-catalog"
 DETAILED_CATALOG_ID = BASE + "/tarify/#catalog"
 START = "<!-- prep-center-schema-restore:start -->"
 END = "<!-- prep-center-schema-restore:end -->"
-PIXEL = "<!-- prep-center-metrika-noscript -->"
 GROUPS = {
     "Услуги и категории", "Статьи и требования маркетплейсов",
     "Кейсы", "Основные страницы",
@@ -352,11 +351,9 @@ def restore_page(original, route):
     result, n = re.subn(r"</head\s*>", lambda m: addition + m.group(0), cleaned, count=1, flags=re.I)
     if n != 1:
         raise AssertionError("Can't insert head on " + route)
-    if "mc.yandex.ru/watch/100290924" not in result:
-        pix = PIXEL + '<noscript><div><img src="https://mc.yandex.ru/watch/100290924" style="position:absolute;left:-9999px" alt=""></div></noscript>\n'
-        result, n = re.subn(r"<body\b[^>]*>", lambda m: m.group(0) + "\n" + pix, result, count=1, flags=re.I)
-        if n != 1:
-            raise AssertionError("Can't insert no-JS pixel on " + route)
+    # No noscript tracking pixel: an opt-in choice is impossible without JS.
+    if "mc.yandex.ru/watch/100290924" in result:
+        raise AssertionError("Tracking pixel would bypass consent on " + route)
     parsed = BeautifulSoup(result, "html.parser")
     scripts = parsed.find_all("script", attrs={"type": "application/ld+json"})
     for script in scripts:
@@ -368,8 +365,8 @@ def restore_page(original, route):
         raise AssertionError("Duplicate/missing entity or social metadata on " + route)
     if not parsed.head.find("link", rel="manifest") or not parsed.head.find("meta", attrs={"name": "apple-mobile-web-app-title"}):
         raise AssertionError("Missing manifest or mobile metadata " + route)
-    if not parsed.body.find("img", src="https://mc.yandex.ru/watch/100290924"):
-        raise AssertionError("Missing no-script analytics fallback on " + route)
+    if parsed.body.find("img", src="https://mc.yandex.ru/watch/100290924"):
+        raise AssertionError("Unexpected pre-consent tracking pixel on " + route)
     if result.count(START) != 1 or result.count(END) != 1:
         raise AssertionError("Duplicate schema block on " + route)
     return result, len(scripts)
@@ -392,7 +389,7 @@ def main():
         after, nodes = restore_page(before, route)
         checked.append({"path": route, "json_ld_blocks": nodes,
                         "new_schema": True, "open_graph": True,
-                        "manifest": True, "metrika_noscript": True})
+                        "manifest": True, "metrika_noscript": False})
         if after != before:
             changed.append(route)
             if not check:
@@ -417,7 +414,7 @@ def main():
                 "Stale historical AggregateRating/review counts were not copied.",
                 "Old Botfaqtor, UIS, Bitrix scripts were not restored.",
                 "Existing 134 tariff entries and individual Service/Article/FAQ markup preserved.",
-                "Original counter 100290924 is unchanged; noscript fallback added.",
+                "Counter 100290924 initializes only after analytics consent; no noscript pixel.",
             ], "pages": checked,
         }
         (ROOT / "reports/schema-restore-20261111.json").write_text(
