@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/restore_seo_schema.py'
+      - 'tarify/index.html'
 
 permissions:
   contents: write
