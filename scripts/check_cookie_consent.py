@@ -2,6 +2,7 @@
 """Browser + file smoke tests for 45-page cookie choice and Yandex.Metrika opt-in."""
 import json
 from pathlib import Path
+import os
 from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
@@ -41,7 +42,7 @@ def assert_static():
 def test_behaviour():
     results = {}
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
+        browser = p.chromium.launch(headless=True, channel=os.environ.get('PREP_CHROME_CHANNEL') or None)
         context = browser.new_context(viewport={"width": 1440, "height": 900})
         requests = []
 
