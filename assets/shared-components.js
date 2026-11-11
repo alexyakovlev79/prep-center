@@ -70,3 +70,29 @@
   config.src='/assets/prep-form-config.js?v=20261109';config.async=false;
   config.onload=boot;config.onerror=boot;document.head.appendChild(config);
 })();
+
+/* Restore the original Yandex.Metrika counter from the 2026-08-22 site snapshots.
+   Loaded by the shared script on every restored page; do not create a new counter. */
+(function restorePrepCenterMetrika(){
+  if (window.__prepCenterMetrikaInitialized) return;
+  window.__prepCenterMetrikaInitialized = true;
+  (function(m,e,t,r,i,k,a){
+    m[i] = m[i] || function(){ (m[i].a = m[i].a || []).push(arguments); };
+    m[i].l = 1 * new Date();
+    for (var j = 0; j < document.scripts.length; j++) {
+      if (document.scripts[j].src === r) return;
+    }
+    k = e.createElement(t);
+    a = e.getElementsByTagName(t)[0];
+    k.async = 1;
+    k.src = r;
+    a.parentNode.insertBefore(k,a);
+  })(window,document,'script','https://mc.yandex.ru/metrika/tag.js','ym');
+
+  window.ym(100290924,'init',{
+    clickmap: true,
+    trackLinks: true,
+    accurateTrackBounce: true,
+    webvisor: true
+  });
+})();
