@@ -74,6 +74,8 @@ jobs:
           robots=get(base+'/robots.txt')
           assert 'Sitemap: '+base+'/sitemap.xml' in robots
           assert 'Disallow: /' not in robots
+          for section in ('/restoration/', '/tools/', '/reports/', '/scripts/', '/serverless/', '/.github/', '/components/', '/docs/'):
+              assert 'Disallow: '+section in robots,('Missing technical crawl exclusion',section)
           sm=get(base+'/sitemap.xml')
           root=ET.fromstring(sm)
           ns='{http://www.sitemaps.org/schemas/sitemap/0.9}'
