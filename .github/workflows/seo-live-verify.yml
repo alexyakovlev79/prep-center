@@ -67,7 +67,7 @@ jobs:
               assert canonical and canonical.get('href')==p['url'],('canonical mismatch',p['url'])
               assert robots and robots.get('content')=='index,follow',('robots mismatch',p['url'])
               assert len(h1)==1,('H1 mismatch',p['url'])
-              assert h1[0].get_text(' ',strip=True)==' '.join(p['h1'][0].split()),('H1 text mismatch',p['url'])
+              assert ' '.join(h1[0].get_text(' ',strip=True).split())==' '.join(p['h1'][0].split()),('H1 text mismatch',p['url'])
               return p['url']
           with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
               res=list(pool.map(inspect,report['pages']))
