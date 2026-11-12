@@ -4,6 +4,8 @@ Disallow: /restoration/
 Disallow: /tools/
 Disallow: /reports/
 Disallow: /scripts/
+Disallow: /serverless/
+Disallow: /.github/
 Disallow: /components/
 Disallow: /docs/
 
