@@ -73,7 +73,7 @@ jobs:
               res=list(pool.map(inspect,report['pages']))
           robots=get(base+'/robots.txt')
           assert 'Sitemap: '+base+'/sitemap.xml' in robots
-          assert 'Disallow: /' not in robots
+          assert 'Disallow: /' not in [line.strip() for line in robots.splitlines()]
           for section in ('/restoration/', '/tools/', '/reports/', '/scripts/', '/serverless/', '/.github/', '/components/', '/docs/'):
               assert 'Disallow: '+section in robots,('Missing technical crawl exclusion',section)
           sm=get(base+'/sitemap.xml')
