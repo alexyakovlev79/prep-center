@@ -4,6 +4,16 @@
 
 Проверено страниц: **45**. В sitemap: **45** URL.
 
+## Технические архивы и robots.txt
+
+Публичная проверка 12.11.2026 обнаружила, что два сохраненных HTML-снимка в `/restoration/source/` и служебная страница `/tools/responsive-preview.html` возвращают HTTP 200. Эти URL не входят в Sitemap, но могут создавать дубли старых текстов.
+
+Добавлены правила `Disallow` для `/restoration/`, `/tools/`, `/reports/`, `/scripts/`, `/serverless/`, `/.github/`, `/components/`, `/docs/`. Основные 45 индексируемых страниц и файлы изображений/стилей/скриптов в `/assets/` остались открыты.
+
+Повторная проверка на публичном сайте подтвердила: 45/45 Title, Description, canonical, H1; Sitemap содержит 45 URL; robots.txt содержит новые запреты для технических каталогов.
+
+[Проверка архивных URL](https://github.com/alexyakovlev79/prep-center/actions/runs/43168083695) · [Итоговая проверка публичного сайта](https://github.com/alexyakovlev79/prep-center/actions/runs/43168431395)
+
 ## Замечания
 
 
