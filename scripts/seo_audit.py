@@ -21,8 +21,9 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://prep-center.ru"
 GROUPS = {"Услуги и категории", "Статьи и требования маркетплейсов", "Кейсы", "Основные страницы"}
-OUT_JSON = ROOT / "reports/seo-audit-before-20261112.json"
-OUT_MD = ROOT / "reports/seo-audit-before-20261112.md"
+REPORT_PHASE = "after" if "--after" in sys.argv else "before"
+OUT_JSON = ROOT / ("reports/seo-audit-" + REPORT_PHASE + "-20261112.json")
+OUT_MD = ROOT / ("reports/seo-audit-" + REPORT_PHASE + "-20261112.md")
 
 
 def clean(text):
@@ -131,6 +132,10 @@ def main():
     if "--check" in sys.argv:
         assert sitemap["url_count"] == 45 and not sitemap["missing"] and not sitemap["extra"]
         assert not any(p["title_count"] != 1 or p["description_count"] != 1 or p["h1"] == [] or len(p["h1"]) > 1 or p["canonical"] != [p["url"]] for p in pages)
+        assert len({p["title"].casefold() for p in pages}) == 45, "Duplicate titles"
+        assert len({p["description"].casefold() for p in pages}) == 45, "Duplicate descriptions"
+        assert all(p["robots"] == ["index,follow"] for p in pages), "Blocked robots"
+        assert not any(p["heading_skips"] for p in pages), "Heading hierarchy gaps"
         print(json.dumps({"pages": 45, "basic_seo": "valid", "issue_counts": dict(counts)}, ensure_ascii=False))
         return
     OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
