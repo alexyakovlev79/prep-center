@@ -1,4 +1,10 @@
 User-agent: *
 Allow: /
+Disallow: /restoration/
+Disallow: /tools/
+Disallow: /reports/
+Disallow: /scripts/
+Disallow: /components/
+Disallow: /docs/
 
 Sitemap: https://prep-center.ru/sitemap.xml
