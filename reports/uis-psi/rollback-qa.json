@@ -1,0 +1,10 @@
+{
+  "routes": [
+    "/",
+    "/tarify/",
+    "/contacts/"
+  ],
+  "uis_requests": 0,
+  "metrika_loaded": true,
+  "static_number_verified": true
+}

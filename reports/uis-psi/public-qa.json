@@ -1,0 +1,296 @@
+{
+  "routes": [
+    {
+      "route": "/",
+      "viewport": 1440,
+      "requests": [
+        {
+          "status": 200,
+          "host": "app.uiscom.ru",
+          "path": "/static/cs.min.js"
+        },
+        {
+          "status": 200,
+          "host": "app.uiscom.ru",
+          "path": "/ss/settings/",
+          "success": true,
+          "site": 114780,
+          "dynamic": true
+        }
+      ],
+      "phone": {
+        "initial": [
+          {
+            "text": "+7 (930) 600 75 20",
+            "href": "tel:+79306007520"
+          },
+          {
+            "text": "+7 (930) 600 75 20",
+            "href": "tel:+79306007520"
+          }
+        ],
+        "changes": [],
+        "requestAfterConsentMs": 1,
+        "requestDurationMs": 4370
+      },
+      "page_errors": [],
+      "form_ui": true,
+      "calculator_next_step": true
+    },
+    {
+      "route": "/tarify/",
+      "viewport": 1440,
+      "requests": [
+        {
+          "status": 200,
+          "host": "app.uiscom.ru",
+          "path": "/static/cs.min.js"
+        },
+        {
+          "status": 200,
+          "host": "app.uiscom.ru",
+          "path": "/ss/settings/",
+          "success": true,
+          "site": 114780,
+          "dynamic": true
+        }
+      ],
+      "phone": {
+        "initial": [
+          {
+            "text": "+7 (930) 600 75 20",
+            "href": "tel:+79306007520"
+          },
+          {
+            "text": "+7 (930) 600 75 20",
+            "href": "tel:+79306007520"
+          }
+        ],
+        "changes": [],
+        "requestAfterConsentMs": 1,
+        "requestDurationMs": 3701
+      },
+      "page_errors": [],
+      "form_ui": true,
+      "calculator_next_step": false
+    },
+    {
+      "route": "/contacts/",
+      "viewport": 1440,
+      "requests": [
+        {
+          "status": 200,
+          "host": "app.uiscom.ru",
+          "path": "/static/cs.min.js"
+        },
+        {
+          "status": 200,
+          "host": "app.uiscom.ru",
+          "path": "/ss/settings/",
+          "success": true,
+          "site": 114780,
+          "dynamic": true
+        }
+      ],
+      "phone": {
+        "initial": [
+          {
+            "text": "+7 (930) 600 75 20",
+            "href": "tel:+79306007520"
+          },
+          {
+            "text": "+7 (930) 600 75 20",
+            "href": "tel:+79306007520"
+          },
+          {
+            "text": "+7 (930) 600 75 20",
+            "href": "tel:+79306007520"
+          }
+        ],
+        "changes": [],
+        "requestAfterConsentMs": 1,
+        "requestDurationMs": 3873
+      },
+      "page_errors": [],
+      "form_ui": true,
+      "calculator_next_step": false
+    },
+    {
+      "route": "/?utm_source=yandex&utm_medium=cpc&utm_campaign=uis_qa",
+      "viewport": 1440,
+      "requests": [
+        {
+          "status": 200,
+          "host": "app.uiscom.ru",
+          "path": "/static/cs.min.js"
+        },
+        {
+          "status": 200,
+          "host": "app.uiscom.ru",
+          "path": "/ss/settings/",
+          "success": true,
+          "site": 114780,
+          "dynamic": true
+        },
+        {
+          "status": 200,
+          "host": "tracker.comagic.ru",
+          "path": "/t/v/"
+        },
+        {
+          "status": 200,
+          "host": "tracker.comagic.ru",
+          "path": "/sp/s/"
+        }
+      ],
+      "phone": {
+        "initial": [
+          {
+            "text": "+7 (930) 600 75 20",
+            "href": "tel:+79306007520"
+          },
+          {
+            "text": "+7 (930) 600 75 20",
+            "href": "tel:+79306007520"
+          }
+        ],
+        "changes": [
+          {
+            "afterConsentMs": 12231,
+            "phones": [
+              {
+                "text": "+7 (495) 151-28-21",
+                "href": "tel:+74951512821"
+              },
+              {
+                "text": "+7 (495) 151-28-21",
+                "href": "tel:+74951512821"
+              }
+            ]
+          }
+        ],
+        "requestAfterConsentMs": 1,
+        "requestDurationMs": 4287
+      },
+      "page_errors": [],
+      "form_ui": true,
+      "calculator_next_step": true
+    },
+    {
+      "route": "/",
+      "viewport": 390,
+      "requests": [
+        {
+          "status": 200,
+          "host": "app.uiscom.ru",
+          "path": "/static/cs.min.js"
+        },
+        {
+          "status": 200,
+          "host": "app.uiscom.ru",
+          "path": "/ss/settings/",
+          "success": true,
+          "site": 114780,
+          "dynamic": true
+        }
+      ],
+      "phone": {
+        "initial": [
+          {
+            "text": "+7 (930) 600 75 20",
+            "href": "tel:+79306007520"
+          },
+          {
+            "text": "+7 (930) 600 75 20",
+            "href": "tel:+79306007520"
+          }
+        ],
+        "changes": [],
+        "requestAfterConsentMs": 1,
+        "requestDurationMs": 7634
+      },
+      "page_errors": [],
+      "form_ui": true,
+      "calculator_next_step": true
+    },
+    {
+      "route": "/tarify/",
+      "viewport": 390,
+      "requests": [
+        {
+          "status": 200,
+          "host": "app.uiscom.ru",
+          "path": "/static/cs.min.js"
+        },
+        {
+          "status": 200,
+          "host": "app.uiscom.ru",
+          "path": "/ss/settings/",
+          "success": true,
+          "site": 114780,
+          "dynamic": true
+        }
+      ],
+      "phone": {
+        "initial": [
+          {
+            "text": "+7 (930) 600 75 20",
+            "href": "tel:+79306007520"
+          },
+          {
+            "text": "+7 (930) 600 75 20",
+            "href": "tel:+79306007520"
+          }
+        ],
+        "changes": [],
+        "requestAfterConsentMs": 1,
+        "requestDurationMs": 5450
+      },
+      "page_errors": [],
+      "form_ui": true,
+      "calculator_next_step": false
+    },
+    {
+      "route": "/contacts/",
+      "viewport": 390,
+      "requests": [
+        {
+          "status": 200,
+          "host": "app.uiscom.ru",
+          "path": "/static/cs.min.js"
+        },
+        {
+          "status": 200,
+          "host": "app.uiscom.ru",
+          "path": "/ss/settings/",
+          "success": true,
+          "site": 114780,
+          "dynamic": true
+        }
+      ],
+      "phone": {
+        "initial": [
+          {
+            "text": "+7 (930) 600 75 20",
+            "href": "tel:+79306007520"
+          },
+          {
+            "text": "+7 (930) 600 75 20",
+            "href": "tel:+79306007520"
+          },
+          {
+            "text": "+7 (930) 600 75 20",
+            "href": "tel:+79306007520"
+          }
+        ],
+        "changes": [],
+        "requestAfterConsentMs": 1,
+        "requestDurationMs": 4177
+      },
+      "page_errors": [],
+      "form_ui": true,
+      "calculator_next_step": false
+    }
+  ],
+  "refusal_and_revocation": true
+}

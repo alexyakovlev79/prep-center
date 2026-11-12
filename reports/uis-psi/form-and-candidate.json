@@ -1,0 +1,24 @@
+{
+  "form": {
+    "viewport": 390,
+    "backend_mocked": true,
+    "post_count": 1,
+    "acknowledgement": true,
+    "canonical_ok": true
+  },
+  "candidate": {
+    "replacementAfterNavigationMs": 17238,
+    "uisStartMs": 4818,
+    "phones": [
+      [
+        "+7 (495) 151-28-21",
+        "tel:+74951512821"
+      ],
+      [
+        "+7 (495) 151-28-21",
+        "tel:+74951512821"
+      ]
+    ],
+    "requestCount": 1
+  }
+}

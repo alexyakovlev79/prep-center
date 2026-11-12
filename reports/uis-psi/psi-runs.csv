@@ -1,0 +1,13 @@
+phase,device,run,moscow,Performance,FCP,LCP,SI,TBT,CLS,lighthouse,report,screenshot
+before,mobile,1,2026-11-12T09:03:16+03:00,94,1081,2583,4765,0,0,13.6.0,https://pagespeed.web.dev/analysis/https-prep-center-ru/z12oyqrhak?form_factor=mobile,before_mobile_01.png
+before,desktop,1,2026-11-12T09:04:20+03:00,100,285,781,609,0,0.01,13.6.0,https://pagespeed.web.dev/analysis/https-prep-center-ru/tg7ez4vfsv?form_factor=desktop,before_desktop_01.png
+before,mobile,2,2026-11-12T09:04:55+03:00,94,1099,2651,4306,64,0,13.6.0,https://pagespeed.web.dev/analysis/https-prep-center-ru/6l2fs3de9n?form_factor=mobile,before_mobile_02.png
+before,desktop,2,2026-11-12T09:05:43+03:00,100,303,801,407,0,0.009,13.6.0,https://pagespeed.web.dev/analysis/https-prep-center-ru/bvwi7urpvj?form_factor=desktop,before_desktop_02.png
+before,mobile,3,2026-11-12T09:06:24+03:00,94,1059,2564,4609,0,0,13.6.0,https://pagespeed.web.dev/analysis/https-prep-center-ru/bo0uk5qihi?form_factor=mobile,before_mobile_03.png
+before,desktop,3,2026-11-12T09:06:56+03:00,100,288,750,649,0,0.01,13.6.0,https://pagespeed.web.dev/analysis/https-prep-center-ru/4cq7lyc3ne?form_factor=desktop,before_desktop_03.png
+after,mobile,1,2026-11-12T09:20:25+03:00,91,1075,3171,4314,0,0,13.6.0,https://pagespeed.web.dev/analysis/https-prep-center-ru/a7uhwh5xww?form_factor=mobile,after_mobile_01.png
+after,desktop,1,2026-11-12T09:21:06+03:00,100,277,801,376,0,0.011,13.6.0,https://pagespeed.web.dev/analysis/https-prep-center-ru/8vwpj3m34n?form_factor=desktop,after_desktop_01.png
+after,mobile,2,2026-11-12T09:21:51+03:00,84,952,4517,1162,0,0.004,13.6.0,https://pagespeed.web.dev/analysis/https-prep-center-ru/ia2wlx32cx?form_factor=mobile,after_mobile_02.png
+after,desktop,2,2026-11-12T09:23:25+03:00,99,295,861,564,0,0.009,13.6.0,https://pagespeed.web.dev/analysis/https-prep-center-ru/3buthwi19v?form_factor=desktop,after_desktop_02.png
+after,mobile,3,2026-11-12T09:25:39+03:00,94,1074,2573,4419,0,0,13.6.0,https://pagespeed.web.dev/analysis/https-prep-center-ru/o4aya1grnd?form_factor=mobile,after_mobile_03.png
+after,desktop,3,2026-11-12T09:26:43+03:00,100,294,759,505,0,0.009,13.6.0,https://pagespeed.web.dev/analysis/https-prep-center-ru/vrxobdbrt4?form_factor=desktop,after_desktop_03.png

@@ -1,0 +1,443 @@
+[
+  {
+    "i": 1,
+    "device": "mobile",
+    "active": true,
+    "fetchTime": "2026-11-12T06:22:16.940Z",
+    "version": "13.6.0",
+    "performance": 77,
+    "fcp": 996.8,
+    "lcp": 4185.8,
+    "si": 1583.5,
+    "tbt": 382,
+    "cls": 0.004596045258770361,
+    "requests": [
+      {
+        "host": "app.uiscom.ru",
+        "path": "/static/cs.min.js",
+        "status": 200,
+        "requestMs": 387.6,
+        "endMs": 6251.8,
+        "transferBytes": 102338,
+        "resourceBytes": 277907
+      },
+      {
+        "host": "app.uiscom.ru",
+        "path": "/ss/settings/",
+        "status": -1,
+        "requestMs": 6285.2,
+        "endMs": null,
+        "transferBytes": 0,
+        "resourceBytes": 0
+      }
+    ],
+    "labCpuMs": 201.6,
+    "timers": [
+      {
+        "path": "/static/cs.min.js",
+        "start": 247,
+        "duration": 6
+      }
+    ]
+  },
+  {
+    "i": 1,
+    "device": "mobile",
+    "active": false,
+    "fetchTime": "2026-11-12T06:22:43.219Z",
+    "version": "13.6.0",
+    "performance": 84,
+    "fcp": 954.6,
+    "lcp": 4169.6,
+    "si": 1609.6,
+    "tbt": 189,
+    "cls": 0.004596045258770361,
+    "requests": [
+      {
+        "host": "app.uiscom.ru",
+        "path": "/static/cs.min.js",
+        "status": -1,
+        "requestMs": 307.1,
+        "endMs": 307.2,
+        "transferBytes": 0,
+        "resourceBytes": 0
+      }
+    ],
+    "labCpuMs": 0,
+    "timers": []
+  },
+  {
+    "i": 1,
+    "device": "desktop",
+    "active": true,
+    "fetchTime": "2026-11-12T06:23:05.378Z",
+    "version": "13.6.0",
+    "performance": 100,
+    "fcp": 319.5,
+    "lcp": 733.5,
+    "si": 531.6,
+    "tbt": 0,
+    "cls": 0.008664142478767184,
+    "requests": [
+      {
+        "host": "app.uiscom.ru",
+        "path": "/static/cs.min.js",
+        "status": 200,
+        "requestMs": 257.1,
+        "endMs": 4871.4,
+        "transferBytes": 102356,
+        "resourceBytes": 277907
+      },
+      {
+        "host": "app.uiscom.ru",
+        "path": "/ss/settings/",
+        "status": -1,
+        "requestMs": 4891.4,
+        "endMs": null,
+        "transferBytes": 0,
+        "resourceBytes": 0
+      }
+    ],
+    "labCpuMs": 25.1,
+    "timers": [
+      {
+        "path": "/static/cs.min.js",
+        "start": 297,
+        "duration": 12
+      }
+    ]
+  },
+  {
+    "i": 1,
+    "device": "desktop",
+    "active": false,
+    "fetchTime": "2026-11-12T06:23:30.340Z",
+    "version": "13.6.0",
+    "performance": 100,
+    "fcp": 312.2,
+    "lcp": 631.7,
+    "si": 525.5,
+    "tbt": 0,
+    "cls": 0.008664142478767184,
+    "requests": [
+      {
+        "host": "app.uiscom.ru",
+        "path": "/static/cs.min.js",
+        "status": -1,
+        "requestMs": 302.9,
+        "endMs": 302.9,
+        "transferBytes": 0,
+        "resourceBytes": 0
+      }
+    ],
+    "labCpuMs": 0,
+    "timers": []
+  },
+  {
+    "i": 2,
+    "device": "mobile",
+    "active": false,
+    "fetchTime": "2026-11-12T06:23:54.255Z",
+    "version": "13.6.0",
+    "performance": 96,
+    "fcp": 949.7,
+    "lcp": 1954.7,
+    "si": 1472.8,
+    "tbt": 192,
+    "cls": 0.00381935619167562,
+    "requests": [
+      {
+        "host": "app.uiscom.ru",
+        "path": "/static/cs.min.js",
+        "status": -1,
+        "requestMs": 451.5,
+        "endMs": 451.5,
+        "transferBytes": 0,
+        "resourceBytes": 0
+      }
+    ],
+    "labCpuMs": 0,
+    "timers": []
+  },
+  {
+    "i": 2,
+    "device": "mobile",
+    "active": true,
+    "fetchTime": "2026-11-12T06:24:20.048Z",
+    "version": "13.6.0",
+    "performance": 92,
+    "fcp": 1019.6,
+    "lcp": 3116.6,
+    "si": 1537.3,
+    "tbt": 165.5,
+    "cls": 0.004596045258770361,
+    "requests": [
+      {
+        "host": "app.uiscom.ru",
+        "path": "/static/cs.min.js",
+        "status": 200,
+        "requestMs": 833.2,
+        "endMs": 6772.7,
+        "transferBytes": 102364,
+        "resourceBytes": 277907
+      },
+      {
+        "host": "app.uiscom.ru",
+        "path": "/ss/settings/",
+        "status": -1,
+        "requestMs": 6793.7,
+        "endMs": null,
+        "transferBytes": 0,
+        "resourceBytes": 0
+      }
+    ],
+    "labCpuMs": 130.5,
+    "timers": [
+      {
+        "path": "/static/cs.min.js",
+        "start": 262,
+        "duration": 7
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "device": "desktop",
+    "active": false,
+    "fetchTime": "2026-11-12T06:24:47.338Z",
+    "version": "13.6.0",
+    "performance": 100,
+    "fcp": 332.8,
+    "lcp": 507.8,
+    "si": 507.9,
+    "tbt": 0,
+    "cls": 0.009710404244374398,
+    "requests": [
+      {
+        "host": "app.uiscom.ru",
+        "path": "/static/cs.min.js",
+        "status": -1,
+        "requestMs": 625.6,
+        "endMs": 625.6,
+        "transferBytes": 0,
+        "resourceBytes": 0
+      }
+    ],
+    "labCpuMs": 0,
+    "timers": []
+  },
+  {
+    "i": 2,
+    "device": "desktop",
+    "active": true,
+    "fetchTime": "2026-11-12T06:25:17.619Z",
+    "version": "13.6.0",
+    "performance": 100,
+    "fcp": 308.2,
+    "lcp": 729.2,
+    "si": 532.4,
+    "tbt": 4,
+    "cls": 0.008664142478767184,
+    "requests": [
+      {
+        "host": "app.uiscom.ru",
+        "path": "/static/cs.min.js",
+        "status": 200,
+        "requestMs": 309.6,
+        "endMs": 4577.7,
+        "transferBytes": 102374,
+        "resourceBytes": 277907
+      },
+      {
+        "host": "app.uiscom.ru",
+        "path": "/ss/settings/",
+        "status": 200,
+        "requestMs": 4612.8,
+        "endMs": 10043.3,
+        "transferBytes": 757,
+        "resourceBytes": 992
+      },
+      {
+        "host": "tracker.comagic.ru",
+        "path": "/t/v/",
+        "status": -1,
+        "requestMs": 10206.2,
+        "endMs": null,
+        "transferBytes": 0,
+        "resourceBytes": 0
+      }
+    ],
+    "labCpuMs": 47.3,
+    "timers": [
+      {
+        "path": "/static/cs.min.js",
+        "start": 203,
+        "duration": 19
+      }
+    ]
+  },
+  {
+    "i": 3,
+    "device": "mobile",
+    "active": true,
+    "fetchTime": "2026-11-12T06:25:44.351Z",
+    "version": "13.6.0",
+    "performance": 85,
+    "fcp": 960.5,
+    "lcp": 2612.5,
+    "si": 1188.1,
+    "tbt": 458.5,
+    "cls": 0.00381935619167562,
+    "requests": [
+      {
+        "host": "app.uiscom.ru",
+        "path": "/static/cs.min.js",
+        "status": 200,
+        "requestMs": 297.5,
+        "endMs": 4629.9,
+        "transferBytes": 102355,
+        "resourceBytes": 277907
+      },
+      {
+        "host": "app.uiscom.ru",
+        "path": "/ss/settings/",
+        "status": -1,
+        "requestMs": 4651.3,
+        "endMs": null,
+        "transferBytes": 0,
+        "resourceBytes": 0
+      }
+    ],
+    "labCpuMs": 163.8,
+    "timers": [
+      {
+        "path": "/static/cs.min.js",
+        "start": 231,
+        "duration": 7
+      }
+    ]
+  },
+  {
+    "i": 3,
+    "device": "mobile",
+    "active": false,
+    "fetchTime": "2026-11-12T06:26:09.453Z",
+    "version": "13.6.0",
+    "performance": 95,
+    "fcp": 961.3,
+    "lcp": 2338.8,
+    "si": 1589.7,
+    "tbt": 195,
+    "cls": 0.004596045258770361,
+    "requests": [
+      {
+        "host": "app.uiscom.ru",
+        "path": "/static/cs.min.js",
+        "status": -1,
+        "requestMs": 311.4,
+        "endMs": 311.5,
+        "transferBytes": 0,
+        "resourceBytes": 0
+      }
+    ],
+    "labCpuMs": 0,
+    "timers": [
+      {
+        "path": "/static/cs.min.js",
+        "start": 238,
+        "duration": 0
+      }
+    ]
+  },
+  {
+    "i": 3,
+    "device": "desktop",
+    "active": true,
+    "fetchTime": "2026-11-12T06:26:38.662Z",
+    "version": "13.6.0",
+    "performance": 100,
+    "fcp": 323.9,
+    "lcp": 525.9,
+    "si": 533.8,
+    "tbt": 0,
+    "cls": 0.008664142478767184,
+    "requests": [
+      {
+        "host": "app.uiscom.ru",
+        "path": "/static/cs.min.js",
+        "status": 200,
+        "requestMs": 351.9,
+        "endMs": 2755.7,
+        "transferBytes": 102365,
+        "resourceBytes": 277907
+      },
+      {
+        "host": "app.uiscom.ru",
+        "path": "/ss/settings/",
+        "status": 200,
+        "requestMs": 2776,
+        "endMs": 6691.1,
+        "transferBytes": 757,
+        "resourceBytes": 992
+      },
+      {
+        "host": "tracker.comagic.ru",
+        "path": "/t/v/",
+        "status": 200,
+        "requestMs": 6770.8,
+        "endMs": 11221,
+        "transferBytes": 692,
+        "resourceBytes": 317
+      },
+      {
+        "host": "tracker.comagic.ru",
+        "path": "/sp/s/",
+        "status": 200,
+        "requestMs": 11240.5,
+        "endMs": 11482.5,
+        "transferBytes": 398,
+        "resourceBytes": 51
+      }
+    ],
+    "labCpuMs": 103.5,
+    "timers": [
+      {
+        "path": "/static/cs.min.js",
+        "start": 467,
+        "duration": 8
+      }
+    ]
+  },
+  {
+    "i": 3,
+    "device": "desktop",
+    "active": false,
+    "fetchTime": "2026-11-12T06:27:08.010Z",
+    "version": "13.6.0",
+    "performance": 100,
+    "fcp": 311.9,
+    "lcp": 527.9,
+    "si": 502.6,
+    "tbt": 0,
+    "cls": 0.008664142478767184,
+    "requests": [
+      {
+        "host": "app.uiscom.ru",
+        "path": "/static/cs.min.js",
+        "status": -1,
+        "requestMs": 427.2,
+        "endMs": 427.2,
+        "transferBytes": 0,
+        "resourceBytes": 0
+      }
+    ],
+    "labCpuMs": 0,
+    "timers": [
+      {
+        "path": "/static/cs.min.js",
+        "start": 271,
+        "duration": 0
+      }
+    ]
+  }
+]
