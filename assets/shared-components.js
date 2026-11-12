@@ -71,13 +71,13 @@
   config.onload=boot;config.onerror=boot;document.head.appendChild(config);
 })();
 
-/* Cookies, Yandex.Metrika and UIS are managed by the shared opt-in controller.
+/* Cookies and Yandex.Metrika are managed by the shared opt-in controller.
    This replaces the unconditional analytics initializer from the archive. */
 (function loadPrepCenterCookieConsent(){
   if (document.getElementById('prep-cookie-consent-script')) return;
   const script = document.createElement('script');
   script.id = 'prep-cookie-consent-script';
-  script.src = '/assets/cookie-consent.js?v=20261112-uis-v1';
+  script.src = '/assets/cookie-consent.js?v=20261111-v1';
   script.async = false;
   document.body.appendChild(script);
 })();
