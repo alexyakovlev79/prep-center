@@ -1,0 +1,489 @@
+{
+  "basis": "Current site content and intent hypotheses; no Wordstat volume measurements",
+  "optimized_at_utc": "2026-11-12T06:18:39.504964+00:00",
+  "checked_pages": 45,
+  "edited_pages": [
+    "/",
+    "/agregatsiya-kiz-naborov/",
+    "/blog/",
+    "/cases/",
+    "/chestnyy-znak/",
+    "/etiketki-marketpleysov/",
+    "/fbo-ozon/",
+    "/fbo-wildberries/",
+    "/fbs-ozon/",
+    "/fbs-wildberries/",
+    "/fbs-yandex-market/",
+    "/fby-yandex-market/",
+    "/fulfillment-avtohimiya/",
+    "/fulfillment-bytovaya-himiya/",
+    "/fulfillment-fbo/",
+    "/fulfillment-fbs/",
+    "/fulfillment-kosmetika/",
+    "/fulfillment-shampuni-geli/",
+    "/fulfillment-stroitelnaya-himiya/",
+    "/fulfillment-zhidkih-tovarov/",
+    "/komplektatsiya-naborov/",
+    "/online/",
+    "/privacy-policy/",
+    "/srochnaya-obrabotka-partiy/",
+    "/tarify/",
+    "/termousadka-vpp/",
+    "/upakovka-bytovoy-khimii/",
+    "/wms-mpfit-dlya-fulfillmenta/"
+  ],
+  "keyword_map": [
+    {
+      "route": "/",
+      "intent": "commercial-general",
+      "primary_query_cluster": "фулфилмент для маркетплейсов Москва; фулфилмент Wildberries Ozon; цены FBO FBS",
+      "title": "Фулфилмент для маркетплейсов в Москве: FBO, FBS, цены | Преп-Центр",
+      "description": "Фулфилмент для Wildberries, Ozon и Яндекс Маркета в Москве и МО: приемка, упаковка, маркировка, FBO и FBS. Склад 1560 м² в Пушкино, 134 тарифа.",
+      "h1": "Фулфилмент с фиксированной ценой 15 рублей за единицу",
+      "modified": true
+    },
+    {
+      "route": "/about/",
+      "intent": "preserved",
+      "primary_query_cluster": null,
+      "title": "О Преп-Центре — склад, фулфилмент и подготовка товаров для маркетплейсов",
+      "description": "О Преп-Центре: склад 1560 м² в Пушкино, фулфилмент с 2019 года, приемка, упаковка, маркировка, FBO и FBS, автоматическая термоусадка и обработка крупных партий.",
+      "h1": "О Преп-Центре",
+      "modified": false
+    },
+    {
+      "route": "/agregatsiya-kiz-naborov/",
+      "intent": "commercial-operation",
+      "primary_query_cluster": "агрегация КИЗ; маркировка наборов Честный знак",
+      "title": "Агрегация КИЗ наборов Честный знак через WMS | Преп-Центр",
+      "description": "Сборка маркированных наборов и агрегация КИЗ: сканирование каждого вложения, связь кодов в WMS МПФИТ, печать внешней этикетки и передача файла соответствий.",
+      "h1": "Агрегация КИЗ при сборке маркированных наборов для маркетплейсов",
+      "modified": true
+    },
+    {
+      "route": "/blog/",
+      "intent": "informational-hub",
+      "primary_query_cluster": "статьи фулфилмент; требования маркетплейсов; упаковка товаров",
+      "title": "Статьи о фулфилменте, FBO, FBS и упаковке товаров | Преп-Центр",
+      "description": "Статьи Преп-Центра: требования Ozon, Wildberries и Яндекс Маркета, упаковка товаров, фулфилмент FBO/FBS, маркировка Честный знак, складской учет через WMS.",
+      "h1": "Статьи об упаковке товаров и фулфилменте",
+      "modified": true
+    },
+    {
+      "route": "/cases/",
+      "intent": "commercial-proof",
+      "primary_query_cluster": "кейсы фулфилмента; упаковка товаров реальные примеры",
+      "title": "Кейсы фулфилмента: упаковка, маркировка, FBO/FBS | Преп-Центр",
+      "description": "7 кейсов Преп-Центра: упаковка косметики, автохимии, ополаскивателей и строительной химии, сборка наборов, агрегация КИЗ и автоматизированная линия.",
+      "h1": "Кейсы фулфилмента и упаковки товаров для маркетплейсов",
+      "modified": true
+    },
+    {
+      "route": "/cases/agregatsiya-kiz-naborov-wms/",
+      "intent": "preserved",
+      "primary_query_cluster": null,
+      "title": "Агрегация КИЗ набора через WMS: технологический кейс | Преп-Центр",
+      "description": "Реальный складской процесс: сканирование каждого вложения, связь кодов набора в МПФИТ, печать этикетки и файл соответствий.",
+      "h1": "Агрегация КИЗ при сборке набора через WMS МПФИТ",
+      "modified": false
+    },
+    {
+      "route": "/cases/avtohimiya-2393-nabora-za-2-dnya/",
+      "intent": "preserved",
+      "primary_query_cluster": null,
+      "title": "Фулфилмент автохимии: 2 393 подарочных набора за 2 дня | Преп-Центр",
+      "description": "Кейс Преп-Центра: приемка комплектующих, упаковка автохимии в ВПП, сборка и проверка 2 393 подарочных наборов для Wildberries и Ozon за 2 дня.",
+      "h1": "Кейс: 2 393 подарочных набора автохимии для Wildberries и Ozon за 2 дня",
+      "modified": false
+    },
+    {
+      "route": "/cases/avtomatizirovannaya-upakovka-kosmetiki/",
+      "intent": "preserved",
+      "primary_query_cluster": null,
+      "title": "Автоматизированная упаковка косметики: технологический кейс | Преп-Центр",
+      "description": "Реальная линия: ВПП, термоусадка и внешний дубликат заводского КИЗ. Семь фотографий процесса и условия применения.",
+      "h1": "Автоматизированная упаковка косметики",
+      "modified": false
+    },
+    {
+      "route": "/cases/kantselyarskie-nabory-6000-za-5-dney/",
+      "intent": "preserved",
+      "primary_query_cluster": null,
+      "title": "6 000 канцелярских наборов из 24 комплектующих за 5 дней | Кейс Преп-Центра",
+      "description": "Кейс Преп-Центра: поштучная приемка более 144 000 комплектующих и конвейерная сборка 6 000 подарочных канцелярских наборов из 24 позиций за 5 рабочих дней.",
+      "h1": "6 000 подарочных канцелярских наборов из 24 комплектующих за 5 дней",
+      "modified": false
+    },
+    {
+      "route": "/cases/kosmetika-8400-za-2-dnya/",
+      "intent": "preserved",
+      "primary_query_cluster": null,
+      "title": "Фулфилмент косметики для WB и Ozon: кейс 8 400 единиц | Преп-Центр",
+      "description": "Как Преп-Центр за 2 дня подготовил 8 400 единиц косметики для FBO-поставок на Wildberries и Ozon: ВПП, Честный знак, маркировка и контроль брака.",
+      "h1": "Кейс: 8 400 единиц косметики для Wildberries и Ozon за 2 дня",
+      "modified": false
+    },
+    {
+      "route": "/cases/opolaskivateli-3186-za-2-dnya/",
+      "intent": "preserved",
+      "primary_query_cluster": null,
+      "title": "Упаковка 3 186 ополаскивателей для полости рта за 2 дня | Кейс Преп-Центра",
+      "description": "Кейс Преп-Центра: приемка, контроль и индивидуальная упаковка 3 186 ополаскивателей для полости рта в воздушно-пузырчатую пленку за 2 рабочих дня с дублированием кода «Честного знака» на внешний слой упаковки.",
+      "h1": "Упаковка 3 186 ополаскивателей для полости рта в ВПП за 2 дня",
+      "modified": false
+    },
+    {
+      "route": "/cases/stroitelnaya-himiya-5180-za-3-dnya/",
+      "intent": "preserved",
+      "primary_query_cluster": null,
+      "title": "Фулфилмент строительной химии: 5 180 единиц за 3 дня | Преп-Центр",
+      "description": "Кейс Преп-Центра: 5 200 единиц строительной химии, входной контроль, автоматическая термоусадка и ВПП, 5 180 единиц подготовлено за 3 дня.",
+      "h1": "Кейс: 5 180 единиц строительной химии в термоусадке и ВПП за 3 дня",
+      "modified": false
+    },
+    {
+      "route": "/chestnyy-znak/",
+      "intent": "commercial-operation",
+      "primary_query_cluster": "маркировка Честный знак для маркетплейсов; печать КИЗ DataMatrix",
+      "title": "Маркировка Честный знак и КИЗ для Ozon, Wildberries | Преп-Центр",
+      "description": "Печать и нанесение кодов DataMatrix, учет КИЗ через WMS МПФИТ и агрегация маркированных наборов. Маркировка товаров и упаковки для Wildberries, Ozon и Яндекс Маркета.",
+      "h1": "Честный знак при подготовке товаров к маркетплейсам",
+      "modified": true
+    },
+    {
+      "route": "/contacts/",
+      "intent": "preserved",
+      "primary_query_cluster": null,
+      "title": "Контакты Преп-Центра: склад в Пушкино, телефон и Telegram",
+      "description": "Контакты Преп-Центра: +7 (930) 600 75 20, info@prep-center.ru, Telegram @prepmanager2. Склад: Пушкино, ул. Новая, 10. Ежедневно 08:00–20:00.",
+      "h1": "Контакты Преп-Центра",
+      "modified": false
+    },
+    {
+      "route": "/etiketki-marketpleysov/",
+      "intent": "commercial-operation",
+      "primary_query_cluster": "наклейка этикеток Wildberries; печать этикеток Ozon; маркировка товара",
+      "title": "Этикетки для Wildberries и Ozon: печать и наклейка | Преп-Центр",
+      "description": "Печать и наклейка штрихкодов и этикеток для Wildberries, Ozon и Яндекс Маркета. Маркировка товара, коробов и поставок FBO/FBS на складе в Пушкино.",
+      "h1": "Печать и наклейка этикеток для Ozon, Wildberries и Яндекс Маркета",
+      "modified": true
+    },
+    {
+      "route": "/fbl-letual/",
+      "intent": "preserved",
+      "primary_query_cluster": null,
+      "title": "FBL ЛЭТУАЛЬ: подготовка косметики и парфюмерии к поставке | Преп-Центр",
+      "description": "Подготовка поставок FBL в ЛЭТУАЛЬ: проверка косметики и парфюмерии, ВПП, термоусадка, этикетки, Честный знак, наборы, короба и паллеты. Преп-Центр.",
+      "h1": "Отгрузки FBL в ЛЭТУАЛЬ: подготовка косметики и парфюмерии к поставке",
+      "modified": false
+    },
+    {
+      "route": "/fbo-ozon/",
+      "intent": "commercial-marketplace-fbo",
+      "primary_query_cluster": "подготовка поставок Ozon FBO; упаковка товаров Озон; отгрузка FBO",
+      "title": "Подготовка поставок FBO Ozon: упаковка и доставка | Преп-Центр",
+      "description": "Подготовим поставку FBO на склады Ozon: приемка, сортировка, упаковка, этикетки, Честный знак, формирование коробов и паллет. Доставка по графику, склад в Пушкино.",
+      "h1": "Отгрузки FBO на Ozon: упаковка, маркировка и подготовка поставок",
+      "modified": true
+    },
+    {
+      "route": "/fbo-wildberries/",
+      "intent": "commercial-marketplace-fbo",
+      "primary_query_cluster": "подготовка поставок Wildberries; упаковка товаров для ВБ; FBW FBO",
+      "title": "Подготовка поставок Wildberries FBW (FBO): упаковка | Преп-Центр",
+      "description": "Подготовка поставок на склад Wildberries (FBW/FBO): приемка, проверка, упаковка товара, маркировка, короба и паллеты. Склад в Пушкино, доставка по графику.",
+      "h1": "Отгрузки FBO на Wildberries: подготовка поставок по модели «Склад WB» (FBW)",
+      "modified": true
+    },
+    {
+      "route": "/fbs-ozon/",
+      "intent": "commercial-marketplace-fbs",
+      "primary_query_cluster": "фулфилмент FBS Ozon; хранение и сборка Ozon FBS",
+      "title": "Фулфилмент FBS Ozon: хранение, сборка, отгрузка | Преп-Центр",
+      "description": "FBS для Ozon в Москве и МО: хранение товара на складе Преп-Центра, комплектация заказов, упаковка, печать этикеток, WMS и регулярные отгрузки в логистику Ozon.",
+      "h1": "FBS-фулфилмент для Ozon: хранение, сборка и отгрузка заказов",
+      "modified": true
+    },
+    {
+      "route": "/fbs-wildberries/",
+      "intent": "commercial-marketplace-fbs",
+      "primary_query_cluster": "фулфилмент FBS Wildberries; сборка заказов ВБ FBS",
+      "title": "Фулфилмент FBS Wildberries: хранение и сборка | Преп-Центр",
+      "description": "FBS-фулфилмент для Wildberries: хранение на складе в Пушкино, сборка заказов, упаковка, маркировка, учет остатков через WMS и регулярные отгрузки на WB.",
+      "h1": "FBS-фулфилмент для Wildberries: хранение, сборка и отгрузка заказов",
+      "modified": true
+    },
+    {
+      "route": "/fbs-yandex-market/",
+      "intent": "commercial-marketplace-fbs",
+      "primary_query_cluster": "фулфилмент FBS Яндекс Маркет; сборка заказов FBS",
+      "title": "Фулфилмент FBS Яндекс Маркета: сборка заказов | Преп-Центр",
+      "description": "Фулфилмент FBS для Яндекс Маркета: приемка, хранение и сборка заказов, этикетки, возвраты, учет остатков через WMS и регулярная передача отправлений.",
+      "h1": "FBS-фулфилмент для Яндекс Маркета: хранение, сборка и отгрузка заказов",
+      "modified": true
+    },
+    {
+      "route": "/fby-yandex-market/",
+      "intent": "commercial-marketplace-fbo",
+      "primary_query_cluster": "поставки FBY Яндекс Маркет; подготовка товаров на склад Яндекс Маркета",
+      "title": "Подготовка поставок FBY Яндекс Маркета: упаковка | Преп-Центр",
+      "description": "Подготовка FBY-поставок на Яндекс Маркет: проверка товара, упаковка, этикетки, формирование коробов и паллет. Работа с маркировкой и транспортными грузоместами.",
+      "h1": "Отгрузки на склад Яндекс Маркета по FBY: подготовка и маркировка поставок",
+      "modified": true
+    },
+    {
+      "route": "/fulfillment-avtohimiya/",
+      "intent": "commercial-category",
+      "primary_query_cluster": "фулфилмент автохимии; упаковка автокосметики Ozon WB",
+      "title": "Фулфилмент автохимии и автокосметики для маркетплейсов | Преп-Центр",
+      "description": "Фулфилмент автохимии и автокосметики для Ozon и Wildberries: приемка, защитная упаковка, этикетки, маркировка, комплектация наборов, FBO и FBS. Склад в Пушкино.",
+      "h1": "Фулфилмент автохимии и автокосметики для маркетплейсов",
+      "modified": true
+    },
+    {
+      "route": "/fulfillment-bytovaya-himiya/",
+      "intent": "commercial-category",
+      "primary_query_cluster": "фулфилмент бытовой химии; упаковка бытовой химии для маркетплейсов",
+      "title": "Фулфилмент бытовой химии для Ozon и Wildberries | Преп-Центр",
+      "description": "Фулфилмент бытовой химии в Москве и МО: приемка, проверка флаконов и канистр, защитная упаковка в ВПП и термоусадку, маркировка, FBO и FBS для Ozon и Wildberries.",
+      "h1": "Фулфилмент бытовой химии для Ozon, Wildberries и Яндекс Маркета",
+      "modified": true
+    },
+    {
+      "route": "/fulfillment-fbo/",
+      "intent": "commercial-fbo",
+      "primary_query_cluster": "фулфилмент FBO; подготовка FBO поставок; FBO Москва",
+      "title": "Фулфилмент FBO для Wildberries, Ozon и Яндекс Маркета | Преп-Центр",
+      "description": "FBO-фулфилмент в Москве и МО: приемка товаров, упаковка, этикетки, Честный знак, короба и паллеты. Подготовка поставок для Ozon, Wildberries и Яндекс Маркета.",
+      "h1": "FBO-фулфилмент для Озон, Wildberries и Яндекс.Маркета",
+      "modified": true
+    },
+    {
+      "route": "/fulfillment-fbs/",
+      "intent": "commercial-fbs",
+      "primary_query_cluster": "фулфилмент FBS; склад FBS Wildberries Ozon; сборка FBS заказов",
+      "title": "Фулфилмент FBS для Wildberries, Ozon и Яндекс Маркета | Преп-Центр",
+      "description": "Фулфилмент FBS в Москве и МО: хранение, сборка и упаковка заказов, маркировка, учет остатков через WMS и регулярные отгрузки для Wildberries, Ozon и Яндекс Маркета.",
+      "h1": "FBS-фулфилмент для Wildberries, Ozon и Яндекс Маркета",
+      "modified": true
+    },
+    {
+      "route": "/fulfillment-kosmetika/",
+      "intent": "commercial-category",
+      "primary_query_cluster": "фулфилмент косметики Москва; упаковка косметики Wildberries Ozon",
+      "title": "Фулфилмент косметики для Wildberries и Ozon в Москве | Преп-Центр",
+      "description": "Фулфилмент косметики в Москве и МО: проверка, упаковка в ВПП, маркировка Честный знак, комплектация и поставки FBO/FBS на Wildberries и Ozon. Кейс 8 400 единиц.",
+      "h1": "Фулфилмент косметики для Wildberries и Ozon",
+      "modified": true
+    },
+    {
+      "route": "/fulfillment-shampuni-geli/",
+      "intent": "commercial-category",
+      "primary_query_cluster": "фулфилмент шампуней и гелей; упаковка шампуней для WB и Ozon",
+      "title": "Фулфилмент шампуней и гелей для Ozon и Wildberries | Преп-Центр",
+      "description": "Подготовка шампуней и гелей для маркетплейсов в Москве и МО: контроль тары, упаковка в воздушно-пузырьковую и термоусадочную пленку, этикетки, FBO и FBS.",
+      "h1": "Фулфилмент шампуней и гелей для Ozon, Wildberries и Яндекс Маркета",
+      "modified": true
+    },
+    {
+      "route": "/fulfillment-stroitelnaya-himiya/",
+      "intent": "commercial-category",
+      "primary_query_cluster": "фулфилмент строительной химии; упаковка герметиков для маркетплейсов",
+      "title": "Фулфилмент строительной химии для Ozon и Wildberries | Преп-Центр",
+      "description": "Фулфилмент строительной химии: приемка, проверка герметиков и клеев, упаковка в термоусадку и ВПП, этикетки, FBO и FBS. Склад в Пушкино, реальные кейсы.",
+      "h1": "Фулфилмент строительной химии для Ozon и Wildberries",
+      "modified": true
+    },
+    {
+      "route": "/fulfillment-zhidkih-tovarov/",
+      "intent": "commercial-category",
+      "primary_query_cluster": "фулфилмент жидких товаров; упаковка жидкостей для маркетплейсов",
+      "title": "Фулфилмент жидких товаров для Ozon и Wildberries | Преп-Центр",
+      "description": "Фулфилмент жидких товаров в Москве и МО: проверка герметичности тары, защитная упаковка в ВПП и термоусадку, маркировка и поставки FBO/FBS на Wildberries и Ozon.",
+      "h1": "Фулфилмент для жидких товаров на Ozon, Wildberries и Яндекс Маркете",
+      "modified": true
+    },
+    {
+      "route": "/komplektatsiya-naborov/",
+      "intent": "commercial-operation",
+      "primary_query_cluster": "комплектация наборов на заказ; сборка наборов для маркетплейсов",
+      "title": "Комплектация и сборка наборов для маркетплейсов | Преп-Центр",
+      "description": "Комплектация наборов для Ozon и Wildberries: поштучная приемка, сборка по образцу, контроль комплектности, упаковка, маркировка. Реальный кейс 6 000 наборов за 5 дней.",
+      "h1": "Комплектация и сборка наборов для маркетплейсов",
+      "modified": true
+    },
+    {
+      "route": "/online/",
+      "intent": "navigational",
+      "primary_query_cluster": "Преп-Центр отзывы; Преп-Центр в интернете",
+      "title": "Преп-Центр в интернете: профили, отзывы, публикации",
+      "description": "Официальные профили Преп-Центра в Яндекс Картах, 2ГИС и каталогах фулфилмента, ссылки на отзывы, независимые рейтинги и публикации о компании.",
+      "h1": "Преп-Центр в интернете",
+      "modified": true
+    },
+    {
+      "route": "/privacy-policy/",
+      "intent": "legal",
+      "primary_query_cluster": "политика обработки персональных данных Преп-Центр",
+      "title": "Политика обработки персональных данных | Преп-Центр",
+      "description": "Политика обработки персональных данных Преп-Центра: цели обработки, хранение, права посетителей, сведения о cookies и Яндекс.Метрике, контакты компании.",
+      "h1": "Политика в отношении обработки персональных данных",
+      "modified": true
+    },
+    {
+      "route": "/srochnaya-obrabotka-partiy/",
+      "intent": "commercial-operation",
+      "primary_query_cluster": "срочная упаковка товаров; обработка партий маркетплейсы",
+      "title": "Срочная упаковка и маркировка партий для маркетплейсов | Преп-Центр",
+      "description": "Срочная подготовка крупных партий для Wildberries и Ozon: приемка, упаковка в ВПП и термоусадку, этикетки, комплектация, FBO/FBS. До 20 000 единиц за смену на подходящих операциях.",
+      "h1": "Срочная обработка крупных партий 10 000–20 000+ единиц для маркетплейсов",
+      "modified": true
+    },
+    {
+      "route": "/tarify/",
+      "intent": "commercial-pricing",
+      "primary_query_cluster": "фулфилмент цены; стоимость упаковки товаров; услуги фулфилмента прайс",
+      "title": "Цены на фулфилмент и упаковку товаров для маркетплейсов | Преп-Центр",
+      "description": "134 тарифа Преп-Центра: приемка, маркировка, упаковка в ВПП и термоусадку, хранение, комплектация, FBO, FBS и доставка товаров на Wildberries и Ozon.",
+      "h1": "Тарифы на фулфилмент и подготовку товаров к маркетплейсам",
+      "modified": true
+    },
+    {
+      "route": "/termousadka-vpp/",
+      "intent": "commercial-operation",
+      "primary_query_cluster": "упаковка в термоусадочную пленку; упаковка в ВПП для маркетплейсов",
+      "title": "Термоусадочная упаковка и ВПП для маркетплейсов | Преп-Центр",
+      "description": "Упаковка товаров в термоусадочную и воздушно-пузырьковую пленку (ВПП, пупырку) для Wildberries и Ozon. Крупные партии, автоматическая линия, склад в Пушкино.",
+      "h1": "Термоусадка и упаковка в воздушно-пузырьковую пленку для маркетплейсов",
+      "modified": true
+    },
+    {
+      "route": "/trebovaniya-fbl-letual/",
+      "intent": "preserved",
+      "primary_query_cluster": null,
+      "title": "Требования FBL ЛЭТУАЛЬ к косметике и парфюмерии в 2026 году | Преп-Центр",
+      "description": "Как подготовить косметику и парфюмерию к FBL ЛЭТУАЛЬ: упаковка флаконов и наборов, короба, паллеты, сроки годности, EAN, Честный знак и причины отказа в приемке. Проверено 18 сентября 2026 года.",
+      "h1": "Как подготовить косметику и парфюмерию к поставке FBL ЛЭТУАЛЬ в 2026 году",
+      "modified": false
+    },
+    {
+      "route": "/trebovaniya-fbo-ozon/",
+      "intent": "preserved",
+      "primary_query_cluster": null,
+      "title": "Требования Ozon FBO к упаковке и поставке в 2026 году | Преп-Центр",
+      "description": "Актуальные правила FBO Ozon: заявка и таймслот, короба и паллеты, индивидуальная упаковка, этикетки, сроки годности, Data Matrix и причины отказа в приемке. Проверено 18 сентября 2026 года.",
+      "h1": "Правила упаковки и отгрузки FBO Ozon в сентябре–октябре 2026",
+      "modified": false
+    },
+    {
+      "route": "/trebovaniya-fbs-ozon/",
+      "intent": "preserved",
+      "primary_query_cluster": null,
+      "title": "Ozon FBS: упаковка, этикетки и отгрузка заказов в 2026 году | Преп-Центр",
+      "description": "Актуальные правила Ozon FBS: «Заказы с моих складов», сборка отправлений, размеры этикеток, QR-код, время сборки и передача заказов в пункт приема. Проверено 18 сентября 2026 года.",
+      "h1": "Требования Ozon к FBS в сентябре–октябре 2026: упаковка, этикетки и отгрузка",
+      "modified": false
+    },
+    {
+      "route": "/trebovaniya-fbs-wildberries/",
+      "intent": "preserved",
+      "primary_query_cluster": null,
+      "title": "Wildberries FBS: требования к упаковке и отгрузке в 2026 году | Преп-Центр",
+      "description": "Актуальные требования Wildberries к модели «Маркетплейс» FBS: сроки сборки, упаковка, стикеры заказов, КИЗ, транспортировочные короба, отгрузка в СЦ и ПВЗ. Проверено 18 сентября 2026 года.",
+      "h1": "Требования Wildberries к FBS в сентябре–октябре 2026: упаковка, маркировка и отгрузка",
+      "modified": false
+    },
+    {
+      "route": "/trebovaniya-fbs-yandex-market/",
+      "intent": "preserved",
+      "primary_query_cluster": null,
+      "title": "FBS Яндекс Маркет: упаковка, ярлыки и отгрузка в 2026 году | Преп-Центр",
+      "description": "Актуальные требования Яндекс Маркета к FBS: упаковка заказов, ярлыки 120×75 и 58×40 мм, многоместные заказы, приемка в ПВЗ и СЦ, доверительная отгрузка. Проверено 18 сентября 2026 года.",
+      "h1": "Требования Яндекс Маркета к FBS в сентябре–октябре 2026: упаковка, ярлыки и приемка",
+      "modified": false
+    },
+    {
+      "route": "/trebovaniya-fbw-wildberries/",
+      "intent": "preserved",
+      "primary_query_cluster": null,
+      "title": "Требования Wildberries FBW к упаковке и поставке в 2026 году | Преп-Центр",
+      "description": "Актуальные требования Wildberries к поставкам по модели «Склад WB» (FBW): индивидуальная упаковка, короба, паллеты, штрихкоды, жидкости, косметика и бытовая химия. Проверено 18 сентября 2026 года.",
+      "h1": "Требования Wildberries к упаковке и поставке FBW в сентябре–октябре 2026",
+      "modified": false
+    },
+    {
+      "route": "/trebovaniya-fby-yandex-market/",
+      "intent": "preserved",
+      "primary_query_cluster": null,
+      "title": "Требования FBY Яндекс Маркета: упаковка и поставка в 2026 году | Преп-Центр",
+      "description": "Как подготовить поставку FBY Яндекс Маркета: индивидуальная упаковка, жидкости и косметика, короба, паллеты, этикетки грузомест, штрихкоды и Честный знак. Проверено 18 сентября 2026 года.",
+      "h1": "Требования к поставкам FBY Яндекс Маркета в сентябре–октябре 2026",
+      "modified": false
+    },
+    {
+      "route": "/upakovka-bytovoy-khimii/",
+      "intent": "informational-packaging-design",
+      "primary_query_cluster": "упаковка бытовой химии коробки; материалы для упаковки бытовой химии",
+      "title": "Упаковка бытовой химии: короба, материалы, маркировка | Преп-Центр",
+      "description": "Упаковка бытовой химии: подбор картона, коробов и защитных вкладышей, требования к таре, печать и маркировка. Материалы, конструкции и этапы подготовки упаковки.",
+      "h1": "Упаковка бытовой химии: материалы и конструкции",
+      "modified": true
+    },
+    {
+      "route": "/wms-mpfit-dlya-fulfillmenta/",
+      "intent": "informational-wms",
+      "primary_query_cluster": "WMS МПФИТ для фулфилмента; учет остатков для WB и Ozon",
+      "title": "WMS МПФИТ: учет остатков и автоматизация фулфилмента | Преп-Центр",
+      "description": "Как Преп-Центр использует WMS МПФИТ: единый остаток для Ozon и Wildberries, приемка, адресное хранение, учет КИЗ, FBO/FBS и личный кабинет клиента.",
+      "h1": "WMS МПФИТ в Преп-Центре: учет товаров и управление FBO/FBS",
+      "modified": true
+    }
+  ],
+  "sitemap_lastmod": {
+    "/cases/agregatsiya-kiz-naborov-wms/": "2026-11-12",
+    "/cases/avtohimiya-2393-nabora-za-2-dnya/": "2026-11-12",
+    "/cases/avtomatizirovannaya-upakovka-kosmetiki/": "2026-11-12",
+    "/cases/kantselyarskie-nabory-6000-za-5-dney/": "2026-11-12",
+    "/cases/kosmetika-8400-za-2-dnya/": "2026-11-12",
+    "/cases/opolaskivateli-3186-za-2-dnya/": "2026-11-12",
+    "/cases/stroitelnaya-himiya-5180-za-3-dnya/": "2026-11-12",
+    "/": "2026-11-12",
+    "/about/": "2026-11-12",
+    "/cases/": "2026-11-12",
+    "/contacts/": "2026-11-12",
+    "/online/": "2026-11-12",
+    "/privacy-policy/": "2026-11-12",
+    "/tarify/": "2026-11-12",
+    "/blog/": "2026-11-12",
+    "/trebovaniya-fbl-letual/": "2026-11-12",
+    "/trebovaniya-fbo-ozon/": "2026-11-12",
+    "/trebovaniya-fbs-ozon/": "2026-11-12",
+    "/trebovaniya-fbs-wildberries/": "2026-11-12",
+    "/trebovaniya-fbs-yandex-market/": "2026-11-12",
+    "/trebovaniya-fbw-wildberries/": "2026-11-12",
+    "/trebovaniya-fby-yandex-market/": "2026-11-12",
+    "/upakovka-bytovoy-khimii/": "2026-11-12",
+    "/wms-mpfit-dlya-fulfillmenta/": "2026-11-12",
+    "/agregatsiya-kiz-naborov/": "2026-11-12",
+    "/chestnyy-znak/": "2026-11-12",
+    "/etiketki-marketpleysov/": "2026-11-12",
+    "/fbl-letual/": "2026-11-12",
+    "/fbo-ozon/": "2026-11-12",
+    "/fbo-wildberries/": "2026-11-12",
+    "/fbs-ozon/": "2026-11-12",
+    "/fbs-wildberries/": "2026-11-12",
+    "/fbs-yandex-market/": "2026-11-12",
+    "/fby-yandex-market/": "2026-11-12",
+    "/fulfillment-avtohimiya/": "2026-11-12",
+    "/fulfillment-bytovaya-himiya/": "2026-11-12",
+    "/fulfillment-fbo/": "2026-11-12",
+    "/fulfillment-fbs/": "2026-11-12",
+    "/fulfillment-kosmetika/": "2026-11-12",
+    "/fulfillment-shampuni-geli/": "2026-11-12",
+    "/fulfillment-stroitelnaya-himiya/": "2026-11-12",
+    "/fulfillment-zhidkih-tovarov/": "2026-11-12",
+    "/komplektatsiya-naborov/": "2026-11-12",
+    "/srochnaya-obrabotka-partiy/": "2026-11-12",
+    "/termousadka-vpp/": "2026-11-12"
+  }
+}
