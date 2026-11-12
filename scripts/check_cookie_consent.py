@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Browser + file smoke tests for 45-page cookie choice and Yandex.Metrika opt-in."""
+"""Browser and file smoke tests for consent to Yandex.Metrika and UIS."""
 import json
 from pathlib import Path
 import os
@@ -10,7 +10,8 @@ from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "http://127.0.0.1:8765"
-VERSION = "20261111-cookie-v1"
+VERSION = "20261112-uis-v1"
+UIS_SELECTOR = 'script[src^="https://app.uiscom.ru/static/cs.min.js?"]'
 GROUPS = {
     "Услуги и категории", "Статьи и требования маркетплейсов",
     "Кейсы", "Основные страницы",
@@ -29,12 +30,14 @@ def assert_static():
         assert len(shared) == 1, (route, "shared includes", len(shared))
         assert "v=" + VERSION in shared[0]["src"], (route, "stale version")
         assert "mc.yandex.ru/watch/100290924" not in text, (route, "pixel bypasses opt-in")
+        assert "app.uiscom.ru/static/cs.min.js" not in text, (route, "UIS bypasses shared consent")
         assert soup.select_one('link[rel="canonical"]'), route
         assert soup.select_one('script[type="application/ld+json"]'), route
         assert len(soup.select('.shared-footer .footer-legal')) == 1, route
     privacy = (ROOT / "privacy-policy/index.html").read_text("utf-8")
     assert privacy.count('id="cookies-and-analytics"') == 1
     assert 'Яндекс.Метрику (счетчик № 100290924)' in privacy
+    assert 'UIS для определения источников звонков' in privacy
     assert (ROOT / "assets/cookie-consent.css").exists()
     return routes
 
@@ -45,12 +48,18 @@ def test_behaviour():
         browser = p.chromium.launch(headless=True, channel=os.environ.get('PREP_CHROME_CHANNEL') or None)
         context = browser.new_context(viewport={"width": 1440, "height": 900})
         requests = []
+        uis_requests = []
 
         def metrika_stub(route):
             requests.append(route.request.url)
             route.fulfill(status=200, content_type="application/javascript",
                           body="window.__metrika_stub_loaded__ = true;")
         context.route("https://mc.yandex.ru/**", metrika_stub)
+        def uis_stub(route):
+            uis_requests.append(route.request.url)
+            route.fulfill(status=200, content_type="application/javascript",
+                          body="window.__uis_stub_loaded__ = true;")
+        context.route("https://app.uiscom.ru/static/cs.min.js?**", uis_stub)
 
         page = context.new_page()
         page.goto(BASE + "/", wait_until="domcontentloaded")
@@ -61,6 +70,7 @@ def test_behaviour():
         )
         assert page.locator("#prep-cookie-banner").count() == 1
         assert not requests, "Metrika network request before consent"
+        assert not uis_requests and page.locator(UIS_SELECTOR).count() == 0
         assert page.evaluate("typeof window.ym") == "undefined", "Metrika initialized before consent"
         assert page.evaluate("window.disableYaCounter100290924") is True
         assert page.locator(".prep-cookie-banner a[href='/privacy-policy/#cookies-and-analytics']").count() == 1
@@ -72,12 +82,16 @@ def test_behaviour():
         page.locator("#prep-cookie-settings").wait_for()
         assert not panel.is_visible()
         assert not requests, "Rejected analytics was still requested"
+        assert not uis_requests
         assert page.evaluate("window.disableYaCounter100290924") is True
 
         page.get_by_role("button", name="Настройки cookies").click()
         assert panel.is_visible()
         page.get_by_role("button", name="Принять все").click()
         page.wait_for_function("window.__prepCenterMetrikaInitialized === true")
+        page.wait_for_function("window.__uis_stub_loaded__ === true")
+        assert page.locator(UIS_SELECTOR + '[async]').count() == 1
+        assert len(uis_requests) == 1
         page.wait_for_function("document.querySelector('script[src=\"https://mc.yandex.ru/metrika/tag.js\"]') !== null")
         assert page.evaluate("window.disableYaCounter100290924") is False
         assert len(requests) == 1, ("unexpected count after opt-in", requests)
@@ -89,6 +103,8 @@ def test_behaviour():
         page.wait_for_function("window.__prepCenterMetrikaInitialized === true")
         assert page.locator("#prep-cookie-banner").is_hidden()
         assert len(requests) == 2, "Stored consent not reused for next page"
+        page.wait_for_function("window.__uis_stub_loaded__ === true")
+        assert len(uis_requests) == 2
 
         page.get_by_role("button", name="Настройки cookies").click()
         assert panel.is_visible()
@@ -99,7 +115,20 @@ def test_behaviour():
         assert page.evaluate("typeof window.ym") == "undefined"
         assert page.locator("#prep-cookie-banner").is_hidden()
         assert len(requests) == 2, "Tracking was requested after revocation"
+        assert len(uis_requests) == 2 and page.locator(UIS_SELECTOR).count() == 0
         results["revoke"] = "previously active analytics stopped after page reload"
+
+        page.evaluate("""localStorage.setItem('prepcenter_cookie_consent_v1', JSON.stringify({
+            version: 1, analytics: true, updatedAt: new Date().toISOString()
+        }))""")
+        page.reload(wait_until="domcontentloaded")
+        panel.wait_for(state="visible")
+        assert page.evaluate("window.__prepCenterMetrikaInitialized") is True
+        assert len(uis_requests) == 2 and page.locator(UIS_SELECTOR).count() == 0
+        page.get_by_role("button", name="Принять все").click()
+        page.wait_for_function("window.__uis_stub_loaded__ === true")
+        assert len(uis_requests) == 3 and len(requests) == 3
+        results["legacy"] = "Metrika consent preserved, UIS requested only after the updated notice"
 
         mobile = browser.new_context(viewport={"width": 360, "height": 740},
                                      device_scale_factor=1, is_mobile=True,
