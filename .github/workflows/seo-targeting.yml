@@ -1,0 +1,66 @@
+name: Restore SEO landing-page targeting on 45 pages
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/seo-targeting.yml'
+      - 'scripts/seo_optimize.py'
+permissions:
+  contents: write
+concurrency:
+  group: prep-center-seo-targeting
+  cancel-in-progress: false
+jobs:
+  optimize:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install parser
+        run: python -m pip install beautifulsoup4==4.13.4
+      - name: Preserve initial 45-page SEO invariants
+        run: python scripts/seo_audit.py --check
+      - name: Apply keyword targeting and accurate sitemap lastmod
+        run: |
+          python scripts/seo_optimize.py
+          python scripts/seo_optimize.py --check
+          python scripts/seo_audit.py --check
+          python scripts/seo_audit.py --after
+      - name: Validate all pages including structured data, canonical and titles
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          from bs4 import BeautifulSoup
+          report=json.loads(Path('reports/seo-audit-after-20261112.json').read_text())
+          assert report['total_pages']==45
+          assert not report['sitemap']['missing'] and not report['sitemap']['extra']
+          assert report['sitemap']['unique']
+          assert not report['issue_counts'].get('duplicate title')
+          assert not report['issue_counts'].get('duplicate description')
+          for row in report['pages']:
+              raw=Path(row['file']).read_text()
+              soup=BeautifulSoup(raw,'html.parser')
+              for script in soup.select('script[type="application/ld+json"]'):
+                  json.loads(script.string or script.get_text())
+              assert row['title_count']==1 and row['description_count']==1, row['route']
+              assert len(row['h1'])==1 and not row['heading_skips'],row['route']
+              assert row['canonical']==[row['url']],row['route']
+              assert row['robots']==['index,follow'],row['route']
+          print('SEO acceptance: 45 canonical, unique titles/descriptions, valid JSON-LD, one H1, no hierarchy gaps')
+          PY
+      - name: Commit verified HTML, sitemap and after-report
+        run: |
+          git add -- ':(glob)**/index.html' sitemap.xml reports/seo-audit-after-20261112.json reports/seo-audit-after-20261112.md reports/seo-keyword-map-20261112.json
+          if ! git diff --cached --quiet; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Improve commercial SEO targeting and truthful sitemap lastmod for 45 pages'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
