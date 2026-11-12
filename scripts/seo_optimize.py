@@ -223,7 +223,7 @@ def optimize_page(source, route):
         result = set_h1(result, h1, route)
     if route == "/":
         # Heading remains visually prominent; make the service cluster explicit.
-        result = sub_one(r"<h2>\s*Наши услуги\s*</h2>", "<h2>Услуги фулфилмента для маркетплейсов</h2>", result, "home H2")
+        result = sub_one(r"<h2>\s*Наши\s*<em>услуги</em>\s*</h2>", "<h2>Услуги <em>фулфилмента для маркетплейсов</em></h2>", result, "home H2")
     result = update_schema_core(result, title, description, h1)
     return result
 
