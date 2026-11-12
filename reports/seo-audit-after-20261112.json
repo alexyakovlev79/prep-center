@@ -12,7 +12,7 @@
       "2026-11-12": 45
     }
   },
-  "robots_txt": "User-agent: *\nAllow: /\n\nSitemap: https://prep-center.ru/sitemap.xml\n",
+  "robots_txt": "User-agent: *\nAllow: /\nDisallow: /restoration/\nDisallow: /tools/\nDisallow: /reports/\nDisallow: /scripts/\nDisallow: /components/\nDisallow: /docs/\n\nSitemap: https://prep-center.ru/sitemap.xml\n",
   "pages": [
     {
       "url": "https://prep-center.ru/",
@@ -2369,5 +2369,13 @@
       "heading_skips": [],
       "issues": []
     }
+  ],
+  "technical_directories_excluded_from_crawling": [
+    "/restoration/",
+    "/tools/",
+    "/reports/",
+    "/scripts/",
+    "/components/",
+    "/docs/"
   ]
 }
