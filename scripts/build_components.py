@@ -36,7 +36,6 @@ for route in routes:
  if 'responsive-table' in s:shared_head+='\n<link rel="stylesheet" href="/assets/responsive-tables.css?v=20261105">'
  s=s.replace('</head>','<!-- shared:head -->'+shared_head+'<!-- /shared:head --></head>')
  s=re.sub(r'<script defer src="/assets/shared-components.js(?:\?[^\"]*)?"></script>','',s)
- s=s.replace('</body>','<script defer src="/assets/shared-components.js?v=20261112-uis-v1"></script></body>')
  # Restore review destinations whose original targets were disabled in emergency recovery.
  s=re.sub(r'(<a\b[^>]*href=")/("[^>]*>Смотреть отзыв в Яндекс)',r'\1https://yandex.ru/maps/org/prep_tsentr/113144699853/reviews/\2',s)
  s=re.sub(r'(<a\b[^>]*href=")/("[^>]*>Показать все отзывы)',r'\1https://yandex.ru/maps/org/prep_tsentr/113144699853/reviews/\2',s)
@@ -47,6 +46,8 @@ for route in routes:
  s=re.sub(r'href="/assets/site\.css(?:\?[^"]*)?"','href="/assets/site.css?v=20261104-photos"',s)
  from polish_cta import normalize
  s=normalize(s,route.strip('/'))
+ # CTA normalization rewrites asset versions, so append the shared loader last.
+ s=s.replace('</body>','<script defer src="/assets/shared-components.js?v=20261112-uis-v1"></script></body>')
  if old!=s:
   changed.append(str(p.relative_to(ROOT)))
   if '--check' not in sys.argv:p.write_text(s)
