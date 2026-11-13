@@ -2,6 +2,7 @@
 from pathlib import Path
 from html import escape as e
 import json,re,sys
+from apply_static_calltracking import insert_calltracking
 ROOT=Path(__file__).resolve().parent.parent
 NAV=json.loads((ROOT/'components/navigation.json').read_text())
 def link(item):
@@ -47,6 +48,7 @@ for route in routes:
  s=re.sub(r'href="/assets/site\.css(?:\?[^"]*)?"','href="/assets/site.css?v=20261104-photos"',s)
  from polish_cta import normalize
  s=normalize(s,route.strip('/'))
+ s=insert_calltracking(s)
  if old!=s:
   changed.append(str(p.relative_to(ROOT)))
   if '--check' not in sys.argv:p.write_text(s)

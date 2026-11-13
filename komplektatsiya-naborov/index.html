@@ -19,6 +19,56 @@
 <meta name="apple-mobile-web-app-title" content="Преп-Центр">
 <link rel="manifest" href="/site.webmanifest">
 <!-- prep-center-schema-restore:end -->
+<!-- static-calltracking:start -->
+<style>
+  html[data-prep-direct-phone] a[href="tel:+79306007520"] { visibility: hidden; }
+</style>
+<script>
+(() => {
+  const primary = 'tel:+79306007520';
+  const advertising = 'tel:+74951512821';
+  const storageKey = 'prep-direct-phone';
+  const params = new URLSearchParams(location.search);
+  const singleParam = key => params.getAll(key).length === 1 ? params.get(key) : null;
+  const referrer = document.referrer ? new URL(document.referrer) : null;
+  const internal = referrer?.origin === location.origin;
+  const navigation = performance.getEntriesByType('navigation')[0]?.type;
+  const continuation = internal || navigation === 'reload' || navigation === 'back_forward';
+  // Ad links carry the campaign ID. Sitelinks inherit campaign UTMs and yclid.
+  const campaignFromAd = singleParam('cm_id')?.startsWith('yd~~704668636~~');
+  const campaignFromSitelink = singleParam('utm_campaign') === 'Общая кампания [Поиск]' &&
+    /^\d+$/.test(singleParam('yclid') ?? '');
+  const directLanding = !internal && singleParam('utm_source') === 'yandex' &&
+    singleParam('utm_medium') === 'cpc' && (campaignFromAd || campaignFromSitelink);
+
+  let showAdvertising = directLanding;
+  try {
+    if (directLanding) sessionStorage.setItem(storageKey, '1');
+    else if (continuation) showAdvertising = sessionStorage.getItem(storageKey) === '1';
+    else sessionStorage.removeItem(storageKey);
+  } catch {
+    // The landing itself still works when the browser denies storage access.
+  }
+  if (!showAdvertising) return;
+
+  const root = document.documentElement;
+  root.setAttribute('data-prep-direct-phone', '');
+  // The page has been parsed at interactive, before deferred scripts run.
+  document.addEventListener('readystatechange', () => {
+    try {
+      for (const link of document.querySelectorAll('a[href="' + primary + '"]')) {
+        if (link.textContent.replace(/\D/g, '') === '79306007520') {
+          link.textContent = '+7 (495) 151-28-21';
+        }
+        link.href = advertising;
+      }
+    } finally {
+      root.removeAttribute('data-prep-direct-phone');
+    }
+  }, { once: true });
+})();
+</script>
+<!-- static-calltracking:end -->
 </head><body>
 
 <header class="header shared-header"><div class="container"><div class="header-main">
